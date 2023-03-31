@@ -1,0 +1,5 @@
+# recharge_microbiology_2018_2020
+
+  This repository contains R code for the processing and analysis of core coral microbiome data from the Recharge experiment on the north shore of Moorea, French Polynesia from July 2018 - August 2020. Scripts include sequence data pre-processing and quality control in DADA2 and phyloseq, the generation of main text figure intermediates, and the generation of supplemental figure and table intermediates. The repository also contains a text file for Linux command-line analyses conducted on the Oregon State University Center for Quantitative Life Sciences computing infrastructure. Finally, the repository contains an excel metadata file explaining each data variable. The raw and pre-processed data for this project are publicly available through the Environmental Data Initiative at [insert DOI upon publication], and sequence data are publically available on the NCBI Sequence Read Archive.
+  
+  #DISCLAIMER: this is an ongoing project and the files you may find here are likely incomplete or subject to change. Some of the contents listed above may be missing.
