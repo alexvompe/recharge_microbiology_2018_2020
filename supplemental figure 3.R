@@ -1,169 +1,122 @@
-library(tidyverse)
 library(phyloseq)
+library(plyr)
+library(reshape2)
+library(ggplot2)
 library(ggpubr)
-library(vegan)
 
-##Colorblind-friendly palettes
-cbPalette = c("#000000", "#E69F00", "#56B4E9", "#196F3D",
-              "#922B21", "#0055CC", "#7A604B", "#C5B5D4", 
-              "#009E73", "#0072B2", "#D55E00", 
-              "#CC79A7", "#999999", "#FF468F", "#89472F", 
-              "#F0E442", "#FF4040", "#66CCCC", "#808080", 
-              "#B4CEFF")
+#Rarefaction curve
+microbes.filt = readRDS("filtered_ps.rds")
 
-cbPalette_herb=c("#196F3D",
-                 "#922B21", "#0055CC", "#7A604B", "#C5B5D4", 
-                 "#009E73", "#0072B2", "#D55E00", 
-                 "#CC79A7", "#999999", "#FF468F", "#89472F", 
-                 "#F0E442", "#FF4040", "#66CCCC", "#808080", 
-                 "#B4CEFF")
+##Joey711 method
+set.seed(1)
 
-##Make Panel A
-families_rare = readRDS("rarefied_fams_ps.rds")
+calculate_rarefaction_curves <- function(microbes.filt, measures, depths) {
+  require('plyr') # ldply
+  require('reshape2') # melt
+  
+  estimate_rarified_richness <- function(microbes.filt, measures, depth) {
+    if(max(sample_sums(microbes.filt)) < depth) return()
+    microbes.filt <- prune_samples(sample_sums(microbes.filt) >= depth, microbes.filt)
+    
+    rarified_microbes.filt <- rarefy_even_depth(microbes.filt, depth, verbose = FALSE)
+    
+    alpha_diversity <- estimate_richness(rarified_microbes.filt, measures = measures)
+    
+    # as.matrix forces the use of melt.array, which includes the Sample names (rownames)
+    molten_alpha_diversity <- melt(as.matrix(alpha_diversity), varnames = c('Sample', 'Measure'), value.name = 'Alpha_diversity')
+    
+    molten_alpha_diversity
+  }
+  
+  names(depths) <- depths # this enables automatic addition of the Depth to the output by ldply
+  rarefaction_curve_data <- ldply(depths, estimate_rarified_richness, microbes.filt = microbes.filt, measures = measures, .id = 'Depth', .progress = ifelse(interactive(), 'text', 'none'))
+  
+  # convert Depth from factor to numeric
+  rarefaction_curve_data$Depth <- as.numeric(levels(rarefaction_curve_data$Depth))[rarefaction_curve_data$Depth]
+  
+  rarefaction_curve_data
+}
 
-p1=plot_richness(families_rare, x="Herbivory", 
-                measures="Shannon", color = "Coral") + 
+rarefaction_curve_data <- calculate_rarefaction_curves(microbes.filt, c('Observed', 'Shannon'), rep(c(1, 10, 100, 1:100 * 1000), each = 10))
+summary(rarefaction_curve_data)
+
+rarefaction_curve_data_summary <- ddply(rarefaction_curve_data, c('Depth', 'Sample', 'Measure'), summarise, Alpha_diversity_mean = mean(Alpha_diversity), Alpha_diversity_sd = sd(Alpha_diversity))
+
+sampledf = data.frame(sample_data(microbes.filt))
+sampledf = tibble::rownames_to_column(sampledf, "Sample")
+sampledf$Sample = gsub('-','.',sampledf$Sample)
+head(sampledf)
+
+rarefaction_curve_data_summary_verbose <- merge(rarefaction_curve_data_summary, sampledf, by = "Sample")
+rarefaction_curve_data_summary_verbose_shan = subset(rarefaction_curve_data_summary_verbose, Measure=="Shannon")
+rarefaction_curve_data_summary_verbose_obs = subset(rarefaction_curve_data_summary_verbose, Measure=="Observed")
+
+p1=ggplot(
+  data = rarefaction_curve_data_summary_verbose_shan,
+  mapping = aes(
+    x = Depth,
+    y = Alpha_diversity_mean,
+    ymin = Alpha_diversity_mean - Alpha_diversity_sd,
+    ymax = Alpha_diversity_mean + Alpha_diversity_sd,
+    group=Sample)) + 
+  geom_point()+
+  geom_line()+
   theme_bw()+
-  facet_grid(.~Coral)+
-  geom_boxplot(alpha=0.6, lwd=1.2) + 
-  scale_color_manual(values=cbPalette) +
-  theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 0, hjust=0.5)) +
-  theme(axis.line = element_line(color='black'),
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  ylab("Shannon Diversity Index")+
-  theme(legend.position="none")
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())+
+  geom_vline(xintercept = 1000, linewidth=2, linetype="dashed", color="darkred")+
+  xlim(0,10000)+
+  ylim(0,6)+
+  ylab("Shannon Diversity")+
+  ggtitle("Shannon Diversity by Random Read \n Depth Subsampling by Sample")
 
-#Stats
-shannon=estimate_richness(families_rare, measures = "Shannon")
-sample=sample_data(families_rare)
-df=data.frame(shannon,sample)
-df=na.omit(df)
+p2=ggplot(
+  data = rarefaction_curve_data_summary_verbose_shan,
+  mapping = aes(
+    x = Depth,
+    y = Alpha_diversity_mean)) + 
+  stat_summary(fun=median, colour="red", geom="line") + 
+  theme_bw()+
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())+
+  xlim(0, 10000)+
+  ylim(0,6)+
+  geom_vline(xintercept = 1000, linewidth=2, linetype="dashed", color="darkred")+
+  ylab("Shannon Diversity")+
+  ggtitle("Average Shannon Diversity by \n Random Read Depth Subsampling")
 
-shapiro.test(df$Shannon)#non-normal, what about log transform?
-shapiro.test(log(df$Shannon))#non-normal, proceed with pairwise WRST
+p3=ggplot(
+  data = rarefaction_curve_data_summary_verbose_obs,
+  mapping = aes(
+    x = Depth,
+    y = Alpha_diversity_mean,
+    ymin = Alpha_diversity_mean - Alpha_diversity_sd,
+    ymax = Alpha_diversity_mean + Alpha_diversity_sd,
+    group=Sample)) + 
+  geom_point()+
+  geom_line()+
+  theme_bw()+
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())+
+  geom_vline(xintercept = 1000, linewidth=2, linetype="dashed", color="darkred")+
+  xlim(0,10000)+ylim(0,1000)+
+  ylab("ASV Richness")+
+  ggtitle("ASV Richness by Random Read \n Depth Subsampling by Sample")
 
-pairwise.wilcox.test(df$Shannon[df$Coral=="Acr"], df$Herbivory[df$Coral=="Acr"])#no effect
-pairwise.wilcox.test(df$Shannon[df$Coral=="Plob"], df$Herbivory[df$Coral=="Plob"])#no effect
-pairwise.wilcox.test(df$Shannon[df$Coral=="Pver"], df$Herbivory[df$Coral=="Pver"])#no effect
+p4=ggplot(
+  data = rarefaction_curve_data_summary_verbose_obs,
+  mapping = aes(
+    x = Depth,
+    y = Alpha_diversity_mean)) + 
+  stat_summary(fun=median, colour="red", geom="line") + 
+  theme_bw()+
+  theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())+
+  xlim(0, 10000)+
+  ylim(0,1000)+
+  geom_vline(xintercept = 1000, linewidth=2, linetype="dashed", color="darkred")+
+  ylab("ASV Richness")+
+  ggtitle("Average ASV Richness by \n Random Read Depth Subsampling")
 
-##Make Panel B
-families = readRDS("families_ps.rds")
-
-acr = subset_samples(families, Coral == "Acr")
-plob = subset_samples(families, Coral == "Plob")
-pver = subset_samples(families, Coral == "Pver")
-
-dist_uni_families = phyloseq::distance(families, method="unifrac", 
-                                       weighted=TRUE)
-dist_uni_acr = phyloseq::distance(acr, method="unifrac", weighted=TRUE)
-dist_uni_plob = phyloseq::distance(plob, method="unifrac", weighted=TRUE)
-dist_uni_pver = phyloseq::distance(pver, method="unifrac", weighted=TRUE)
-
-ord_families = ordinate(families, "PCoA", "unifrac", weighted=TRUE)
-ordination_families = plot_ordination(families, ord_families, type="samples", justDF = TRUE)
-
-theme_set(theme_bw())
-p2=ggplot(ordination_families, aes(Axis.1, Axis.2, fill = Herbivory, color = Herbivory))+ 
-  geom_point(size=3, alpha=0.4)+
-  stat_ellipse(geom = "polygon", type="norm", 
-               alpha=0, aes(fill=Herbivory), linewidth=1.2)+
-  stat_ellipse(geom = "polygon", type="euclid", 
-               aes(fill=Herbivory), linewidth=10, level=0.001)+
-  facet_grid(.~Date)+
-  theme(text = element_text(size = 26), 
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  scale_color_manual(values=cbPalette_herb)+ 
-  scale_fill_manual(values=cbPalette_herb)+
-  xlab("PCoA Axis 1 [60.6%]")+
-  ylab("PCoA Axis 2 [5.8%]")+
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5))+
-  geom_hline(yintercept=0, linetype=2, color="red", linewidth=1, alpha=0.5)+
-  geom_vline(xintercept=0, linetype=2, color="red", linewidth=1, alpha=0.5)
-
-#Stats
-stat.data.r = as(sample_data(families), "data.frame")
-adonis2(dist_uni_families ~ Herbivory, data = stat.data.r)#p = 0.046, R2 = 0.010
-adonis2(dist_uni_families ~ Herbivory*Date, data = stat.data.r)#ns
-
-stat.data.r = as(sample_data(acr), "data.frame")
-adonis2(dist_uni_acr ~ Herbivory, data = stat.data.r)#ns
-
-stat.data.r = as(sample_data(plob), "data.frame")
-adonis2(dist_uni_plob ~ Herbivory, data = stat.data.r)#p = 0.036, R2 = 0.031
-
-stat.data.r = as(sample_data(pver), "data.frame")
-adonis2(dist_uni_pver ~ Herbivory, data = stat.data.r)#p = 0.049, R2 = 0.026
-
-##Make Panel C
-sampledf = data.frame(sample_data(acr))
-sampledf$Herbivory = factor(sampledf$Herbivory, levels=c("1x1", "2x2", "3x3", "open"))
-disp_herb_acr = betadisper(dist_uni_acr, sampledf$Herbivory, type = "centroid")
-df_acr = data.frame(Distance_to_centroid=disp_herb_acr$distances,Herbivory=disp_herb_acr$group)
-
-sampledf = data.frame(sample_data(plob))
-sampledf$Herbivory = factor(sampledf$Herbivory, levels=c("1x1", "2x2", "3x3", "open"))
-disp_herb_plob = betadisper(dist_uni_plob, sampledf$Herbivory, type = "centroid")
-df_plob = data.frame(Distance_to_centroid=disp_herb_plob$distances,Herbivory=disp_herb_plob$group)
-
-sampledf = data.frame(sample_data(pver))
-sampledf$Herbivory = factor(sampledf$Herbivory, levels=c("1x1", "2x2", "3x3", "open"))
-disp_herb_pver = betadisper(dist_uni_pver, sampledf$Herbivory, type = "centroid")
-df_pver = data.frame(Distance_to_centroid=disp_herb_pver$distances,Herbivory=disp_herb_pver$group)
-
-p_1=ggplot(data = df_acr, aes(x=Herbivory, y=Distance_to_centroid))+
-  geom_boxplot(color="black", lwd=1.2)+
-  geom_point(alpha=0.6)+
-  theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
-  theme(axis.line = element_line(color='black'),
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  ylim(0,0.8)+
-  ylab("Weighted UniFrac Distance to Centroid")
-
-p_2=ggplot(data = df_plob, aes(x=Herbivory, y=Distance_to_centroid))+
-  geom_boxplot(color="#E69F00", lwd=1.2)+
-  geom_point(color="#E69F00", alpha=0.6)+
-  theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
-  theme(axis.line = element_line(color='black'),
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  ylim(0,0.8)+
-  ylab("Weighted UniFrac Distance to Centroid")
-
-p_3=ggplot(data = df_pver, aes(x=Herbivory, y=Distance_to_centroid))+
-  geom_boxplot(color="#56B4E9", lwd=1.2)+
-  geom_point(color="#56B4E9", alpha=0.6)+
-  theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
-  theme(axis.line = element_line(color='black'),
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  ylim(0,0.8)+
-  ylab("Weighted UniFrac Distance to Centroid")
-
-p3 = ggarrange(p_1, p_2, p_3, ncol = 3)
-
-#Stats
-shapiro.test(df_acr$Distance_to_centroid)#non-normal, pairwise Wilcoxon rank sum
-pairwise.wilcox.test(df_acr$Distance_to_centroid, df_acr$Herbivory)
-
-shapiro.test(df_plob$Distance_to_centroid)#non-normal, pairwise Wilcoxon rank sum
-pairwise.wilcox.test(df_plob$Distance_to_centroid, df_plob$Herbivory)
-
-shapiro.test(df_pver$Distance_to_centroid)#non-normal, pairwise Wilcoxon rank sum
-pairwise.wilcox.test(df_pver$Distance_to_centroid, df_pver$Herbivory)
-
-##Make the herbivory figure
-p = ggarrange(p1,p2,p3, ncol=1)
-ggsave(plot=p, "figure S3 intermediate.tiff", units = "mm", 
-       height = 200, width = 180, scale = 3)
+p=ggarrange(p1,p2,p3,p4, ncol=2, nrow=2, labels = c("A","B","C","D"))
+ggsave(plot=p, "rarefactions.tiff",units="mm", width=180, height=200, scale=1)

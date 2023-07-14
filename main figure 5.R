@@ -38,7 +38,13 @@ sample_data(relative3) = x
 
 #Set taxa order for plot
 taxa_order = list("Amoebophilaceae", "Cyanobiaceae", "Cyclobacteriaceae", "Endozoicomonadaceae", "Entomoplasmatales Incertae Sedis", "Flavobacteriaceae", "Moraxellaceae", "NA_Alphaproteobacteria", "NA_Bacilli", "NA_Campylobacterales", "NA_Gammaproteobacteria", "NA_Proteobacteria", "Oxalobacteraceae", "Pirellulaceae", "Rhodobacteraceae", "Simkaniaceae", "Sphingomonadaceae", "Vibrionaceae", "Xenococcaceae", "Other")
-
+desired_order = list("Jul18","Nov18","Mar19","Aug19","Nov19","Mar20","Aug20")
+cbPalette = c("#000000", "#E69F00", "#56B4E9", "#196F3D",
+              "#922B21", "#0055CC", "#7A604B", "#C5B5D4", 
+              "#009E73", "#0072B2", "#D55E00", 
+              "#CC79A7", "#999999", "#FF468F", "#89472F", 
+              "#F0E442", "#FF4040", "#66CCCC", "#808080", 
+              "#B4CEFF")
 
 #Relative Abundance Plot
 theme_set(theme_bw())
@@ -53,7 +59,7 @@ p=plot_bar(relative3, fill = "Family",
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank()) +
   xlab("Date") + 
-  ylab("Abundance Proportion")
+  ylab("Relative Abundance")
 p$data$Date = factor(p$data$Date, levels = desired_order)
 p$data$Family = factor(p$data$Family, levels = taxa_order)
 

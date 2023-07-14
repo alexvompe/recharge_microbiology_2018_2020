@@ -2,7 +2,7 @@ library(ggplot2)
 library(reshape2)
 library(dada2)
 
-##Run 1
+##Run 1 (the full list of samples in this run is in 'Seq1_metadata.xlsx')
 #Set paths to the input files
 path = "Seq1"
 list.files(path)
@@ -104,7 +104,7 @@ taxa = readRDS("taxa1.rds")
 taxa = addSpecies(taxa, "silva_species_assignment_v138.1.fa.gz")
 saveRDS(taxa, "seq1_taxa.rds")
 
-##Run 2
+##Run 2 (the full list of samples in this run is in 'Seq2_metadata.xlsx')
 #Set paths to the input files
 path = "Seq2"
 list.files(path)
@@ -206,7 +206,7 @@ taxa = readRDS("taxa2.rds")
 taxa = addSpecies(taxa, "silva_species_assignment_v138.1.fa.gz")
 saveRDS(taxa, "seq2_taxa.rds")
 
-##Run 3
+##Run 3 (the full list of samples in this run is in 'Seq3_metadata.xlsx')
 #Set paths to the input files
 path = "Seq3"
 list.files(path)

@@ -1,189 +1,93 @@
-library(ggplot2)
-library(ggpubr)
-library(phyloseq)
+library(scales)
 library(plyr)
 library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggpubr)
+library(Rmisc)
+library(phyloseq)
 
-##Figure 4 panel A
-families = readRDS("families_ps.rds")
-ord_families = ordinate(families, "PCoA", "unifrac", weighted=TRUE)
+##Figure 4 Panels A & B alpha points + 95% CIs
+families_rare = readRDS("rarefied_fams_ps.rds")
 
-ordination_df = plot_ordination(families, ord_families, type="samples", 
-                                color="Coral", justDF = TRUE)
+acr = subset_samples(families_rare, Coral == "Acr")
+plob = subset_samples(families_rare, Coral == "Plob")
+pver = subset_samples(families_rare, Coral == "Pver")
 
-p1=ggplot(ordination_df, aes(Axis.1, Axis.2, color=Coral, fill=Coral)) +
+shannon_acr=estimate_richness(acr, measures = "Shannon")
+sample_acr=sample_data(acr)
+df_acr=data.frame(shannon_acr,sample_acr)
+ci_acr = summarySEwithin(df_acr, measurevar="Shannon", withinvars="Date",
+                         na.rm=FALSE, conf.interval=.95)
+
+ci_acr
+
+shannon_plob=estimate_richness(plob, measures = "Shannon")
+sample_plob=sample_data(plob)
+df_plob=data.frame(shannon_plob,sample_plob)
+ci_plob = summarySEwithin(df_plob, measurevar="Shannon", withinvars="Date",
+                          na.rm=FALSE, conf.interval=.95)
+
+ci_plob
+
+shannon_pver=estimate_richness(pver, measures = "Shannon")
+sample_pver=sample_data(pver)
+df_pver=data.frame(shannon_pver,sample_pver)
+ci_pver = summarySEwithin(df_pver, measurevar="Shannon", withinvars="Date",
+                          na.rm=FALSE, conf.interval=.95)
+
+ci_pver
+
+p = ggplot()+
   theme_bw()+
-  geom_point(size=3, alpha=0.4)+
-  stat_ellipse(geom = "polygon", type="norm", 
-               alpha=0, aes(fill=Coral), linewidth=1.2)+
-  stat_ellipse(geom = "polygon", type="euclid", 
-               aes(fill=Coral), linewidth=10, level=0.001)+
-  facet_grid(.~Date)+
-  theme(text = element_text(size = 26), 
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  scale_color_manual(values=cbPalette) + 
-  scale_fill_manual(values=cbPalette)+
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5))+
-  theme(legend.position="none")+
-  xlab("PCoA Axis 1 [60.6%]")+
-  ylab("PCoA Axis 2 [5.8%]")
-
-##Figure 4 panel B
-dist_uni_acr = phyloseq::distance(acr, method="unifrac", weighted=TRUE)
-sampledf = data.frame(sample_data(acr))
-sampledf$Date = factor(sampledf$Date, levels=c("Jul18", "Nov18", "Mar19", "Aug19",
-                                               "Nov19", "Mar20", "Aug20"))
-disp_date_acr = betadisper(dist_uni_acr, sampledf$Date, type = "centroid")
-df_acr = data.frame(Distance_to_centroid=disp_date_acr$distances,Date_disp=disp_date_acr$group, 
-                    sampledf)
-
-theme_set(theme_bw())
-p2=ggplot(data = df_acr, aes(x=Date, y=Distance_to_centroid))+
-  geom_boxplot(color="black", lwd=1.2)+
-  geom_point(alpha=0.6)+
+  geom_errorbar(data=ci_acr, width=0.1, linewidth=1.2, aes(x=Date, y=Shannon,
+                                                      ymin=Shannon-ci,
+                                                      ymax=Shannon+ci), color="black")+
+  geom_point(data=ci_acr, size=4, color="black", aes(x=Date, y=Shannon, group=1))+
+  geom_errorbar(data=ci_plob, width=0.1, linewidth=1.2, aes(x=Date, y=Shannon,
+                                                       ymin=Shannon-ci,
+                                                       ymax=Shannon+ci), color="#E69F00")+
+  geom_point(data=ci_plob, size=4, color="#E69F00", aes(x=Date, y=Shannon, group=1))+
+  geom_errorbar(data=ci_pver, width=0.1, linewidth=1.2, aes(x=Date, y=Shannon,
+                                                       ymin=Shannon-ci,
+                                                       ymax=Shannon+ci), color="#56B4E9")+
+  geom_point(data=ci_pver, size=4, color="#56B4E9", aes(x=Date, y=Shannon, group=1))+
   theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
+  theme(axis.text.x = element_text(angle = 45, vjust=1, hjust=1)) +
   theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank())+
-  ylab("Weighted UniFrac Distance to Centroid")
-p1$data$Date = factor(p1$data$Date, levels = desired_order)
+  ylab("Shannon Diversity Index")
 
-dist_uni_plob = phyloseq::distance(plob, method="unifrac", weighted=TRUE)
-sampledf = data.frame(sample_data(plob))
-sampledf$Date = factor(sampledf$Date, levels=c("Jul18", "Nov18", "Mar19", "Aug19",
-                                               "Nov19", "Mar20", "Aug20"))
-disp_date_plob = betadisper(dist_uni_plob, sampledf$Date, type = "centroid")
-df_plob = data.frame(Distance_to_centroid=disp_date_plob$distances,Date_disp=disp_date_plob$group,
-                     sampledf)
-
-theme_set(theme_bw())
-p3=ggplot(data = df_plob, aes(x=Date, y=Distance_to_centroid))+
-  geom_boxplot(color="#E69F00", lwd=1.2)+
-  geom_point(color="#E69F00", alpha=0.6)+
-  theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
-  theme(axis.line = element_line(color='black'),
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  ylab("Weighted UniFrac Distance to Centroid")
-p2$data$Date = factor(p2$data$Date, levels = desired_order)
-
-dist_uni_pver = phyloseq::distance(pver, method="unifrac", weighted=TRUE)
-sampledf = data.frame(sample_data(pver))
-sampledf$Date = factor(sampledf$Date, levels=c("Jul18", "Nov18", "Mar19", "Aug19",
-                                               "Nov19", "Mar20", "Aug20"))
-disp_date_pver = betadisper(dist_uni_pver, sampledf$Date, type = "centroid")
-df_pver = data.frame(Distance_to_centroid=disp_date_pver$distances,Date_disp=disp_date_pver$group,
-                     sampledf)
-
-theme_set(theme_bw())
-p4=ggplot(data = df_pver, aes(x=Date, y=Distance_to_centroid))+
-  geom_boxplot(color="#56B4E9", lwd=1.2)+
-  geom_point(color="#56B4E9", alpha=0.6)+
-  theme(text = element_text(size = 30)) +
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
-  theme(axis.line = element_line(color='black'),
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  ylab("Weighted UniFrac Distance to Centroid")
-p3$data$Date = factor(p3$data$Date, levels = desired_order)
-
-p_1 = ggarrange(p2,p3,p4, ncol=3)
-
-##Stats for Figure 4 panel B
-shapiro.test(df_acr$Distance_to_centroid)#non-normal, pairwise WRST
-pairwise.wilcox.test(df_acr$Distance_to_centroid, df_acr$Date)
-
-shapiro.test(df_plob$Distance_to_centroid)#non-normal, pairwise WRST
-pairwise.wilcox.test(df_plob$Distance_to_centroid, df_plob$Date)#ns
-
-shapiro.test(df_pver$Distance_to_centroid)#non-normal, pairwise WRST
-pairwise.wilcox.test(df_pver$Distance_to_centroid, df_pver$Date)
+ggsave(plot=p, filename="richness by date_points.tiff", scale=2,
+       width=180,height=100,units="mm") #overlayed temp and alpha div in
+#Panels A & B overlayed with Figure 2 Panels B and C in Adobe Illustrator and
+#Powerpoint.
 
 ##Figure 4 panel C
-ord_acr = ordinate(acr, "PCoA", "unifrac", weighted=TRUE)
-ord_plob = ordinate(plob, "PCoA", "unifrac", weighted=TRUE)
-ord_pver = ordinate(pver, "PCoA", "unifrac", weighted=TRUE)
-
-theme_set(theme_bw())
-ordination_acr = plot_ordination(acr, ord_acr, type="samples", 
-                                 color="Coral", justDF = TRUE)
-ordination_plob = plot_ordination(plob, ord_plob, type="samples", 
-                                  color="Coral", justDF = TRUE)
-ordination_pver = plot_ordination(pver, ord_pver, type="samples", 
-                                  color="Coral", justDF = TRUE)
-
-ordination_acr$Date = factor(ordination_acr$Date, ordered = TRUE, 
-                             c("Jul18", "Nov18", "Mar19", "Aug19", "Nov19", "Mar20", "Aug20"))
-#Acr stats
-model = lm(Axis.1 ~ Date, data = ordination_acr)
-summary(model) #adjusted R^2 = 0.1863, p = 2.404e-07
-
-p5=ggplot(ordination_acr, aes(Date, Axis.1, color="black", fill="black", group=1)) + 
-  geom_point(size=3, alpha=0.4)+
-  geom_smooth(aes(as.numeric(Date), Axis.1), method = "loess")+
-  theme(text = element_text(size = 26), 
+#Colorblind-friendly palette
+cbPalette = c("#000000", "#E69F00", "#56B4E9", "#196F3D",
+                       "#922B21", "#0055CC", "#7A604B", "#C5B5D4", 
+                       "#009E73", "#0072B2", "#D55E00", 
+                       "#CC79A7", "#999999", "#FF468F", "#89472F", 
+                       "#F0E442", "#FF4040", "#66CCCC", "#808080", 
+                       "#B4CEFF")
+                       
+p=plot_richness(families_rare, x="Date", 
+                measures="Shannon", color = "Coral") + 
+  facet_grid(.~Coral)+
+  theme_bw()+
+  geom_boxplot(alpha=0.6, linewidth=1.2) + 
+  scale_color_manual(values=cbPalette) +
+  theme(text = element_text(size = 30)) +
+  theme(axis.text.x = element_text(angle = 90, vjust=0.5)) +
+  theme(axis.line = element_line(color='black'),
         plot.background = element_blank(),
         panel.grid.minor = element_blank(),
         panel.grid.major = element_blank())+
-  scale_color_manual(values=cbPalette) + 
-  scale_fill_manual(values=cbPalette)+
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5))+
-  theme(legend.position="none")+
-  ylab("PCoA Axis 1 [55.6%]")+
-  xlab("Date")
+  ylab("Shannon Diversity Index")+
+  theme(legend.position="none")
 
-#plob stats
-model = lm(Axis.1 ~ Date, data = ordination_plob)
-summary(model) #adjusted R^2 = 0.2432, p = 1.719e-08
-
-ordination_plob$Date = factor(ordination_plob$Date, ordered = TRUE, 
-                              c("Jul18", "Nov18", "Mar19", "Aug19", "Nov19", "Mar20", "Aug20"))
-
-p6=ggplot(ordination_plob, aes(Date, Axis.1, color="#E69F00", fill="#E69F00", group=1)) + 
-  geom_point(size=3, alpha=0.4)+
-  geom_smooth(aes(as.numeric(Date), Axis.1), method = "loess")+
-  theme(text = element_text(size = 26), 
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  scale_color_manual(values=c("#E69F00", "#E69F00")) + 
-  scale_fill_manual(values=c("#E69F00", "#E69F00"))+
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5))+
-  theme(legend.position="none")+
-  ylab("PCoA Axis 1 [26.5%]")+
-  xlab("Date")
-
-#pver stats
-model = lm(Axis.1 ~ Date, data = ordination_pver)
-summary(model) #adjusted R^2 = 0.2272, p = 4.344e-12
-
-ordination_pver$Date = factor(ordination_pver$Date, ordered = TRUE, 
-                              c("Jul18", "Nov18", "Mar19", "Aug19", "Nov19", "Mar20", "Aug20"))
-
-p7=ggplot(ordination_pver, aes(Date, Axis.1, color="#56B4E9", fill="#56B4E9", group=1)) + 
-  geom_point(size=3, alpha=0.4)+
-  geom_smooth(aes(as.numeric(Date), Axis.1), method = "loess")+
-  theme(text = element_text(size = 26), 
-        plot.background = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.grid.major = element_blank())+
-  scale_color_manual(values=c("#56B4E9", "#56B4E9")) + 
-  scale_fill_manual(values=c("#56B4E9", "#56B4E9"))+
-  theme(axis.text.x = element_text(angle = 90, vjust=0.5))+
-  theme(legend.position="none")+
-  ylab("PCoA Axis 1 [66.7%]")+
-  xlab("Date")
-
-p_2 = ggarrange(p5,p6,p7, ncol=3)
-
-##Assembling Figure 4. Additional annotations added in powerpoint.
-p = ggarrange(p1,p_1,p_2, ncol=1)
-ggsave(plot=p, filename="complete beta diversity figure.tiff", scale=3,
-       width=180,height=200,units="mm")
+ggsave(plot=p, filename="shannon by date.tiff", scale=2,
+       width=180,height=100,units="mm")
