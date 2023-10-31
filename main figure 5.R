@@ -47,9 +47,13 @@ cbPalette = c("#000000", "#E69F00", "#56B4E9", "#196F3D",
               "#B4CEFF")
 
 #Relative Abundance Plot
+coral_names = c("Aret", "Plob", "Poc")
+names(coral_names) = c("Acr", "Plob", "Pver")
+
 theme_set(theme_bw())
 p=plot_bar(relative3, fill = "Family", 
-           x="Date",facet_grid=~Coral)+ 
+           x="Date")+
+  facet_grid(.~Coral, labeller = labeller(Coral = coral_names))+
   geom_bar(stat="identity") + 
   scale_fill_manual(values=cbPalette) + 
   theme(text = element_text(size = 30)) +

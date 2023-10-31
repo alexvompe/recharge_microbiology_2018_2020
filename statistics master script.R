@@ -58,49 +58,6 @@ lter.day.site.1.2.w<-spread(lter.day.site.1.2, site, temp_c)
 cor.test(lter.day.site.1.2.w$LTER00, lter.day.site.1.2.w$LTER02, 
          method = c("pearson", "kendall", "spearman"))
 
-##Host Mortality and Bleaching:
-library(ggplot2)
-library(Rmisc)
-library(ggpubr)
-
-#Read in mortality and bleaching data. These data are for all corals ever
-#sampled for this project, tracked since the start of the time series.
-mortality = read.csv("porites integration_v3.csv", header = TRUE)
-mortality$Date = factor(mortality$Date, levels = c("Jul18", "Nov18",
-                                                   "Mar19", "Aug19",
-                                                   "Nov19", "Mar20", "Aug20"))
-mortality_acr = subset(mortality, Coral=="Acr")
-mortality_pver = subset(mortality, Coral=="Pver")
-mortality_plob = subset(mortality, Coral=="Plob")
-
-#Mortality stats
-model = lm(percent_dead ~ Coral, data = mortality)
-res = aov(percent_dead ~ Coral, data = mortality)
-summary(res)
-TukeyHSD(res)
-TukeyHSD(aov(model))
-mortality_acr_plob = subset(mortality, Coral=="Acr" | Coral=="Plob")
-t.test(percent_dead ~ Coral, data = mortality_acr_plob, alternative = "two.sided")
-mortality_aug20 = subset(mortality, Date=="Aug20")
-model = lm(percent_dead ~ Coral, data = mortality_aug20)
-TukeyHSD(aov(model))
-mortality_Mar19 = subset(mortality, Date=="Mar19")
-model = lm(percent_dead ~ Coral, data = mortality_Mar19)
-TukeyHSD(aov(model))
-
-#Bleaching
-#Make datasets without any fully dead colonies, so that mortality doesn't confound bleaching levels
-bleaching_acr = subset(mortality_acr, percent_dead != 100)
-bleaching_plob = subset(mortality_plob, percent_dead != 100)
-bleaching_pver = subset(mortality_pver, percent_dead != 100)
-bleaching_acr = na.omit(bleaching_acr)
-bleaching_plob = na.omit(bleaching_plob)
-bleaching_pver = na.omit(bleaching_pver)
-
-#Bleaching stats
-model = lm(percent_bleached ~ Date, data = bleaching_acr)
-TukeyHSD(aov(model))
-
 ##Microbiome Alpha Diversity (more nutrient enrichment and herbivore reduction
 ##statistics can be found in 'supplemental figure 8.R' and
 ##'supplemental figure 9.R'):

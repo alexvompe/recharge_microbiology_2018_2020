@@ -142,7 +142,7 @@ for (i in 1:nrow(sample_df_mortality)) {
 sample_df_mortality = sample_data(sample_df_mortality)
 sample_data(survival_filt) = sample_df_mortality
 
-#Save the rarefied families phyloseq object for ease of access
+#Save the phyloseq object for ease of access
 saveRDS(survival_filt, "survival_fams_bins_ps.rds")
 survival_filt = readRDS("survival_fams_bins_ps.rds")
 

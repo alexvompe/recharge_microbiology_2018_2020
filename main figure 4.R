@@ -74,9 +74,12 @@ cbPalette = c("#000000", "#E69F00", "#56B4E9", "#196F3D",
                        "#F0E442", "#FF4040", "#66CCCC", "#808080", 
                        "#B4CEFF")
                        
+coral_names = c("Aret", "Plob", "Poc")
+names(coral_names) = c("Acr", "Plob", "Pver")
+
 p=plot_richness(families_rare, x="Date", 
                 measures="Shannon", color = "Coral") + 
-  facet_grid(.~Coral)+
+  facet_grid(.~Coral, labeller = labeller(Coral = coral_names))+
   theme_bw()+
   geom_boxplot(alpha=0.6, linewidth=1.2) + 
   scale_color_manual(values=cbPalette) +
@@ -89,5 +92,5 @@ p=plot_richness(families_rare, x="Date",
   ylab("Shannon Diversity Index")+
   theme(legend.position="none")
 
-ggsave(plot=p, filename="shannon by date.tiff", scale=2,
+ggsave(plot=p, filename="shannon by date_revisions_intermediate.tiff", scale=2,
        width=180,height=100,units="mm")

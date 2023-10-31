@@ -1,1090 +1,1288 @@
-"","Plot","Herbivory","Coral_Id","Coral","percent_bleached","percent_dead","Date","Nutrients","catcat"
-"1","A1","1x1","P11","Pver",0,0,"Jul18","Ambient","Jul18_P11"
-"2","A1","1x1","P16","Pver",0,0,"Jul18","Ambient","Jul18_P16"
-"3","A1","1x1","P9","Pver",0,0,"Jul18","Ambient","Jul18_P9"
-"4","A1","2x2","P13","Pver",0,0,"Jul18","Ambient","Jul18_P13"
-"5","A1","2x2","P8","Pver",0,0,"Jul18","Ambient","Jul18_P8"
-"6","A1","3x3","A3","Acr",0,0,"Jul18","Ambient","Jul18_A3"
-"7","A1","3x3","A4","Acr",0,0,"Jul18","Ambient","Jul18_A4"
-"8","A1","3x3","P12","Pver",0,0,"Jul18","Ambient","Jul18_P12"
-"9","A1","3x3","P8","Pver",0,0,"Jul18","Ambient","Jul18_P8"
-"10","A1","3x3","P9","Pver",0,0,"Jul18","Ambient","Jul18_P9"
-"11","A1","open","A1","Acr",0,0,"Jul18","Ambient","Jul18_A1"
-"12","A1","open","P12","Pver",0,0,"Jul18","Ambient","Jul18_P12"
-"13","A1","open","P8","Pver",0,0,"Jul18","Ambient","Jul18_P8"
-"14","A2","1x1","A2","Acr",0,0,"Jul18","Nutrient","Jul18_A2"
-"15","A2","1x1","P11","Pver",0,0,"Jul18","Nutrient","Jul18_P11"
-"16","A2","1x1","P17","Pver",0,0,"Jul18","Nutrient","Jul18_P17"
-"17","A2","2x2","P24","Pver",0,0,"Jul18","Nutrient","Jul18_P24"
-"18","A2","2x2","P9","Pver",0,0,"Jul18","Nutrient","Jul18_P9"
-"19","A2","3x3","A2","Acr",0,0,"Jul18","Nutrient","Jul18_A2"
-"20","A2","3x3","P20","Pver",0,0,"Jul18","Nutrient","Jul18_P20"
-"21","A2","3x3","P25","Pver",0,5,"Jul18","Nutrient","Jul18_P25"
-"22","A2","3x3","P6","Pver",0,0,"Jul18","Nutrient","Jul18_P6"
-"23","A2","open","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"24","A2","open","A2","Acr",0,0,"Jul18","Nutrient","Jul18_A2"
-"25","A2","open","P1","Pver",0,0,"Jul18","Nutrient","Jul18_P1"
-"26","A2","open","P19","Pver",0,0,"Jul18","Nutrient","Jul18_P19"
-"27","A2","open","P5","Pver",0,0,"Jul18","Nutrient","Jul18_P5"
-"28","B3","1x1","A3","Acr",0,0,"Jul18","Nutrient","Jul18_A3"
-"29","B3","1x1","P11","Pver",0,0,"Jul18","Nutrient","Jul18_P11"
-"30","B3","1x1","P13","Pver",0,20,"Jul18","Nutrient","Jul18_P13"
-"31","B3","1x1","P20","Pver",0,0,"Jul18","Nutrient","Jul18_P20"
-"32","B3","1x1","P21","Pver",0,0,"Jul18","Nutrient","Jul18_P21"
-"33","B3","1x1","P23","Pver",0,0,"Jul18","Nutrient","Jul18_P23"
-"34","B3","2x2","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"35","B3","2x2","P1","Pver",0,0,"Jul18","Nutrient","Jul18_P1"
-"36","B3","3x3","A2","Acr",0,0,"Jul18","Nutrient","Jul18_A2"
-"37","B3","3x3","A3","Acr",0,0,"Jul18","Nutrient","Jul18_A3"
-"38","B3","3x3","P2","Pver",0,0,"Jul18","Nutrient","Jul18_P2"
-"39","B3","3x3","P9","Pver",0,0,"Jul18","Nutrient","Jul18_P9"
-"40","B3","open","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"41","B3","open","P10","Pver",0,0,"Jul18","Nutrient","Jul18_P10"
-"42","B3","open","P21","Pver",0,0,"Jul18","Nutrient","Jul18_P21"
-"43","B3","open","P28","Pver",0,0,"Jul18","Nutrient","Jul18_P28"
-"44","B3","open","P5","Pver",0,0,"Jul18","Nutrient","Jul18_P5"
-"45","B4","1x1","P11","Pver",0,0,"Jul18","Ambient","Jul18_P11"
-"46","B4","1x1","P25","Pver",0,0,"Jul18","Ambient","Jul18_P25"
-"47","B4","2x2","A2","Acr",0,0,"Jul18","Ambient","Jul18_A2"
-"48","B4","2x2","A4","Acr",0,0,"Jul18","Ambient","Jul18_A4"
-"49","B4","2x2","P7","Pver",0,0,"Jul18","Ambient","Jul18_P7"
-"50","B4","3x3","A3","Acr",0,0,"Jul18","Ambient","Jul18_A3"
-"51","B4","3x3","A7","Acr",0,0,"Jul18","Ambient","Jul18_A7"
-"52","B4","3x3","P14","Pver",0,0,"Jul18","Ambient","Jul18_P14"
-"53","B4","3x3","P2","Pver",0,0,"Jul18","Ambient","Jul18_P2"
-"54","B4","3x3","P6","Pver",0,0,"Jul18","Ambient","Jul18_P6"
-"55","B4","open","P13","Pver",0,0,"Jul18","Ambient","Jul18_P13"
-"56","B4","open","P5","Pver",0,0,"Jul18","Ambient","Jul18_P5"
-"57","C1","1x1","P20","Pver",0,0,"Jul18","Ambient","Jul18_P20"
-"58","C1","1x1","P4","Pver",0,0,"Jul18","Ambient","Jul18_P4"
-"59","C1","1x1","P5","Pver",0,3,"Jul18","Ambient","Jul18_P5"
-"60","C1","2x2","A1","Acr",0,0,"Jul18","Ambient","Jul18_A1"
-"61","C1","2x2","A4","Acr",0,0,"Jul18","Ambient","Jul18_A4"
-"62","C1","2x2","P15","Pver",0,0,"Jul18","Ambient","Jul18_P15"
-"63","C1","2x2","P16","Pver",0,0,"Jul18","Ambient","Jul18_P16"
-"64","C1","2x2","P18","Pver",0,0,"Jul18","Ambient","Jul18_P18"
-"65","C1","2x2","P3","Pver",0,0,"Jul18","Ambient","Jul18_P3"
-"66","C1","3x3","A1","Acr",0,0,"Jul18","Ambient","Jul18_A1"
-"67","C1","3x3","P13","Pver",0,0,"Jul18","Ambient","Jul18_P13"
-"68","C1","open","P12","Pver",0,0,"Jul18","Ambient","Jul18_P12"
-"69","C1","open","P18","Pver",0,0,"Jul18","Ambient","Jul18_P18"
-"70","C1","open","P3","Pver",0,0,"Jul18","Ambient","Jul18_P3"
-"71","C3","1x1","A2","Acr",0,0,"Jul18","Nutrient","Jul18_A2"
-"72","C3","1x1","P20","Pver",0,0,"Jul18","Nutrient","Jul18_P20"
-"73","C3","1x1","P7","Pver",0,0,"Jul18","Nutrient","Jul18_P7"
-"74","C3","2x2","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"75","C3","2x2","A3/Aret73","Acr",0,0,"Jul18","Nutrient","Jul18_A3/Aret73"
-"76","C3","2x2","P17","Pver",0,0,"Jul18","Nutrient","Jul18_P17"
-"77","C3","2x2","P22","Pver",0,0,"Jul18","Nutrient","Jul18_P22"
-"78","C3","2x2","P23","Pver",0,10,"Jul18","Nutrient","Jul18_P23"
-"79","C3","3x3","P15","Pver",0,0,"Jul18","Nutrient","Jul18_P15"
-"80","C3","3x3","P19","Pver",0,0,"Jul18","Nutrient","Jul18_P19"
-"81","C3","3x3","P24","Pver",0,0,"Jul18","Nutrient","Jul18_P24"
-"82","C3","3x3","P3","Pver",0,0,"Jul18","Nutrient","Jul18_P3"
-"83","C3","open","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"84","C3","open","A6","Acr",0,0,"Jul18","Nutrient","Jul18_A6"
-"85","C3","open","P11","Pver",0,0,"Jul18","Nutrient","Jul18_P11"
-"86","C3","open","P12","Pver",0,0,"Jul18","Nutrient","Jul18_P12"
-"87","C3","open","P13","Pver",0,0,"Jul18","Nutrient","Jul18_P13"
-"88","C3","open","P15","Pver",0,0,"Jul18","Nutrient","Jul18_P15"
-"89","D2","1x1","A1","Acr",0,0,"Jul18","Ambient","Jul18_A1"
-"90","D2","1x1","A5","Acr",0,0,"Jul18","Ambient","Jul18_A5"
-"91","D2","1x1","P15","Pver",0,0,"Jul18","Ambient","Jul18_P15"
-"92","D2","1x1","P17","Pver",0,0,"Jul18","Ambient","Jul18_P17"
-"93","D2","1x1","P2","Pver",0,0,"Jul18","Ambient","Jul18_P2"
-"94","D2","2x2","A6","Acr",0,0,"Jul18","Ambient","Jul18_A6"
-"95","D2","2x2","A7","Acr",0,0,"Jul18","Ambient","Jul18_A7"
-"96","D2","2x2","P2","Pver",0,0,"Jul18","Ambient","Jul18_P2"
-"97","D2","2x2","P21","Pver",0,0,"Jul18","Ambient","Jul18_P21"
-"98","D2","2x2","P7","Pver",0,0,"Jul18","Ambient","Jul18_P7"
-"99","D2","3x3","A1","Acr",0,0,"Jul18","Ambient","Jul18_A1"
-"100","D2","3x3","P22","Pver",0,0,"Jul18","Ambient","Jul18_P22"
-"101","D2","3x3","P5","Pver",0,0,"Jul18","Ambient","Jul18_P5"
-"102","D2","3x3","P9","Pver",0,5,"Jul18","Ambient","Jul18_P9"
-"103","D2","open","P12","Pver",0,0,"Jul18","Ambient","Jul18_P12"
-"104","D2","open","P13","Pver",0,0,"Jul18","Ambient","Jul18_P13"
-"105","D2","open","P15","Pver",0,0,"Jul18","Ambient","Jul18_P15"
-"106","D4","1x1","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"107","D4","1x1","A2","Acr",0,0,"Jul18","Nutrient","Jul18_A2"
-"108","D4","1x1","A3","Acr",0,0,"Jul18","Nutrient","Jul18_A3"
-"109","D4","1x1","A4","Acr",0,0,"Jul18","Nutrient","Jul18_A4"
-"110","D4","1x1","P16","Pver",0,0,"Jul18","Nutrient","Jul18_P16"
-"111","D4","1x1","P5","Pver",0,0,"Jul18","Nutrient","Jul18_P5"
-"112","D4","1x1","P7","Pver",0,3,"Jul18","Nutrient","Jul18_P7"
-"113","D4","2x2","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"114","D4","2x2","P11","Pver",0,0,"Jul18","Nutrient","Jul18_P11"
-"115","D4","2x2","P5","Pver",0,0,"Jul18","Nutrient","Jul18_P5"
-"116","D4","2x2","P6","Pver",0,0,"Jul18","Nutrient","Jul18_P6"
-"117","D4","3x3","A3","Acr",0,0,"Jul18","Nutrient","Jul18_A3"
-"118","D4","3x3","A4","Acr",0,0,"Jul18","Nutrient","Jul18_A4"
-"119","D4","3x3","A5","Acr",0,0,"Jul18","Nutrient","Jul18_A5"
-"120","D4","3x3","P20","Pver",0,0,"Jul18","Nutrient","Jul18_P20"
-"121","D4","3x3","P30","Pver",0,0,"Jul18","Nutrient","Jul18_P30"
-"122","D4","3x3","P8","Pver",0,0,"Jul18","Nutrient","Jul18_P8"
-"123","D4","open","A1","Acr",0,0,"Jul18","Nutrient","Jul18_A1"
-"124","D4","open","P23","Pver",0,0,"Jul18","Nutrient","Jul18_P23"
-"125","D4","open","P5","Pver",0,0,"Jul18","Nutrient","Jul18_P5"
-"126","D4","open","P6","Pver",0,0,"Jul18","Nutrient","Jul18_P6"
-"127","A1","1x1","A5","Acr",0,0,"Nov18","Ambient","Nov18_A5"
-"128","A1","1x1","P11","Pver",0,0,"Nov18","Ambient","Nov18_P11"
-"129","A1","1x1","P16","Pver",0,0,"Nov18","Ambient","Nov18_P16"
-"130","A1","1x1","P9","Pver",0,0,"Nov18","Ambient","Nov18_P9"
-"131","A1","2x2","P13","Pver",0,0,"Nov18","Ambient","Nov18_P13"
-"132","A1","2x2","P8","Pver",0,0,"Nov18","Ambient","Nov18_P8"
-"133","A1","3x3","A3","Acr",0,0,"Nov18","Ambient","Nov18_A3"
-"134","A1","3x3","A4","Acr",0,0,"Nov18","Ambient","Nov18_A4"
-"135","A1","3x3","P12","Pver",0,0,"Nov18","Ambient","Nov18_P12"
-"136","A1","3x3","P8","Pver",0,0,"Nov18","Ambient","Nov18_P8"
-"137","A1","3x3","P9","Pver",0,0,"Nov18","Ambient","Nov18_P9"
-"138","A1","open","A1","Acr",0,0,"Nov18","Ambient","Nov18_A1"
-"139","A1","open","P12","Pver",0,0,"Nov18","Ambient","Nov18_P12"
-"140","A1","open","P8","Pver",0,0,"Nov18","Ambient","Nov18_P8"
-"141","A2","1x1","A2","Acr",0,0,"Nov18","Nutrient","Nov18_A2"
-"142","A2","1x1","P11","Pver",0,0,"Nov18","Nutrient","Nov18_P11"
-"143","A2","1x1","P17","Pver",0,0,"Nov18","Nutrient","Nov18_P17"
-"144","A2","2x2","P24","Pver",0,0,"Nov18","Nutrient","Nov18_P24"
-"145","A2","2x2","P9","Pver",0,0,"Nov18","Nutrient","Nov18_P9"
-"146","A2","3x3","A2","Acr",0,0,"Nov18","Nutrient","Nov18_A2"
-"147","A2","3x3","P20","Pver",0,0,"Nov18","Nutrient","Nov18_P20"
-"148","A2","3x3","P25","Pver",0,5,"Nov18","Nutrient","Nov18_P25"
-"149","A2","3x3","P6","Pver",0,0,"Nov18","Nutrient","Nov18_P6"
-"150","A2","open","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"151","A2","open","A2","Acr",0,0,"Nov18","Nutrient","Nov18_A2"
-"152","A2","open","P1","Pver",0,0,"Nov18","Nutrient","Nov18_P1"
-"153","A2","open","P19","Pver",0,0,"Nov18","Nutrient","Nov18_P19"
-"154","A2","open","P5","Pver",0,0,"Nov18","Nutrient","Nov18_P5"
-"155","B3","1x1","A3","Acr",0,0,"Nov18","Nutrient","Nov18_A3"
-"156","B3","1x1","P11","Pver",0,0,"Nov18","Nutrient","Nov18_P11"
-"157","B3","1x1","P13","Pver",0,20,"Nov18","Nutrient","Nov18_P13"
-"158","B3","1x1","P20","Pver",0,0,"Nov18","Nutrient","Nov18_P20"
-"159","B3","1x1","P21","Pver",0,0,"Nov18","Nutrient","Nov18_P21"
-"160","B3","1x1","P23","Pver",0,0,"Nov18","Nutrient","Nov18_P23"
-"161","B3","2x2","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"162","B3","2x2","P1","Pver",0,0,"Nov18","Nutrient","Nov18_P1"
-"163","B3","3x3","A2","Acr",0,0,"Nov18","Nutrient","Nov18_A2"
-"164","B3","3x3","A3","Acr",0,0,"Nov18","Nutrient","Nov18_A3"
-"165","B3","3x3","P2","Pver",0,0,"Nov18","Nutrient","Nov18_P2"
-"166","B3","3x3","P9","Pver",0,0,"Nov18","Nutrient","Nov18_P9"
-"167","B3","open","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"168","B3","open","P10","Pver",0,0,"Nov18","Nutrient","Nov18_P10"
-"169","B3","open","P21","Pver",0,0,"Nov18","Nutrient","Nov18_P21"
-"170","B3","open","P28","Pver",0,0,"Nov18","Nutrient","Nov18_P28"
-"171","B3","open","P5","Pver",0,0,"Nov18","Nutrient","Nov18_P5"
-"172","B4","1x1","P11","Pver",0,0,"Nov18","Ambient","Nov18_P11"
-"173","B4","1x1","P25","Pver",0,0,"Nov18","Ambient","Nov18_P25"
-"174","B4","2x2","A2","Acr",0,0,"Nov18","Ambient","Nov18_A2"
-"175","B4","2x2","A4","Acr",0,0,"Nov18","Ambient","Nov18_A4"
-"176","B4","2x2","P7","Pver",0,0,"Nov18","Ambient","Nov18_P7"
-"177","B4","3x3","A3","Acr",0,0,"Nov18","Ambient","Nov18_A3"
-"178","B4","3x3","A7","Acr",0,0,"Nov18","Ambient","Nov18_A7"
-"179","B4","3x3","P14","Pver",0,0,"Nov18","Ambient","Nov18_P14"
-"180","B4","3x3","P2","Pver",0,0,"Nov18","Ambient","Nov18_P2"
-"181","B4","3x3","P6","Pver",0,0,"Nov18","Ambient","Nov18_P6"
-"182","B4","open","P13","Pver",0,0,"Nov18","Ambient","Nov18_P13"
-"183","B4","open","P5","Pver",0,0,"Nov18","Ambient","Nov18_P5"
-"184","C1","1x1","P20","Pver",0,0,"Nov18","Ambient","Nov18_P20"
-"185","C1","1x1","P4","Pver",0,0,"Nov18","Ambient","Nov18_P4"
-"186","C1","1x1","P5","Pver",0,5,"Nov18","Ambient","Nov18_P5"
-"187","C1","2x2","A1","Acr",0,0,"Nov18","Ambient","Nov18_A1"
-"188","C1","2x2","A4","Acr",0,0,"Nov18","Ambient","Nov18_A4"
-"189","C1","2x2","P15","Pver",0,0,"Nov18","Ambient","Nov18_P15"
-"190","C1","2x2","P16","Pver",0,0,"Nov18","Ambient","Nov18_P16"
-"191","C1","2x2","P18","Pver",0,0,"Nov18","Ambient","Nov18_P18"
-"192","C1","2x2","P3","Pver",0,0,"Nov18","Ambient","Nov18_P3"
-"193","C1","3x3","A1","Acr",0,0,"Nov18","Ambient","Nov18_A1"
-"194","C1","3x3","P13","Pver",0,0,"Nov18","Ambient","Nov18_P13"
-"195","C1","open","P12","Pver",0,0,"Nov18","Ambient","Nov18_P12"
-"196","C1","open","P18","Pver",0,0,"Nov18","Ambient","Nov18_P18"
-"197","C1","open","P3","Pver",0,0,"Nov18","Ambient","Nov18_P3"
-"198","C3","1x1","A2","Acr",0,0,"Nov18","Nutrient","Nov18_A2"
-"199","C3","1x1","P20","Pver",0,0,"Nov18","Nutrient","Nov18_P20"
-"200","C3","1x1","P7","Pver",0,0,"Nov18","Nutrient","Nov18_P7"
-"201","C3","2x2","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"202","C3","2x2","A3/Aret73","Acr",0,0,"Nov18","Nutrient","Nov18_A3/Aret73"
-"203","C3","2x2","P17","Pver",0,0,"Nov18","Nutrient","Nov18_P17"
-"204","C3","2x2","P22","Pver",0,0,"Nov18","Nutrient","Nov18_P22"
-"205","C3","2x2","P23","Pver",0,10,"Nov18","Nutrient","Nov18_P23"
-"206","C3","3x3","P15","Pver",0,0,"Nov18","Nutrient","Nov18_P15"
-"207","C3","3x3","P19","Pver",0,0,"Nov18","Nutrient","Nov18_P19"
-"208","C3","3x3","P24","Pver",0,0,"Nov18","Nutrient","Nov18_P24"
-"209","C3","3x3","P3","Pver",0,0,"Nov18","Nutrient","Nov18_P3"
-"210","C3","open","A1","Acr",5,15,"Nov18","Nutrient","Nov18_A1"
-"211","C3","open","A6","Acr",0,0,"Nov18","Nutrient","Nov18_A6"
-"212","C3","open","P11","Pver",0,0,"Nov18","Nutrient","Nov18_P11"
-"213","C3","open","P12","Pver",0,0,"Nov18","Nutrient","Nov18_P12"
-"214","C3","open","P13","Pver",0,0,"Nov18","Nutrient","Nov18_P13"
-"215","C3","open","P15","Pver",0,0,"Nov18","Nutrient","Nov18_P15"
-"216","D2","1x1","A1","Acr",0,0,"Nov18","Ambient","Nov18_A1"
-"217","D2","1x1","A5","Acr",0,0,"Nov18","Ambient","Nov18_A5"
-"218","D2","1x1","P15","Pver",0,0,"Nov18","Ambient","Nov18_P15"
-"219","D2","1x1","P17","Pver",0,0,"Nov18","Ambient","Nov18_P17"
-"220","D2","1x1","P2","Pver",0,0,"Nov18","Ambient","Nov18_P2"
-"221","D2","2x2","A6","Acr",0,0,"Nov18","Ambient","Nov18_A6"
-"222","D2","2x2","A7","Acr",0,0,"Nov18","Ambient","Nov18_A7"
-"223","D2","2x2","P2","Pver",0,0,"Nov18","Ambient","Nov18_P2"
-"224","D2","2x2","P21","Pver",0,0,"Nov18","Ambient","Nov18_P21"
-"225","D2","2x2","P7","Pver",0,0,"Nov18","Ambient","Nov18_P7"
-"226","D2","3x3","A1","Acr",0,0,"Nov18","Ambient","Nov18_A1"
-"227","D2","3x3","P22","Pver",0,0,"Nov18","Ambient","Nov18_P22"
-"228","D2","3x3","P5","Pver",0,0,"Nov18","Ambient","Nov18_P5"
-"229","D2","3x3","P9","Pver",0,5,"Nov18","Ambient","Nov18_P9"
-"230","D2","open","P12","Pver",0,0,"Nov18","Ambient","Nov18_P12"
-"231","D2","open","P13","Pver",0,0,"Nov18","Ambient","Nov18_P13"
-"232","D2","open","P15","Pver",0,0,"Nov18","Ambient","Nov18_P15"
-"233","D4","1x1","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"234","D4","1x1","A2","Acr",0,0,"Nov18","Nutrient","Nov18_A2"
-"235","D4","1x1","A3","Acr",0,0,"Nov18","Nutrient","Nov18_A3"
-"236","D4","1x1","A4","Acr",0,0,"Nov18","Nutrient","Nov18_A4"
-"237","D4","1x1","P16","Pver",0,0,"Nov18","Nutrient","Nov18_P16"
-"238","D4","1x1","P5","Pver",0,0,"Nov18","Nutrient","Nov18_P5"
-"239","D4","1x1","P7","Pver",0,5,"Nov18","Nutrient","Nov18_P7"
-"240","D4","2x2","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"241","D4","2x2","P11","Pver",0,0,"Nov18","Nutrient","Nov18_P11"
-"242","D4","2x2","P5","Pver",0,0,"Nov18","Nutrient","Nov18_P5"
-"243","D4","2x2","P6","Pver",0,0,"Nov18","Nutrient","Nov18_P6"
-"244","D4","3x3","A3","Acr",0,0,"Nov18","Nutrient","Nov18_A3"
-"245","D4","3x3","A4","Acr",0,0,"Nov18","Nutrient","Nov18_A4"
-"246","D4","3x3","A5","Acr",0,0,"Nov18","Nutrient","Nov18_A5"
-"247","D4","3x3","P20","Pver",0,0,"Nov18","Nutrient","Nov18_P20"
-"248","D4","3x3","P30","Pver",0,0,"Nov18","Nutrient","Nov18_P30"
-"249","D4","3x3","P8","Pver",0,0,"Nov18","Nutrient","Nov18_P8"
-"250","D4","open","A1","Acr",0,0,"Nov18","Nutrient","Nov18_A1"
-"251","D4","open","P23","Pver",0,0,"Nov18","Nutrient","Nov18_P23"
-"252","D4","open","P5","Pver",0,0,"Nov18","Nutrient","Nov18_P5"
-"253","D4","open","P6","Pver",0,0,"Nov18","Nutrient","Nov18_P6"
-"254","A1","1x1","A5","Acr",0,0,"Mar19","Ambient","Mar19_A5"
-"255","A1","1x1","P11","Pver",0,0,"Mar19","Ambient","Mar19_P11"
-"256","A1","1x1","P16","Pver",0,0,"Mar19","Ambient","Mar19_P16"
-"257","A1","1x1","P9","Pver",0,0,"Mar19","Ambient","Mar19_P9"
-"258","A1","2x2","P13","Pver",0,0,"Mar19","Ambient","Mar19_P13"
-"259","A1","2x2","P8","Pver",0,0,"Mar19","Ambient","Mar19_P8"
-"260","A1","3x3","A3","Acr",20,0,"Mar19","Ambient","Mar19_A3"
-"261","A1","3x3","A4","Acr",5,0,"Mar19","Ambient","Mar19_A4"
-"262","A1","3x3","P12","Pver",0,0,"Mar19","Ambient","Mar19_P12"
-"263","A1","3x3","P8","Pver",0,0,"Mar19","Ambient","Mar19_P8"
-"264","A1","3x3","P9","Pver",0,0,"Mar19","Ambient","Mar19_P9"
-"265","A1","open","A1","Acr",95,2,"Mar19","Ambient","Mar19_A1"
-"266","A1","open","A2","Acr",0,0,"Mar19","Ambient","Mar19_A2"
-"267","A1","open","A3","Acr",10,0,"Mar19","Ambient","Mar19_A3"
-"268","A1","open","P12","Pver",0,0,"Mar19","Ambient","Mar19_P12"
-"269","A1","open","P8","Pver",0,0,"Mar19","Ambient","Mar19_P8"
-"270","A2","1x1","A2","Acr",0,0,"Mar19","Nutrient","Mar19_A2"
-"271","A2","1x1","P11","Pver",0,0,"Mar19","Nutrient","Mar19_P11"
-"272","A2","1x1","P17","Pver",0,0,"Mar19","Nutrient","Mar19_P17"
-"273","A2","1x1","P22","Pver",0,0,"Mar19","Nutrient","Mar19_P22"
-"274","A2","2x2","A3","Acr",0,0,"Mar19","Nutrient","Mar19_A3"
-"275","A2","2x2","P24","Pver",0,0,"Mar19","Nutrient","Mar19_P24"
-"276","A2","2x2","P9","Pver",0,0,"Mar19","Nutrient","Mar19_P9"
-"277","A2","3x3","A2","Acr",0,0,"Mar19","Nutrient","Mar19_A2"
-"278","A2","3x3","P20","Pver",0,0,"Mar19","Nutrient","Mar19_P20"
-"279","A2","3x3","P25","Pver",0,5,"Mar19","Nutrient","Mar19_P25"
-"280","A2","3x3","P6","Pver",0,0,"Mar19","Nutrient","Mar19_P6"
-"281","A2","open","A1","Acr",60,0,"Mar19","Nutrient","Mar19_A1"
-"282","A2","open","A2","Acr",0,0,"Mar19","Nutrient","Mar19_A2"
-"283","A2","open","P1","Pver",0,0,"Mar19","Nutrient","Mar19_P1"
-"284","A2","open","P19","Pver",0,0,"Mar19","Nutrient","Mar19_P19"
-"285","A2","open","P5","Pver",0,0,"Mar19","Nutrient","Mar19_P5"
-"286","B3","1x1","A3","Acr",0,0,"Mar19","Nutrient","Mar19_A3"
-"287","B3","1x1","P11","Pver",0,0,"Mar19","Nutrient","Mar19_P11"
-"288","B3","1x1","P13","Pver",0,20,"Mar19","Nutrient","Mar19_P13"
-"289","B3","1x1","P20","Pver",0,0,"Mar19","Nutrient","Mar19_P20"
-"290","B3","1x1","P21","Pver",0,0,"Mar19","Nutrient","Mar19_P21"
-"291","B3","1x1","P23","Pver",0,0,"Mar19","Nutrient","Mar19_P23"
-"292","B3","2x2","A1","Acr",10,0,"Mar19","Nutrient","Mar19_A1"
-"293","B3","2x2","P1","Pver",0,0,"Mar19","Nutrient","Mar19_P1"
-"294","B3","3x3","A2","Acr",0,0,"Mar19","Nutrient","Mar19_A2"
-"295","B3","3x3","A3","Acr",20,0,"Mar19","Nutrient","Mar19_A3"
-"296","B3","3x3","P2","Pver",0,0,"Mar19","Nutrient","Mar19_P2"
-"297","B3","3x3","P9","Pver",0,0,"Mar19","Nutrient","Mar19_P9"
-"298","B3","open","A1","Acr",10,0,"Mar19","Nutrient","Mar19_A1"
-"299","B3","open","P10","Pver",0,0,"Mar19","Nutrient","Mar19_P10"
-"300","B3","open","P21","Pver",0,0,"Mar19","Nutrient","Mar19_P21"
-"301","B3","open","P28","Pver",0,0,"Mar19","Nutrient","Mar19_P28"
-"302","B3","open","P5","Pver",0,0,"Mar19","Nutrient","Mar19_P5"
-"303","B4","1x1","A1","Acr",0,0,"Mar19","Ambient","Mar19_A1"
-"304","B4","1x1","P11","Pver",0,0,"Mar19","Ambient","Mar19_P11"
-"305","B4","1x1","P25","Pver",0,0,"Mar19","Ambient","Mar19_P25"
-"306","B4","2x2","A2","Acr",80,0,"Mar19","Ambient","Mar19_A2"
-"307","B4","2x2","A4","Acr",0,0,"Mar19","Ambient","Mar19_A4"
-"308","B4","2x2","A8","Acr",0,0,"Mar19","Ambient","Mar19_A8"
-"309","B4","2x2","P7","Pver",0,0,"Mar19","Ambient","Mar19_P7"
-"310","B4","3x3","A3","Acr",10,0,"Mar19","Ambient","Mar19_A3"
-"311","B4","3x3","A7","Acr",10,0,"Mar19","Ambient","Mar19_A7"
-"312","B4","3x3","P14","Pver",0,0,"Mar19","Ambient","Mar19_P14"
-"313","B4","3x3","P2","Pver",0,0,"Mar19","Ambient","Mar19_P2"
-"314","B4","3x3","P6","Pver",0,0,"Mar19","Ambient","Mar19_P6"
-"315","B4","open","P13","Pver",0,0,"Mar19","Ambient","Mar19_P13"
-"316","B4","open","P5","Pver",0,0,"Mar19","Ambient","Mar19_P5"
-"317","C1","1x1","P20","Pver",0,0,"Mar19","Ambient","Mar19_P20"
-"318","C1","1x1","P4","Pver",0,0,"Mar19","Ambient","Mar19_P4"
-"319","C1","1x1","P5","Pver",0,5,"Mar19","Ambient","Mar19_P5"
-"320","C1","2x2","A1","Acr",20,0,"Mar19","Ambient","Mar19_A1"
-"321","C1","2x2","A4","Acr",10,0,"Mar19","Ambient","Mar19_A4"
-"322","C1","2x2","P15","Pver",0,0,"Mar19","Ambient","Mar19_P15"
-"323","C1","2x2","P16","Pver",10,0,"Mar19","Ambient","Mar19_P16"
-"324","C1","2x2","P18","Pver",0,0,"Mar19","Ambient","Mar19_P18"
-"325","C1","2x2","P3","Pver",0,0,"Mar19","Ambient","Mar19_P3"
-"326","C1","3x3","A1","Acr",20,0,"Mar19","Ambient","Mar19_A1"
-"327","C1","3x3","A5","Acr",0,0,"Mar19","Ambient","Mar19_A5"
-"328","C1","3x3","P13","Pver",0,0,"Mar19","Ambient","Mar19_P13"
-"329","C1","open","P12","Pver",0,0,"Mar19","Ambient","Mar19_P12"
-"330","C1","open","P18","Pver",0,0,"Mar19","Ambient","Mar19_P18"
-"331","C1","open","P3","Pver",0,0,"Mar19","Ambient","Mar19_P3"
-"332","C3","1x1","A2","Acr",0,0,"Mar19","Nutrient","Mar19_A2"
-"333","C3","1x1","P20","Pver",2,0,"Mar19","Nutrient","Mar19_P20"
-"334","C3","1x1","P7","Pver",2,0,"Mar19","Nutrient","Mar19_P7"
-"335","C3","2x2","A1","Acr",2,0,"Mar19","Nutrient","Mar19_A1"
-"336","C3","2x2","A3/Aret73","Acr",0,0,"Mar19","Nutrient","Mar19_A3/Aret73"
-"337","C3","2x2","A4/Aret275","Acr",0,0,"Mar19","Nutrient","Mar19_A4/Aret275"
-"338","C3","2x2","P17","Pver",0,0,"Mar19","Nutrient","Mar19_P17"
-"339","C3","2x2","P22","Pver",0,0,"Mar19","Nutrient","Mar19_P22"
-"340","C3","2x2","P23","Pver",0,10,"Mar19","Nutrient","Mar19_P23"
-"341","C3","3x3","A1/Aret97","Acr",0,0,"Mar19","Nutrient","Mar19_A1/Aret97"
-"342","C3","3x3","P15","Pver",0,0,"Mar19","Nutrient","Mar19_P15"
-"343","C3","3x3","P19","Pver",0,5,"Mar19","Nutrient","Mar19_P19"
-"344","C3","3x3","P24","Pver",0,0,"Mar19","Nutrient","Mar19_P24"
-"345","C3","3x3","P3","Pver",0,0,"Mar19","Nutrient","Mar19_P3"
-"346","C3","open","A1","Acr",0,90,"Mar19","Nutrient","Mar19_A1"
-"347","C3","open","A6","Acr",0,0,"Mar19","Nutrient","Mar19_A6"
-"348","C3","open","P11","Pver",2,0,"Mar19","Nutrient","Mar19_P11"
-"349","C3","open","P12","Pver",0,0,"Mar19","Nutrient","Mar19_P12"
-"350","C3","open","P13","Pver",10,0,"Mar19","Nutrient","Mar19_P13"
-"351","C3","open","P15","Pver",5,0,"Mar19","Nutrient","Mar19_P15"
-"352","D2","1x1","A1","Acr",60,0,"Mar19","Ambient","Mar19_A1"
-"353","D2","1x1","A5","Acr",80,0,"Mar19","Ambient","Mar19_A5"
-"354","D2","1x1","A7","Acr",0,0,"Mar19","Ambient","Mar19_A7"
-"355","D2","1x1","P15","Pver",0,5,"Mar19","Ambient","Mar19_P15"
-"356","D2","1x1","P17","Pver",0,0,"Mar19","Ambient","Mar19_P17"
-"357","D2","1x1","P2","Pver",0,0,"Mar19","Ambient","Mar19_P2"
-"358","D2","2x2","A6","Acr",0,0,"Mar19","Ambient","Mar19_A6"
-"359","D2","2x2","A7","Acr",80,0,"Mar19","Ambient","Mar19_A7"
-"360","D2","2x2","P2","Pver",0,0,"Mar19","Ambient","Mar19_P2"
-"361","D2","2x2","P21","Pver",0,0,"Mar19","Ambient","Mar19_P21"
-"362","D2","2x2","P7","Pver",0,2,"Mar19","Ambient","Mar19_P7"
-"363","D2","3x3","A1","Acr",40,0,"Mar19","Ambient","Mar19_A1"
-"364","D2","3x3","P22","Pver",0,0,"Mar19","Ambient","Mar19_P22"
-"365","D2","3x3","P5","Pver",0,0,"Mar19","Ambient","Mar19_P5"
-"366","D2","3x3","P9","Pver",0,10,"Mar19","Ambient","Mar19_P9"
-"367","D2","open","P12","Pver",0,2,"Mar19","Ambient","Mar19_P12"
-"368","D2","open","P13","Pver",0,0,"Mar19","Ambient","Mar19_P13"
-"369","D2","open","P15","Pver",0,0,"Mar19","Ambient","Mar19_P15"
-"370","D4","1x1","A1","Acr",0,0,"Mar19","Nutrient","Mar19_A1"
-"371","D4","1x1","A2","Acr",10,0,"Mar19","Nutrient","Mar19_A2"
-"372","D4","1x1","A3","Acr",70,0,"Mar19","Nutrient","Mar19_A3"
-"373","D4","1x1","A4","Acr",5,0,"Mar19","Nutrient","Mar19_A4"
-"374","D4","1x1","P16","Pver",0,0,"Mar19","Nutrient","Mar19_P16"
-"375","D4","1x1","P5","Pver",0,0,"Mar19","Nutrient","Mar19_P5"
-"376","D4","1x1","P7","Pver",0,5,"Mar19","Nutrient","Mar19_P7"
-"377","D4","2x2","A1","Acr",30,0,"Mar19","Nutrient","Mar19_A1"
-"378","D4","2x2","A2","Acr",0,0,"Mar19","Nutrient","Mar19_A2"
-"379","D4","2x2","P11","Pver",0,0,"Mar19","Nutrient","Mar19_P11"
-"380","D4","2x2","P5","Pver",0,0,"Mar19","Nutrient","Mar19_P5"
-"381","D4","2x2","P6","Pver",0,0,"Mar19","Nutrient","Mar19_P6"
-"382","D4","3x3","A3","Acr",0,0,"Mar19","Nutrient","Mar19_A3"
-"383","D4","3x3","A4","Acr",60,0,"Mar19","Nutrient","Mar19_A4"
-"384","D4","3x3","A5","Acr",40,0,"Mar19","Nutrient","Mar19_A5"
-"385","D4","3x3","P20","Pver",0,0,"Mar19","Nutrient","Mar19_P20"
-"386","D4","3x3","P30","Pver",0,0,"Mar19","Nutrient","Mar19_P30"
-"387","D4","3x3","P8","Pver",0,0,"Mar19","Nutrient","Mar19_P8"
-"388","D4","open","A1","Acr",30,0,"Mar19","Nutrient","Mar19_A1"
-"389","D4","open","P23","Pver",0,0,"Mar19","Nutrient","Mar19_P23"
-"390","D4","open","P5","Pver",0,0,"Mar19","Nutrient","Mar19_P5"
-"391","D4","open","P6","Pver",0,0,"Mar19","Nutrient","Mar19_P6"
-"392","A1","1x1","A5","Acr",0,0,"Aug19","Ambient","Aug19_A5"
-"393","A1","1x1","P11","Pver",0,0,"Aug19","Ambient","Aug19_P11"
-"394","A1","1x1","P16","Pver",0,0,"Aug19","Ambient","Aug19_P16"
-"395","A1","1x1","P9","Pver",0,0,"Aug19","Ambient","Aug19_P9"
-"396","A1","2x2","P13","Pver",0,2,"Aug19","Ambient","Aug19_P13"
-"397","A1","2x2","P8","Pver",0,0,"Aug19","Ambient","Aug19_P8"
-"398","A1","3x3","A3","Acr",0,0,"Aug19","Ambient","Aug19_A3"
-"399","A1","3x3","A4","Acr",0,0,"Aug19","Ambient","Aug19_A4"
-"400","A1","3x3","P12","Pver",0,0,"Aug19","Ambient","Aug19_P12"
-"401","A1","3x3","P8","Pver",0,0,"Aug19","Ambient","Aug19_P8"
-"402","A1","3x3","P9","Pver",1,4,"Aug19","Ambient","Aug19_P9"
-"403","A1","open","A1","Acr",0,100,"Aug19","Ambient","Aug19_A1"
-"404","A1","open","A2","Acr",0,0,"Aug19","Ambient","Aug19_A2"
-"405","A1","open","A3","Acr",100,0,"Aug19","Ambient","Aug19_A3"
-"406","A1","open","P12","Pver",0,0,"Aug19","Ambient","Aug19_P12"
-"407","A1","open","P8","Pver",0,0,"Aug19","Ambient","Aug19_P8"
-"408","A2","1x1","A2","Acr",0,100,"Aug19","Nutrient","Aug19_A2"
-"409","A2","1x1","P11","Pver",0,0,"Aug19","Nutrient","Aug19_P11"
-"410","A2","1x1","P17","Pver",0,0,"Aug19","Nutrient","Aug19_P17"
-"411","A2","1x1","P22","Pver",0,0,"Aug19","Nutrient","Aug19_P22"
-"412","A2","2x2","A3","Acr",0,0,"Aug19","Nutrient","Aug19_A3"
-"413","A2","2x2","P24","Pver",1,0,"Aug19","Nutrient","Aug19_P24"
-"414","A2","2x2","P9","Pver",0,0,"Aug19","Nutrient","Aug19_P9"
-"415","A2","3x3","A2","Acr",0,0,"Aug19","Nutrient","Aug19_A2"
-"416","A2","3x3","P20","Pver",0,0,"Aug19","Nutrient","Aug19_P20"
-"417","A2","3x3","P25","Pver",0,5,"Aug19","Nutrient","Aug19_P25"
-"418","A2","3x3","P6","Pver",0,0,"Aug19","Nutrient","Aug19_P6"
-"419","A2","open","A1","Acr",0,100,"Aug19","Nutrient","Aug19_A1"
-"420","A2","open","A2","Acr",0,0,"Aug19","Nutrient","Aug19_A2"
-"421","A2","open","P1","Pver",0,0,"Aug19","Nutrient","Aug19_P1"
-"422","A2","open","P19","Pver",0,5,"Aug19","Nutrient","Aug19_P19"
-"423","A2","open","P5","Pver",0,0,"Aug19","Nutrient","Aug19_P5"
-"424","B3","1x1","A3","Acr",0,15,"Aug19","Nutrient","Aug19_A3"
-"425","B3","1x1","P11","Pver",25,10,"Aug19","Nutrient","Aug19_P11"
-"426","B3","1x1","P13","Pver",5,15,"Aug19","Nutrient","Aug19_P13"
-"427","B3","1x1","P20","Pver",2,0,"Aug19","Nutrient","Aug19_P20"
-"428","B3","1x1","P21","Pver",0,0,"Aug19","Nutrient","Aug19_P21"
-"429","B3","1x1","P23","Pver",5,0,"Aug19","Nutrient","Aug19_P23"
-"430","B3","2x2","A1","Acr",25,75,"Aug19","Nutrient","Aug19_A1"
-"431","B3","2x2","A6","Acr",0,0,"Aug19","Nutrient","Aug19_A6"
-"432","B3","2x2","P1","Pver",0,0,"Aug19","Nutrient","Aug19_P1"
-"433","B3","3x3","A2","Acr",0,0,"Aug19","Nutrient","Aug19_A2"
-"434","B3","3x3","A3","Acr",0,0,"Aug19","Nutrient","Aug19_A3"
-"435","B3","3x3","P2","Pver",0,0,"Aug19","Nutrient","Aug19_P2"
-"436","B3","3x3","P9","Pver",0,0,"Aug19","Nutrient","Aug19_P9"
-"437","B3","open","A1","Acr",0,0,"Aug19","Nutrient","Aug19_A1"
-"438","B3","open","P10","Pver",0,0,"Aug19","Nutrient","Aug19_P10"
-"439","B3","open","P21","Pver",0,5,"Aug19","Nutrient","Aug19_P21"
-"440","B3","open","P28","Pver",0,0,"Aug19","Nutrient","Aug19_P28"
-"441","B3","open","P5","Pver",0,0,"Aug19","Nutrient","Aug19_P5"
-"442","B4","1x1","A1","Acr",0,0,"Aug19","Ambient","Aug19_A1"
-"443","B4","1x1","P11","Pver",0,0,"Aug19","Ambient","Aug19_P11"
-"444","B4","1x1","P25","Pver",0,0,"Aug19","Ambient","Aug19_P25"
-"445","B4","2x2","A2","Acr",80,20,"Aug19","Ambient","Aug19_A2"
-"446","B4","2x2","A4","Acr",0,0,"Aug19","Ambient","Aug19_A4"
-"447","B4","2x2","A8","Acr",0,0,"Aug19","Ambient","Aug19_A8"
-"448","B4","2x2","P7","Pver",0,0,"Aug19","Ambient","Aug19_P7"
-"449","B4","3x3","A3","Acr",0,0,"Aug19","Ambient","Aug19_A3"
-"450","B4","3x3","A7","Acr",10,0,"Aug19","Ambient","Aug19_A7"
-"451","B4","3x3","P14","Pver",0,0,"Aug19","Ambient","Aug19_P14"
-"452","B4","3x3","P2","Pver",0,0,"Aug19","Ambient","Aug19_P2"
-"453","B4","3x3","P6","Pver",0,0,"Aug19","Ambient","Aug19_P6"
-"454","B4","open","P13","Pver",0,0,"Aug19","Ambient","Aug19_P13"
-"455","B4","open","P5","Pver",0,0,"Aug19","Ambient","Aug19_P5"
-"456","C1","1x1","P20","Pver",0,0,"Aug19","Ambient","Aug19_P20"
-"457","C1","1x1","P4","Pver",0,0,"Aug19","Ambient","Aug19_P4"
-"458","C1","1x1","P5","Pver",5,5,"Aug19","Ambient","Aug19_P5"
-"459","C1","2x2","A1","Acr",0,5,"Aug19","Ambient","Aug19_A1"
-"460","C1","2x2","A4","Acr",0,98,"Aug19","Ambient","Aug19_A4"
-"461","C1","2x2","P15","Pver",0,0,"Aug19","Ambient","Aug19_P15"
-"462","C1","2x2","P16","Pver",35,65,"Aug19","Ambient","Aug19_P16"
-"463","C1","2x2","P18","Pver",0,0,"Aug19","Ambient","Aug19_P18"
-"464","C1","2x2","P3","Pver",0,0,"Aug19","Ambient","Aug19_P3"
-"465","C1","3x3","A1","Acr",0,100,"Aug19","Ambient","Aug19_A1"
-"466","C1","3x3","A5","Acr",0,0,"Aug19","Ambient","Aug19_A5"
-"467","C1","3x3","P13","Pver",0,0,"Aug19","Ambient","Aug19_P13"
-"468","C1","open","P12","Pver",0,0,"Aug19","Ambient","Aug19_P12"
-"469","C1","open","P18","Pver",0,0,"Aug19","Ambient","Aug19_P18"
-"470","C1","open","P3","Pver",0,0,"Aug19","Ambient","Aug19_P3"
-"471","C3","1x1","A2","Acr",0,15,"Aug19","Nutrient","Aug19_A2"
-"472","C3","1x1","P20","Pver",0,0,"Aug19","Nutrient","Aug19_P20"
-"473","C3","1x1","P7","Pver",0,0,"Aug19","Nutrient","Aug19_P7"
-"474","C3","2x2","A1","Acr",0,100,"Aug19","Nutrient","Aug19_A1"
-"475","C3","2x2","A3/Aret73","Acr",0,100,"Aug19","Nutrient","Aug19_A3/Aret73"
-"476","C3","2x2","A4/Aret275","Acr",0,0,"Aug19","Nutrient","Aug19_A4/Aret275"
-"477","C3","2x2","P17","Pver",0,0,"Aug19","Nutrient","Aug19_P17"
-"478","C3","2x2","P22","Pver",0,5,"Aug19","Nutrient","Aug19_P22"
-"479","C3","2x2","P23","Pver",0,10,"Aug19","Nutrient","Aug19_P23"
-"480","C3","3x3","A1/Aret97","Acr",0,0,"Aug19","Nutrient","Aug19_A1/Aret97"
-"481","C3","3x3","P15","Pver",0,0,"Aug19","Nutrient","Aug19_P15"
-"482","C3","3x3","P19","Pver",0,5,"Aug19","Nutrient","Aug19_P19"
-"483","C3","3x3","P24","Pver",0,0,"Aug19","Nutrient","Aug19_P24"
-"484","C3","3x3","P3","Pver",0,0,"Aug19","Nutrient","Aug19_P3"
-"485","C3","open","A1","Acr",0,100,"Aug19","Nutrient","Aug19_A1"
-"486","C3","open","A5","Acr",0,60,"Aug19","Nutrient","Aug19_A5"
-"487","C3","open","A6","Acr",0,1,"Aug19","Nutrient","Aug19_A6"
-"488","C3","open","P11","Pver",0,0,"Aug19","Nutrient","Aug19_P11"
-"489","C3","open","P12","Pver",0,0,"Aug19","Nutrient","Aug19_P12"
-"490","C3","open","P13","Pver",5,5,"Aug19","Nutrient","Aug19_P13"
-"491","C3","open","P15","Pver",10,30,"Aug19","Nutrient","Aug19_P15"
-"492","D2","1x1","A1","Acr",95,0,"Aug19","Ambient","Aug19_A1"
-"493","D2","1x1","A5","Acr",0,100,"Aug19","Ambient","Aug19_A5"
-"494","D2","1x1","A7","Acr",0,0,"Aug19","Ambient","Aug19_A7"
-"495","D2","1x1","P15","Pver",0,10,"Aug19","Ambient","Aug19_P15"
-"496","D2","1x1","P17","Pver",0,0,"Aug19","Ambient","Aug19_P17"
-"497","D2","1x1","P2","Pver",0,0,"Aug19","Ambient","Aug19_P2"
-"498","D2","2x2","A6","Acr",0,0,"Aug19","Ambient","Aug19_A6"
-"499","D2","2x2","A7","Acr",0,100,"Aug19","Ambient","Aug19_A7"
-"500","D2","2x2","P2","Pver",0,0,"Aug19","Ambient","Aug19_P2"
-"501","D2","2x2","P21","Pver",0,0,"Aug19","Ambient","Aug19_P21"
-"502","D2","2x2","P7","Pver",0,30,"Aug19","Ambient","Aug19_P7"
-"503","D2","3x3","A1","Acr",0,100,"Aug19","Ambient","Aug19_A1"
-"504","D2","3x3","P22","Pver",0,0,"Aug19","Ambient","Aug19_P22"
-"505","D2","3x3","P5","Pver",0,0,"Aug19","Ambient","Aug19_P5"
-"506","D2","3x3","P9","Pver",0,10,"Aug19","Ambient","Aug19_P9"
-"507","D2","open","P12","Pver",0,5,"Aug19","Ambient","Aug19_P12"
-"508","D2","open","P13","Pver",0,0,"Aug19","Ambient","Aug19_P13"
-"509","D2","open","P15","Pver",0,0,"Aug19","Ambient","Aug19_P15"
-"510","D4","1x1","A1","Acr",0,0,"Aug19","Nutrient","Aug19_A1"
-"511","D4","1x1","A2","Acr",0,90,"Aug19","Nutrient","Aug19_A2"
-"512","D4","1x1","A3","Acr",0,40,"Aug19","Nutrient","Aug19_A3"
-"513","D4","1x1","A4","Acr",0,0,"Aug19","Nutrient","Aug19_A4"
-"514","D4","1x1","P16","Pver",0,0,"Aug19","Nutrient","Aug19_P16"
-"515","D4","1x1","P5","Pver",0,0,"Aug19","Nutrient","Aug19_P5"
-"516","D4","1x1","P7","Pver",0,15,"Aug19","Nutrient","Aug19_P7"
-"517","D4","2x2","A1","Acr",0,100,"Aug19","Nutrient","Aug19_A1"
-"518","D4","2x2","A2","Acr",0,0,"Aug19","Nutrient","Aug19_A2"
-"519","D4","2x2","P11","Pver",0,0,"Aug19","Nutrient","Aug19_P11"
-"520","D4","2x2","P5","Pver",0,0,"Aug19","Nutrient","Aug19_P5"
-"521","D4","2x2","P6","Pver",0,0,"Aug19","Nutrient","Aug19_P6"
-"522","D4","3x3","A3","Acr",0,0,"Aug19","Nutrient","Aug19_A3"
-"523","D4","3x3","A4","Acr",0,80,"Aug19","Nutrient","Aug19_A4"
-"524","D4","3x3","A5","Acr",100,0,"Aug19","Nutrient","Aug19_A5"
-"525","D4","3x3","P20","Pver",0,0,"Aug19","Nutrient","Aug19_P20"
-"526","D4","3x3","P30","Pver",0,0,"Aug19","Nutrient","Aug19_P30"
-"527","D4","3x3","P8","Pver",0,5,"Aug19","Nutrient","Aug19_P8"
-"528","D4","open","A1","Acr",0,0,"Aug19","Nutrient","Aug19_A1"
-"529","D4","open","P23","Pver",0,0,"Aug19","Nutrient","Aug19_P23"
-"530","D4","open","P5","Pver",0,0,"Aug19","Nutrient","Aug19_P5"
-"531","D4","open","P6","Pver",0,0,"Aug19","Nutrient","Aug19_P6"
-"532","A1","1x1","A5","Acr",0,0,"Nov19","Ambient","Nov19_A5"
-"533","A1","1x1","P11","Pver",0,0,"Nov19","Ambient","Nov19_P11"
-"534","A1","1x1","P16","Pver",0,0,"Nov19","Ambient","Nov19_P16"
-"535","A1","1x1","P9","Pver",0,0,"Nov19","Ambient","Nov19_P9"
-"536","A1","2x2","P13","Pver",0,5,"Nov19","Ambient","Nov19_P13"
-"537","A1","2x2","P8","Pver",0,0,"Nov19","Ambient","Nov19_P8"
-"538","A1","3x3","A3","Acr",0,0,"Nov19","Ambient","Nov19_A3"
-"539","A1","3x3","A4","Acr",0,0,"Nov19","Ambient","Nov19_A4"
-"540","A1","3x3","P12","Pver",0,0,"Nov19","Ambient","Nov19_P12"
-"541","A1","3x3","P8","Pver",0,0,"Nov19","Ambient","Nov19_P8"
-"542","A1","3x3","P9","Pver",0,4,"Nov19","Ambient","Nov19_P9"
-"543","A1","open","A1","Acr",0,100,"Nov19","Ambient","Nov19_A1"
-"544","A1","open","A2","Acr",15,0,"Nov19","Ambient","Nov19_A2"
-"545","A1","open","A3","Acr",100,0,"Nov19","Ambient","Nov19_A3"
-"546","A1","open","P12","Pver",0,0,"Nov19","Ambient","Nov19_P12"
-"547","A1","open","P8","Pver",0,0,"Nov19","Ambient","Nov19_P8"
-"548","A2","1x1","A2","Acr",0,100,"Nov19","Nutrient","Nov19_A2"
-"549","A2","1x1","P11","Pver",0,0,"Nov19","Nutrient","Nov19_P11"
-"550","A2","1x1","P17","Pver",0,0,"Nov19","Nutrient","Nov19_P17"
-"551","A2","1x1","P22","Pver",0,0,"Nov19","Nutrient","Nov19_P22"
-"552","A2","2x2","A3","Acr",0,0,"Nov19","Nutrient","Nov19_A3"
-"553","A2","2x2","P24","Pver",0,0,"Nov19","Nutrient","Nov19_P24"
-"554","A2","2x2","P9","Pver",0,0,"Nov19","Nutrient","Nov19_P9"
-"555","A2","3x3","A2","Acr",0,0,"Nov19","Nutrient","Nov19_A2"
-"556","A2","3x3","P20","Pver",0,0,"Nov19","Nutrient","Nov19_P20"
-"557","A2","3x3","P25","Pver",0,10,"Nov19","Nutrient","Nov19_P25"
-"558","A2","3x3","P6","Pver",0,0,"Nov19","Nutrient","Nov19_P6"
-"559","A2","open","A1","Acr",0,100,"Nov19","Nutrient","Nov19_A1"
-"560","A2","open","A2","Acr",0,0,"Nov19","Nutrient","Nov19_A2"
-"561","A2","open","P1","Pver",0,0,"Nov19","Nutrient","Nov19_P1"
-"562","A2","open","P19","Pver",0,5,"Nov19","Nutrient","Nov19_P19"
-"563","A2","open","P5","Pver",0,0,"Nov19","Nutrient","Nov19_P5"
-"564","B3","1x1","A3","Acr",0,15,"Nov19","Nutrient","Nov19_A3"
-"565","B3","1x1","P11","Pver",0,10,"Nov19","Nutrient","Nov19_P11"
-"566","B3","1x1","P13","Pver",0,20,"Nov19","Nutrient","Nov19_P13"
-"567","B3","1x1","P20","Pver",0,0,"Nov19","Nutrient","Nov19_P20"
-"568","B3","1x1","P21","Pver",0,0,"Nov19","Nutrient","Nov19_P21"
-"569","B3","1x1","P23","Pver",0,0,"Nov19","Nutrient","Nov19_P23"
-"570","B3","2x2","A1","Acr",0,80,"Nov19","Nutrient","Nov19_A1"
-"571","B3","2x2","A6","Acr",0,0,"Nov19","Nutrient","Nov19_A6"
-"572","B3","2x2","P1","Pver",0,0,"Nov19","Nutrient","Nov19_P1"
-"573","B3","3x3","A2","Acr",0,0,"Nov19","Nutrient","Nov19_A2"
-"574","B3","3x3","A3","Acr",0,0,"Nov19","Nutrient","Nov19_A3"
-"575","B3","3x3","P2","Pver",0,0,"Nov19","Nutrient","Nov19_P2"
-"576","B3","3x3","P9","Pver",0,0,"Nov19","Nutrient","Nov19_P9"
-"577","B3","open","A1","Acr",0,0,"Nov19","Nutrient","Nov19_A1"
-"578","B3","open","P10","Pver",0,0,"Nov19","Nutrient","Nov19_P10"
-"579","B3","open","P21","Pver",0,5,"Nov19","Nutrient","Nov19_P21"
-"580","B3","open","P28","Pver",0,0,"Nov19","Nutrient","Nov19_P28"
-"581","B3","open","P5","Pver",0,0,"Nov19","Nutrient","Nov19_P5"
-"582","B4","1x1","A1","Acr",0,0,"Nov19","Ambient","Nov19_A1"
-"583","B4","1x1","P11","Pver",0,0,"Nov19","Ambient","Nov19_P11"
-"584","B4","1x1","P25","Pver",0,0,"Nov19","Ambient","Nov19_P25"
-"585","B4","2x2","A2","Acr",0,99,"Nov19","Ambient","Nov19_A2"
-"586","B4","2x2","A4","Acr",0,0,"Nov19","Ambient","Nov19_A4"
-"587","B4","2x2","A8","Acr",0,0,"Nov19","Ambient","Nov19_A8"
-"588","B4","2x2","P7","Pver",0,0,"Nov19","Ambient","Nov19_P7"
-"589","B4","3x3","A3","Acr",0,0,"Nov19","Ambient","Nov19_A3"
-"590","B4","3x3","A7","Acr",0,0,"Nov19","Ambient","Nov19_A7"
-"591","B4","3x3","P14","Pver",0,0,"Nov19","Ambient","Nov19_P14"
-"592","B4","3x3","P2","Pver",0,0,"Nov19","Ambient","Nov19_P2"
-"593","B4","3x3","P6","Pver",0,0,"Nov19","Ambient","Nov19_P6"
-"594","B4","open","P13","Pver",0,0,"Nov19","Ambient","Nov19_P13"
-"595","B4","open","P5","Pver",0,0,"Nov19","Ambient","Nov19_P5"
-"596","C1","1x1","P20","Pver",0,2,"Nov19","Ambient","Nov19_P20"
-"597","C1","1x1","P4","Pver",0,0,"Nov19","Ambient","Nov19_P4"
-"598","C1","1x1","P5","Pver",0,10,"Nov19","Ambient","Nov19_P5"
-"599","C1","2x2","A1","Acr",0,5,"Nov19","Ambient","Nov19_A1"
-"600","C1","2x2","A4","Acr",0,98,"Nov19","Ambient","Nov19_A4"
-"601","C1","2x2","P15","Pver",0,5,"Nov19","Ambient","Nov19_P15"
-"602","C1","2x2","P16","Pver",0,100,"Nov19","Ambient","Nov19_P16"
-"603","C1","2x2","P18","Pver",0,5,"Nov19","Ambient","Nov19_P18"
-"604","C1","2x2","P3","Pver",0,0,"Nov19","Ambient","Nov19_P3"
-"605","C1","3x3","A1","Acr",0,100,"Nov19","Ambient","Nov19_A1"
-"606","C1","3x3","A5","Acr",0,0,"Nov19","Ambient","Nov19_A5"
-"607","C1","3x3","P13","Pver",0,0,"Nov19","Ambient","Nov19_P13"
-"608","C1","open","P12","Pver",0,0,"Nov19","Ambient","Nov19_P12"
-"609","C1","open","P18","Pver",0,0,"Nov19","Ambient","Nov19_P18"
-"610","C1","open","P3","Pver",0,0,"Nov19","Ambient","Nov19_P3"
-"611","C3","1x1","A2","Acr",0,15,"Nov19","Nutrient","Nov19_A2"
-"612","C3","1x1","P20","Pver",0,0,"Nov19","Nutrient","Nov19_P20"
-"613","C3","1x1","P7","Pver",0,0,"Nov19","Nutrient","Nov19_P7"
-"614","C3","2x2","A1","Acr",0,100,"Nov19","Nutrient","Nov19_A1"
-"615","C3","2x2","A3/Aret73","Acr",0,100,"Nov19","Nutrient","Nov19_A3/Aret73"
-"616","C3","2x2","A4/Aret275","Acr",0,0,"Nov19","Nutrient","Nov19_A4/Aret275"
-"617","C3","2x2","P17","Pver",0,5,"Nov19","Nutrient","Nov19_P17"
-"618","C3","2x2","P22","Pver",0,10,"Nov19","Nutrient","Nov19_P22"
-"619","C3","2x2","P23","Pver",0,15,"Nov19","Nutrient","Nov19_P23"
-"620","C3","3x3","A1/Aret97","Acr",0,0,"Nov19","Nutrient","Nov19_A1/Aret97"
-"621","C3","3x3","P15","Pver",0,0,"Nov19","Nutrient","Nov19_P15"
-"622","C3","3x3","P19","Pver",0,5,"Nov19","Nutrient","Nov19_P19"
-"623","C3","3x3","P24","Pver",0,0,"Nov19","Nutrient","Nov19_P24"
-"624","C3","3x3","P3","Pver",0,0,"Nov19","Nutrient","Nov19_P3"
-"625","C3","open","A1","Acr",0,100,"Nov19","Nutrient","Nov19_A1"
-"626","C3","open","A5","Acr",0,60,"Nov19","Nutrient","Nov19_A5"
-"627","C3","open","A6","Acr",0,1,"Nov19","Nutrient","Nov19_A6"
-"628","C3","open","P11","Pver",0,0,"Nov19","Nutrient","Nov19_P11"
-"629","C3","open","P12","Pver",0,0,"Nov19","Nutrient","Nov19_P12"
-"630","C3","open","P13","Pver",0,5,"Nov19","Nutrient","Nov19_P13"
-"631","C3","open","P15","Pver",0,30,"Nov19","Nutrient","Nov19_P15"
-"632","D2","1x1","A1","Acr",0,0,"Nov19","Ambient","Nov19_A1"
-"633","D2","1x1","A5","Acr",0,100,"Nov19","Ambient","Nov19_A5"
-"634","D2","1x1","A7","Acr",0,0,"Nov19","Ambient","Nov19_A7"
-"635","D2","1x1","P15","Pver",0,10,"Nov19","Ambient","Nov19_P15"
-"636","D2","1x1","P17","Pver",0,0,"Nov19","Ambient","Nov19_P17"
-"637","D2","1x1","P2","Pver",0,0,"Nov19","Ambient","Nov19_P2"
-"638","D2","2x2","A6","Acr",0,0,"Nov19","Ambient","Nov19_A6"
-"639","D2","2x2","A7","Acr",0,100,"Nov19","Ambient","Nov19_A7"
-"640","D2","2x2","P2","Pver",0,0,"Nov19","Ambient","Nov19_P2"
-"641","D2","2x2","P21","Pver",0,0,"Nov19","Ambient","Nov19_P21"
-"642","D2","2x2","P7","Pver",0,40,"Nov19","Ambient","Nov19_P7"
-"643","D2","3x3","A1","Acr",0,100,"Nov19","Ambient","Nov19_A1"
-"644","D2","3x3","P22","Pver",0,0,"Nov19","Ambient","Nov19_P22"
-"645","D2","3x3","P5","Pver",0,0,"Nov19","Ambient","Nov19_P5"
-"646","D2","3x3","P9","Pver",0,10,"Nov19","Ambient","Nov19_P9"
-"647","D2","open","P12","Pver",0,5,"Nov19","Ambient","Nov19_P12"
-"648","D2","open","P13","Pver",0,0,"Nov19","Ambient","Nov19_P13"
-"649","D2","open","P15","Pver",0,0,"Nov19","Ambient","Nov19_P15"
-"650","D4","1x1","A1","Acr",0,0,"Nov19","Nutrient","Nov19_A1"
-"651","D4","1x1","A2","Acr",0,98,"Nov19","Nutrient","Nov19_A2"
-"652","D4","1x1","A3","Acr",0,40,"Nov19","Nutrient","Nov19_A3"
-"653","D4","1x1","A4","Acr",0,0,"Nov19","Nutrient","Nov19_A4"
-"654","D4","1x1","P16","Pver",0,0,"Nov19","Nutrient","Nov19_P16"
-"655","D4","1x1","P5","Pver",0,0,"Nov19","Nutrient","Nov19_P5"
-"656","D4","1x1","P7","Pver",0,15,"Nov19","Nutrient","Nov19_P7"
-"657","D4","2x2","A1","Acr",0,100,"Nov19","Nutrient","Nov19_A1"
-"658","D4","2x2","A2","Acr",0,0,"Nov19","Nutrient","Nov19_A2"
-"659","D4","2x2","P11","Pver",0,0,"Nov19","Nutrient","Nov19_P11"
-"660","D4","2x2","P5","Pver",0,0,"Nov19","Nutrient","Nov19_P5"
-"661","D4","2x2","P6","Pver",0,0,"Nov19","Nutrient","Nov19_P6"
-"662","D4","3x3","A3","Acr",0,0,"Nov19","Nutrient","Nov19_A3"
-"663","D4","3x3","A4","Acr",0,80,"Nov19","Nutrient","Nov19_A4"
-"664","D4","3x3","A5","Acr",0,0,"Nov19","Nutrient","Nov19_A5"
-"665","D4","3x3","P20","Pver",0,0,"Nov19","Nutrient","Nov19_P20"
-"666","D4","3x3","P30","Pver",0,0,"Nov19","Nutrient","Nov19_P30"
-"667","D4","3x3","P8","Pver",0,5,"Nov19","Nutrient","Nov19_P8"
-"668","D4","open","A1","Acr",0,0,"Nov19","Nutrient","Nov19_A1"
-"669","D4","open","P23","Pver",0,0,"Nov19","Nutrient","Nov19_P23"
-"670","D4","open","P5","Pver",0,0,"Nov19","Nutrient","Nov19_P5"
-"671","D4","open","P6","Pver",0,0,"Nov19","Nutrient","Nov19_P6"
-"672","A1","1x1","A5","Acr",0,0,"Aug20","Ambient","Aug20_A5"
-"673","A1","1x1","P11","Pver",0,0,"Aug20","Ambient","Aug20_P11"
-"674","A1","1x1","P16","Pver",0,0,"Aug20","Ambient","Aug20_P16"
-"675","A1","1x1","P9","Pver",0,0,"Aug20","Ambient","Aug20_P9"
-"676","A1","2x2","A4","Acr",0,0,"Aug20","Ambient","Aug20_A4"
-"677","A1","2x2","P13","Pver",0,10,"Aug20","Ambient","Aug20_P13"
-"678","A1","2x2","P8","Pver",0,0,"Aug20","Ambient","Aug20_P8"
-"679","A1","3x3","A3","Acr",0,0,"Aug20","Ambient","Aug20_A3"
-"680","A1","3x3","A4","Acr",5,20,"Aug20","Ambient","Aug20_A4"
-"681","A1","3x3","P12","Pver",0,100,"Aug20","Ambient","Aug20_P12"
-"682","A1","3x3","P8","Pver",0,0,"Aug20","Ambient","Aug20_P8"
-"683","A1","3x3","P9","Pver",0,5,"Aug20","Ambient","Aug20_P9"
-"684","A1","open","A1","Acr",NA,100,"Aug20","Ambient","Aug20_A1"
-"685","A1","open","A2","Acr",0,0,"Aug20","Ambient","Aug20_A2"
-"686","A1","open","A3","Acr",0,0,"Aug20","Ambient","Aug20_A3"
-"687","A1","open","P12","Pver",0,2,"Aug20","Ambient","Aug20_P12"
-"688","A1","open","P8","Pver",0,0,"Aug20","Ambient","Aug20_P8"
-"689","A2","1x1","A2","Acr",NA,100,"Aug20","Nutrient","Aug20_A2"
-"690","A2","1x1","P11","Pver",0,0,"Aug20","Nutrient","Aug20_P11"
-"691","A2","1x1","P17","Pver",0,0,"Aug20","Nutrient","Aug20_P17"
-"692","A2","1x1","P22","Pver",0,0,"Aug20","Nutrient","Aug20_P22"
-"693","A2","2x2","A3","Acr",0,0,"Aug20","Nutrient","Aug20_A3"
-"694","A2","2x2","P24","Pver",0,0,"Aug20","Nutrient","Aug20_P24"
-"695","A2","2x2","P9","Pver",0,0,"Aug20","Nutrient","Aug20_P9"
-"696","A2","3x3","A2","Acr",0,0,"Aug20","Nutrient","Aug20_A2"
-"697","A2","3x3","P20","Pver",0,0,"Aug20","Nutrient","Aug20_P20"
-"698","A2","3x3","P25","Pver",0,15,"Aug20","Nutrient","Aug20_P25"
-"699","A2","3x3","P6","Pver",0,0,"Aug20","Nutrient","Aug20_P6"
-"700","A2","open","A1","Acr",0,100,"Aug20","Nutrient","Aug20_A1"
-"701","A2","open","A2","Acr",0,0,"Aug20","Nutrient","Aug20_A2"
-"702","A2","open","P1","Pver",0,0,"Aug20","Nutrient","Aug20_P1"
-"703","A2","open","P19","Pver",0,5,"Aug20","Nutrient","Aug20_P19"
-"704","A2","open","P5","Pver",5,0,"Aug20","Nutrient","Aug20_P5"
-"705","B3","1x1","A3","Acr",0,10,"Aug20","Nutrient","Aug20_A3"
-"706","B3","1x1","P11","Pver",0,50,"Aug20","Nutrient","Aug20_P11"
-"707","B3","1x1","P13","Pver",0,15,"Aug20","Nutrient","Aug20_P13"
-"708","B3","1x1","P20","Pver",0,0,"Aug20","Nutrient","Aug20_P20"
-"709","B3","1x1","P21","Pver",0,2,"Aug20","Nutrient","Aug20_P21"
-"710","B3","1x1","P23","Pver",0,0,"Aug20","Nutrient","Aug20_P23"
-"711","B3","2x2","A1","Acr",0,100,"Aug20","Nutrient","Aug20_A1"
-"712","B3","2x2","A6","Acr",0,0,"Aug20","Nutrient","Aug20_A6"
-"713","B3","2x2","P1","Pver",0,0,"Aug20","Nutrient","Aug20_P1"
-"714","B3","3x3","A2","Acr",0,0,"Aug20","Nutrient","Aug20_A2"
-"715","B3","3x3","A3","Acr",0,0,"Aug20","Nutrient","Aug20_A3"
-"716","B3","3x3","P2","Pver",0,5,"Aug20","Nutrient","Aug20_P2"
-"717","B3","3x3","P9","Pver",0,0,"Aug20","Nutrient","Aug20_P9"
-"718","B3","open","A1","Acr",0,0,"Aug20","Nutrient","Aug20_A1"
-"719","B3","open","P10","Pver",0,10,"Aug20","Nutrient","Aug20_P10"
-"720","B3","open","P21","Pver",0,0,"Aug20","Nutrient","Aug20_P21"
-"721","B3","open","P28","Pver",0,0,"Aug20","Nutrient","Aug20_P28"
-"722","B3","open","P5","Pver",0,0,"Aug20","Nutrient","Aug20_P5"
-"723","B4","1x1","A1","Acr",0,15,"Aug20","Ambient","Aug20_A1"
-"724","B4","1x1","A2","Acr",0,0,"Aug20","Ambient","Aug20_A2"
-"725","B4","1x1","P11","Pver",0,0,"Aug20","Ambient","Aug20_P11"
-"726","B4","1x1","P25","Pver",0,0,"Aug20","Ambient","Aug20_P25"
-"727","B4","2x2","A2","Acr",0,95,"Aug20","Ambient","Aug20_A2"
-"728","B4","2x2","A4","Acr",0,0,"Aug20","Ambient","Aug20_A4"
-"729","B4","2x2","A8","Acr",0,0,"Aug20","Ambient","Aug20_A8"
-"730","B4","2x2","P7","Pver",0,20,"Aug20","Ambient","Aug20_P7"
-"731","B4","3x3","A3","Acr",0,0,"Aug20","Ambient","Aug20_A3"
-"732","B4","3x3","A7","Acr",0,0,"Aug20","Ambient","Aug20_A7"
-"733","B4","3x3","P14","Pver",0,0,"Aug20","Ambient","Aug20_P14"
-"734","B4","3x3","P2","Pver",0,10,"Aug20","Ambient","Aug20_P2"
-"735","B4","3x3","P6","Pver",0,0,"Aug20","Ambient","Aug20_P6"
-"736","B4","open","A2","Acr",0,0,"Aug20","Ambient","Aug20_A2"
-"737","B4","open","P13","Pver",0,0,"Aug20","Ambient","Aug20_P13"
-"738","B4","open","P5","Pver",0,0,"Aug20","Ambient","Aug20_P5"
-"739","C1","1x1","P20","Pver",0,15,"Aug20","Ambient","Aug20_P20"
-"740","C1","1x1","P4","Pver",0,0,"Aug20","Ambient","Aug20_P4"
-"741","C1","1x1","P5","Pver",0,10,"Aug20","Ambient","Aug20_P5"
-"742","C1","2x2","A1","Acr",0,15,"Aug20","Ambient","Aug20_A1"
-"743","C1","2x2","A4","Acr",0,98,"Aug20","Ambient","Aug20_A4"
-"744","C1","2x2","P15","Pver",0,15,"Aug20","Ambient","Aug20_P15"
-"745","C1","2x2","P16","Pver",0,100,"Aug20","Ambient","Aug20_P16"
-"746","C1","2x2","P18","Pver",0,10,"Aug20","Ambient","Aug20_P18"
-"747","C1","2x2","P3","Pver",0,0,"Aug20","Ambient","Aug20_P3"
-"748","C1","3x3","A1","Acr",0,100,"Aug20","Ambient","Aug20_A1"
-"749","C1","3x3","A5","Acr",0,0,"Aug20","Ambient","Aug20_A5"
-"750","C1","3x3","P13","Pver",0,0,"Aug20","Ambient","Aug20_P13"
-"751","C1","open","P12","Pver",0,5,"Aug20","Ambient","Aug20_P12"
-"752","C1","open","P18","Pver",0,0,"Aug20","Ambient","Aug20_P18"
-"753","C1","open","P3","Pver",0,0,"Aug20","Ambient","Aug20_P3"
-"754","C3","1x1","A2","Acr",0,10,"Aug20","Nutrient","Aug20_A2"
-"755","C3","1x1","P20","Pver",0,0,"Aug20","Nutrient","Aug20_P20"
-"756","C3","1x1","P7","Pver",0,0,"Aug20","Nutrient","Aug20_P7"
-"757","C3","2x2","A1","Acr",0,100,"Aug20","Nutrient","Aug20_A1"
-"758","C3","2x2","A3/Aret73","Acr",0,100,"Aug20","Nutrient","Aug20_A3/Aret73"
-"759","C3","2x2","A4/Aret275","Acr",0,0,"Aug20","Nutrient","Aug20_A4/Aret275"
-"760","C3","2x2","P17","Pver",0,15,"Aug20","Nutrient","Aug20_P17"
-"761","C3","2x2","P22","Pver",0,20,"Aug20","Nutrient","Aug20_P22"
-"762","C3","2x2","P23","Pver",0,10,"Aug20","Nutrient","Aug20_P23"
-"763","C3","3x3","A1/Aret97","Acr",0,0,"Aug20","Nutrient","Aug20_A1/Aret97"
-"764","C3","3x3","A2/Aret 42","Acr",0,0,"Aug20","Nutrient","Aug20_A2/Aret 42"
-"765","C3","3x3","P15","Pver",0,5,"Aug20","Nutrient","Aug20_P15"
-"766","C3","3x3","P19","Pver",0,3,"Aug20","Nutrient","Aug20_P19"
-"767","C3","3x3","P24","Pver",0,15,"Aug20","Nutrient","Aug20_P24"
-"768","C3","3x3","P3","Pver",0,0,"Aug20","Nutrient","Aug20_P3"
-"769","C3","open","A1","Acr",0,100,"Aug20","Nutrient","Aug20_A1"
-"770","C3","open","A5","Acr",0,50,"Aug20","Nutrient","Aug20_A5"
-"771","C3","open","A6","Acr",0,0,"Aug20","Nutrient","Aug20_A6"
-"772","C3","open","P11","Pver",0,0,"Aug20","Nutrient","Aug20_P11"
-"773","C3","open","P12","Pver",0,0,"Aug20","Nutrient","Aug20_P12"
-"774","C3","open","P13","Pver",0,5,"Aug20","Nutrient","Aug20_P13"
-"775","C3","open","P15","Pver",0,95,"Aug20","Nutrient","Aug20_P15"
-"776","D2","1x1","A1","Acr",0,0,"Aug20","Ambient","Aug20_A1"
-"777","D2","1x1","A5","Acr",NA,100,"Aug20","Ambient","Aug20_A5"
-"778","D2","1x1","A7","Acr",0,0,"Aug20","Ambient","Aug20_A7"
-"779","D2","1x1","P15","Pver",0,10,"Aug20","Ambient","Aug20_P15"
-"780","D2","1x1","P17","Pver",0,0,"Aug20","Ambient","Aug20_P17"
-"781","D2","1x1","P2","Pver",0,2,"Aug20","Ambient","Aug20_P2"
-"782","D2","2x2","A6","Acr",0,0,"Aug20","Ambient","Aug20_A6"
-"783","D2","2x2","A7","Acr",NA,100,"Aug20","Ambient","Aug20_A7"
-"784","D2","2x2","P2","Pver",0,40,"Aug20","Ambient","Aug20_P2"
-"785","D2","2x2","P21","Pver",0,2,"Aug20","Ambient","Aug20_P21"
-"786","D2","2x2","P7","Pver",0,60,"Aug20","Ambient","Aug20_P7"
-"787","D2","3x3","A1","Acr",NA,100,"Aug20","Ambient","Aug20_A1"
-"788","D2","3x3","P22","Pver",0,0,"Aug20","Ambient","Aug20_P22"
-"789","D2","3x3","P5","Pver",0,0,"Aug20","Ambient","Aug20_P5"
-"790","D2","3x3","P9","Pver",0,15,"Aug20","Ambient","Aug20_P9"
-"791","D2","open","P12","Pver",0,10,"Aug20","Ambient","Aug20_P12"
-"792","D2","open","P13","Pver",0,0,"Aug20","Ambient","Aug20_P13"
-"793","D2","open","P15","Pver",0,0,"Aug20","Ambient","Aug20_P15"
-"794","D4","1x1","A1","Acr",0,0,"Aug20","Nutrient","Aug20_A1"
-"795","D4","1x1","A2","Acr",NA,98,"Aug20","Nutrient","Aug20_A2"
-"796","D4","1x1","A3","Acr",0,40,"Aug20","Nutrient","Aug20_A3"
-"797","D4","1x1","A4","Acr",0,0,"Aug20","Nutrient","Aug20_A4"
-"798","D4","1x1","P16","Pver",0,0,"Aug20","Nutrient","Aug20_P16"
-"799","D4","1x1","P5","Pver",0,0,"Aug20","Nutrient","Aug20_P5"
-"800","D4","1x1","P7","Pver",0,20,"Aug20","Nutrient","Aug20_P7"
-"801","D4","2x2","A1","Acr",NA,100,"Aug20","Nutrient","Aug20_A1"
-"802","D4","2x2","A2","Acr",0,0,"Aug20","Nutrient","Aug20_A2"
-"803","D4","2x2","A3","Acr",0,0,"Aug20","Nutrient","Aug20_A3"
-"804","D4","2x2","P11","Pver",0,0,"Aug20","Nutrient","Aug20_P11"
-"805","D4","2x2","P5","Pver",0,15,"Aug20","Nutrient","Aug20_P5"
-"806","D4","2x2","P6","Pver",0,0,"Aug20","Nutrient","Aug20_P6"
-"807","D4","3x3","A3","Acr",0,0,"Aug20","Nutrient","Aug20_A3"
-"808","D4","3x3","A4","Acr",0,50,"Aug20","Nutrient","Aug20_A4"
-"809","D4","3x3","A5","Acr",0,0,"Aug20","Nutrient","Aug20_A5"
-"810","D4","3x3","P20","Pver",0,0,"Aug20","Nutrient","Aug20_P20"
-"811","D4","3x3","P30","Pver",0,0,"Aug20","Nutrient","Aug20_P30"
-"812","D4","3x3","P8","Pver",0,5,"Aug20","Nutrient","Aug20_P8"
-"813","D4","open","A1","Acr",0,0,"Aug20","Nutrient","Aug20_A1"
-"814","D4","open","A6","Acr",0,0,"Aug20","Nutrient","Aug20_A6"
-"815","D4","open","P23","Pver",0,0,"Aug20","Nutrient","Aug20_P23"
-"816","D4","open","P5","Pver",0,0,"Aug20","Nutrient","Aug20_P5"
-"817","D4","open","P6","Pver",0,0,"Aug20","Nutrient","Aug20_P6"
-"818","A1","1x1","plob_220","Plob",0,0,"Jul18","Ambient","Jul18_plob_220"
-"819","A1","3x3","plob_222","Plob",0,0,"Jul18","Ambient","Jul18_plob_222"
-"820","A1","open","plob_224","Plob",0,0,"Jul18","Ambient","Jul18_plob_224"
-"821","A1","open","plob_225","Plob",0,0,"Jul18","Ambient","Jul18_plob_225"
-"822","A2","1x1","plob_205","Plob",0,0,"Jul18","Nutrient","Jul18_plob_205"
-"823","A2","1x1","plob_206/31/15","Plob",0,0,"Jul18","Nutrient","Jul18_plob_206/31/15"
-"824","A2","1x1","plob_914","Plob",0,0,"Jul18","Nutrient","Jul18_plob_914"
-"825","A2","2x2","plob_208","Plob",0,0,"Jul18","Nutrient","Jul18_plob_208"
-"826","A2","2x2","plob_209","Plob",0,0,"Jul18","Nutrient","Jul18_plob_209"
-"827","A2","3x3","plob_211","Plob",0,0,"Jul18","Nutrient","Jul18_plob_211"
-"828","A2","3x3","plob_913","Plob",0,0,"Jul18","Nutrient","Jul18_plob_913"
-"829","A2","open","plob_215","Plob",0,0,"Jul18","Nutrient","Jul18_plob_215"
-"830","A2","open","plob_216","Plob",0,0,"Jul18","Nutrient","Jul18_plob_216"
-"831","A2","open","plob_912","Plob",0,0,"Jul18","Nutrient","Jul18_plob_912"
-"832","B3","1x1","plob_907","Plob",0,0,"Jul18","Nutrient","Jul18_plob_907"
-"833","B3","2x2","plob_909","Plob",0,0,"Jul18","Nutrient","Jul18_plob_909"
-"834","B3","3x3","plob_150","Plob",0,0,"Jul18","Nutrient","Jul18_plob_150"
-"835","B3","3x3","plob_264","Plob",0,0,"Jul18","Nutrient","Jul18_plob_264"
-"836","B3","3x3","plob_910","Plob",0,0,"Jul18","Nutrient","Jul18_plob_910"
-"837","B3","open","plob_908","Plob",0,0,"Jul18","Nutrient","Jul18_plob_908"
-"838","B4","2x2","plob_?","Plob",0,0,"Jul18","Ambient","Jul18_plob_?"
-"839","B4","2x2","plob_439","Plob",0,0,"Jul18","Ambient","Jul18_plob_439"
-"840","B4","3x3","plob_368","Plob",0,0,"Jul18","Ambient","Jul18_plob_368"
-"841","B4","open","plob_235","Plob",0,0,"Jul18","Ambient","Jul18_plob_235"
-"842","C1","1x1","plob_281","Plob",0,0,"Jul18","Ambient","Jul18_plob_281"
-"843","C1","1x1","plob_283","Plob",0,0,"Jul18","Ambient","Jul18_plob_283"
-"844","C1","2x2","plob_287","Plob",0,0,"Jul18","Ambient","Jul18_plob_287"
-"845","C1","3x3","plob_306","Plob",0,0,"Jul18","Ambient","Jul18_plob_306"
-"846","C1","open","plob_280","Plob",0,3,"Jul18","Ambient","Jul18_plob_280"
-"847","C1","open","plob_281","Plob",0,0,"Jul18","Ambient","Jul18_plob_281"
-"848","C3","1x1","plob_272","Plob",0,0,"Jul18","Nutrient","Jul18_plob_272"
-"849","C3","1x1","plob_905","Plob",0,2,"Jul18","Nutrient","Jul18_plob_905"
-"850","C3","2x2","plob_903","Plob",0,0,"Jul18","Nutrient","Jul18_plob_903"
-"851","C3","3x3","plob_276","Plob",0,0,"Jul18","Nutrient","Jul18_plob_276"
-"852","C3","3x3","plob_279","Plob",0,0,"Jul18","Nutrient","Jul18_plob_279"
-"853","C3","3x3","plob_904","Plob",0,0,"Jul18","Nutrient","Jul18_plob_904"
-"854","C3","open","plob_268","Plob",0,0,"Jul18","Nutrient","Jul18_plob_268"
-"855","C3","open","plob_906","Plob",0,0,"Jul18","Nutrient","Jul18_plob_906"
-"856","D2","1x1","plob_258","Plob",0,0,"Jul18","Ambient","Jul18_plob_258"
-"857","D2","2x2","plob_901/91","Plob",0,0,"Jul18","Ambient","Jul18_plob_901/91"
-"858","D2","3x3","plob_239","Plob",0,0,"Jul18","Ambient","Jul18_plob_239"
-"859","D2","3x3","plob_902","Plob",0,0,"Jul18","Ambient","Jul18_plob_902"
-"860","D2","open","plob_237","Plob",0,0,"Jul18","Ambient","Jul18_plob_237"
-"861","D2","open","plob_700","Plob",0,0,"Jul18","Ambient","Jul18_plob_700"
-"862","D4","1x1","plob_298","Plob",0,0,"Jul18","Nutrient","Jul18_plob_298"
-"863","D4","2x2","plob_252","Plob",0,0,"Jul18","Nutrient","Jul18_plob_252"
-"864","D4","3x3","plob_257","Plob",0,0,"Jul18","Nutrient","Jul18_plob_257"
-"865","D4","3x3","plob_296","Plob",0,0,"Jul18","Nutrient","Jul18_plob_296"
-"866","D4","open","plob_246","Plob",0,0,"Jul18","Nutrient","Jul18_plob_246"
-"867","D4","open","plob_247","Plob",0,0,"Jul18","Nutrient","Jul18_plob_247"
-"868","A1","1x1","plob_220","Plob",0,0,"Nov18","Ambient","Nov18_plob_220"
-"869","A1","3x3","plob_222","Plob",0,0,"Nov18","Ambient","Nov18_plob_222"
-"870","A1","open","plob_224","Plob",0,0,"Nov18","Ambient","Nov18_plob_224"
-"871","A1","open","plob_225","Plob",0,80,"Nov18","Ambient","Nov18_plob_225"
-"872","A2","1x1","plob_205","Plob",0,0,"Nov18","Nutrient","Nov18_plob_205"
-"873","A2","1x1","plob_206/31/15","Plob",0,0,"Nov18","Nutrient","Nov18_plob_206/31/15"
-"874","A2","1x1","plob_914","Plob",0,0,"Nov18","Nutrient","Nov18_plob_914"
-"875","A2","2x2","plob_208","Plob",0,0,"Nov18","Nutrient","Nov18_plob_208"
-"876","A2","2x2","plob_209","Plob",0,0,"Nov18","Nutrient","Nov18_plob_209"
-"877","A2","3x3","plob_211","Plob",0,0,"Nov18","Nutrient","Nov18_plob_211"
-"878","A2","3x3","plob_913","Plob",0,0,"Nov18","Nutrient","Nov18_plob_913"
-"879","A2","open","plob_215","Plob",0,0,"Nov18","Nutrient","Nov18_plob_215"
-"880","A2","open","plob_216","Plob",0,0,"Nov18","Nutrient","Nov18_plob_216"
-"881","A2","open","plob_912","Plob",0,0,"Nov18","Nutrient","Nov18_plob_912"
-"882","B3","1x1","plob_907","Plob",0,30,"Nov18","Nutrient","Nov18_plob_907"
-"883","B3","2x2","plob_909","Plob",0,10,"Nov18","Nutrient","Nov18_plob_909"
-"884","B3","3x3","plob_150","Plob",0,0,"Nov18","Nutrient","Nov18_plob_150"
-"885","B3","3x3","plob_264","Plob",0,0,"Nov18","Nutrient","Nov18_plob_264"
-"886","B3","3x3","plob_910","Plob",0,0,"Nov18","Nutrient","Nov18_plob_910"
-"887","B3","open","plob_908","Plob",0,10,"Nov18","Nutrient","Nov18_plob_908"
-"888","B4","2x2","plob_?","Plob",0,0,"Nov18","Ambient","Nov18_plob_?"
-"889","B4","2x2","plob_439","Plob",0,0,"Nov18","Ambient","Nov18_plob_439"
-"890","B4","3x3","plob_368","Plob",0,0,"Nov18","Ambient","Nov18_plob_368"
-"891","B4","open","plob_235","Plob",0,0,"Nov18","Ambient","Nov18_plob_235"
-"892","C1","1x1","plob_281","Plob",0,0,"Nov18","Ambient","Nov18_plob_281"
-"893","C1","1x1","plob_283","Plob",0,0,"Nov18","Ambient","Nov18_plob_283"
-"894","C1","2x2","plob_287","Plob",0,0,"Nov18","Ambient","Nov18_plob_287"
-"895","C1","3x3","plob_306","Plob",0,0,"Nov18","Ambient","Nov18_plob_306"
-"896","C1","open","plob_280","Plob",0,3,"Nov18","Ambient","Nov18_plob_280"
-"897","C1","open","plob_281","Plob",0,0,"Nov18","Ambient","Nov18_plob_281"
-"898","C3","1x1","plob_272","Plob",0,0,"Nov18","Nutrient","Nov18_plob_272"
-"899","C3","1x1","plob_905","Plob",0,2,"Nov18","Nutrient","Nov18_plob_905"
-"900","C3","2x2","plob_903","Plob",0,15,"Nov18","Nutrient","Nov18_plob_903"
-"901","C3","3x3","plob_276","Plob",0,5,"Nov18","Nutrient","Nov18_plob_276"
-"902","C3","3x3","plob_279","Plob",0,5,"Nov18","Nutrient","Nov18_plob_279"
-"903","C3","3x3","plob_904","Plob",0,3,"Nov18","Nutrient","Nov18_plob_904"
-"904","C3","open","plob_268","Plob",0,0,"Nov18","Nutrient","Nov18_plob_268"
-"905","C3","open","plob_906","Plob",0,0,"Nov18","Nutrient","Nov18_plob_906"
-"906","D2","1x1","plob_258","Plob",0,10,"Nov18","Ambient","Nov18_plob_258"
-"907","D2","2x2","plob_901/91","Plob",0,1,"Nov18","Ambient","Nov18_plob_901/91"
-"908","D2","3x3","plob_239","Plob",0,0,"Nov18","Ambient","Nov18_plob_239"
-"909","D2","3x3","plob_902","Plob",0,1,"Nov18","Ambient","Nov18_plob_902"
-"910","D2","open","plob_237","Plob",0,0,"Nov18","Ambient","Nov18_plob_237"
-"911","D2","open","plob_700","Plob",0,2,"Nov18","Ambient","Nov18_plob_700"
-"912","D4","1x1","plob_298","Plob",0,0,"Nov18","Nutrient","Nov18_plob_298"
-"913","D4","2x2","plob_252","Plob",0,0,"Nov18","Nutrient","Nov18_plob_252"
-"914","D4","3x3","plob_257","Plob",0,0,"Nov18","Nutrient","Nov18_plob_257"
-"915","D4","3x3","plob_296","Plob",0,3,"Nov18","Nutrient","Nov18_plob_296"
-"916","D4","open","plob_246","Plob",0,0,"Nov18","Nutrient","Nov18_plob_246"
-"917","D4","open","plob_247","Plob",0,0,"Nov18","Nutrient","Nov18_plob_247"
-"918","A1","3x3","plob_222","Plob",0,0,"Mar19","Ambient","Mar19_plob_222"
-"919","A1","open","plob_224","Plob",5,10,"Mar19","Ambient","Mar19_plob_224"
-"920","A1","open","plob_225","Plob",0,85,"Mar19","Ambient","Mar19_plob_225"
-"921","A2","1x1","plob_205","Plob",0,0,"Mar19","Nutrient","Mar19_plob_205"
-"922","A2","1x1","plob_206/31/15","Plob",0,0,"Mar19","Nutrient","Mar19_plob_206/31/15"
-"923","A2","1x1","plob_914","Plob",0,90,"Mar19","Nutrient","Mar19_plob_914"
-"924","A2","2x2","plob_208","Plob",0,5,"Mar19","Nutrient","Mar19_plob_208"
-"925","A2","2x2","plob_209","Plob",0,0,"Mar19","Nutrient","Mar19_plob_209"
-"926","A2","3x3","plob_211","Plob",0,5,"Mar19","Nutrient","Mar19_plob_211"
-"927","A2","3x3","plob_913","Plob",0,0,"Mar19","Nutrient","Mar19_plob_913"
-"928","A2","open","plob_215","Plob",0,0,"Mar19","Nutrient","Mar19_plob_215"
-"929","A2","open","plob_216","Plob",0,0,"Mar19","Nutrient","Mar19_plob_216"
-"930","A2","open","plob_912","Plob",0,100,"Mar19","Nutrient","Mar19_plob_912"
-"931","B3","1x1","plob_907","Plob",0,80,"Mar19","Nutrient","Mar19_plob_907"
-"932","B3","2x2","plob_909","Plob",0,12,"Mar19","Nutrient","Mar19_plob_909"
-"933","B3","3x3","plob_150","Plob",0,20,"Mar19","Nutrient","Mar19_plob_150"
-"934","B3","3x3","plob_264","Plob",0,20,"Mar19","Nutrient","Mar19_plob_264"
-"935","B3","3x3","plob_910","Plob",0,90,"Mar19","Nutrient","Mar19_plob_910"
-"936","B3","open","plob_908","Plob",0,50,"Mar19","Nutrient","Mar19_plob_908"
-"937","B4","2x2","plob_?","Plob",0,10,"Mar19","Ambient","Mar19_plob_?"
-"938","B4","2x2","plob_439","Plob",0,0,"Mar19","Ambient","Mar19_plob_439"
-"939","B4","3x3","plob_131","Plob",0,0,"Mar19","Ambient","Mar19_plob_131"
-"940","B4","3x3","plob_368","Plob",0,10,"Mar19","Ambient","Mar19_plob_368"
-"941","B4","open","plob_235","Plob",0,0,"Mar19","Ambient","Mar19_plob_235"
-"942","C1","1x1","plob_281","Plob",0,0,"Mar19","Ambient","Mar19_plob_281"
-"943","C1","1x1","plob_283","Plob",0,0,"Mar19","Ambient","Mar19_plob_283"
-"944","C1","2x2","plob_287","Plob",0,0,"Mar19","Ambient","Mar19_plob_287"
-"945","C1","3x3","plob_306","Plob",0,0,"Mar19","Ambient","Mar19_plob_306"
-"946","C1","open","plob_280","Plob",0,5,"Mar19","Ambient","Mar19_plob_280"
-"947","C1","open","plob_281","Plob",0,0,"Mar19","Ambient","Mar19_plob_281"
-"948","C3","1x1","plob_272","Plob",0,0,"Mar19","Nutrient","Mar19_plob_272"
-"949","C3","1x1","plob_905","Plob",0,7,"Mar19","Nutrient","Mar19_plob_905"
-"950","C3","2x2","plob_903","Plob",0,40,"Mar19","Nutrient","Mar19_plob_903"
-"951","C3","3x3","plob_276","Plob",0,10,"Mar19","Nutrient","Mar19_plob_276"
-"952","C3","3x3","plob_279","Plob",0,5,"Mar19","Nutrient","Mar19_plob_279"
-"953","C3","3x3","plob_904","Plob",0,15,"Mar19","Nutrient","Mar19_plob_904"
-"954","C3","open","plob_268","Plob",0,2,"Mar19","Nutrient","Mar19_plob_268"
-"955","C3","open","plob_906","Plob",0,0,"Mar19","Nutrient","Mar19_plob_906"
-"956","D2","1x1","plob_258","Plob",0,50,"Mar19","Ambient","Mar19_plob_258"
-"957","D2","2x2","plob_901/91","Plob",0,1,"Mar19","Ambient","Mar19_plob_901/91"
-"958","D2","3x3","plob_239","Plob",0,2,"Mar19","Ambient","Mar19_plob_239"
-"959","D2","3x3","plob_902","Plob",0,100,"Mar19","Ambient","Mar19_plob_902"
-"960","D2","open","plob_237","Plob",0,0,"Mar19","Ambient","Mar19_plob_237"
-"961","D2","open","plob_700","Plob",0,5,"Mar19","Ambient","Mar19_plob_700"
-"962","D4","1x1","plob_298","Plob",0,0,"Mar19","Nutrient","Mar19_plob_298"
-"963","D4","2x2","plob_252","Plob",0,0,"Mar19","Nutrient","Mar19_plob_252"
-"964","D4","3x3","plob_257","Plob",0,0,"Mar19","Nutrient","Mar19_plob_257"
-"965","D4","3x3","plob_296","Plob",0,3,"Mar19","Nutrient","Mar19_plob_296"
-"966","D4","open","plob_246","Plob",0,10,"Mar19","Nutrient","Mar19_plob_246"
-"967","D4","open","plob_247","Plob",0,0,"Mar19","Nutrient","Mar19_plob_247"
-"968","A1","3x3","plob_222","Plob",0,40,"Aug19","Ambient","Aug19_plob_222"
-"969","A1","open","plob_224","Plob",0,25,"Aug19","Ambient","Aug19_plob_224"
-"970","A1","open","plob_225","Plob",0,85,"Aug19","Ambient","Aug19_plob_225"
-"971","A2","1x1","plob_205","Plob",0,0,"Aug19","Nutrient","Aug19_plob_205"
-"972","A2","1x1","plob_206/31/15","Plob",0,0,"Aug19","Nutrient","Aug19_plob_206/31/15"
-"973","A2","1x1","plob_914","Plob",0,90,"Aug19","Nutrient","Aug19_plob_914"
-"974","A2","2x2","plob_208","Plob",0,10,"Aug19","Nutrient","Aug19_plob_208"
-"975","A2","2x2","plob_209","Plob",0,10,"Aug19","Nutrient","Aug19_plob_209"
-"976","A2","3x3","plob_211","Plob",0,15,"Aug19","Nutrient","Aug19_plob_211"
-"977","A2","3x3","plob_913","Plob",0,1,"Aug19","Nutrient","Aug19_plob_913"
-"978","A2","open","plob_215","Plob",0,0,"Aug19","Nutrient","Aug19_plob_215"
-"979","A2","open","plob_216","Plob",0,0,"Aug19","Nutrient","Aug19_plob_216"
-"980","A2","open","plob_912","Plob",0,100,"Aug19","Nutrient","Aug19_plob_912"
-"981","B3","1x1","plob_907","Plob",0,100,"Aug19","Nutrient","Aug19_plob_907"
-"982","B3","2x2","plob_909","Plob",0,80,"Aug19","Nutrient","Aug19_plob_909"
-"983","B3","3x3","plob_150","Plob",NA,25,"Aug19","Nutrient","Aug19_plob_150"
-"984","B3","3x3","plob_264","Plob",0,80,"Aug19","Nutrient","Aug19_plob_264"
-"985","B3","3x3","plob_910","Plob",0,100,"Aug19","Nutrient","Aug19_plob_910"
-"986","B3","open","plob_908","Plob",0,85,"Aug19","Nutrient","Aug19_plob_908"
-"987","B4","2x2","plob_?","Plob",10,15,"Aug19","Ambient","Aug19_plob_?"
-"988","B4","2x2","plob_439","Plob",0,0,"Aug19","Ambient","Aug19_plob_439"
-"989","B4","3x3","plob_131","Plob",0,0,"Aug19","Ambient","Aug19_plob_131"
-"990","B4","3x3","plob_368","Plob",0,10,"Aug19","Ambient","Aug19_plob_368"
-"991","B4","open","plob_235","Plob",0,15,"Aug19","Ambient","Aug19_plob_235"
-"992","C1","1x1","plob_281","Plob",0,5,"Aug19","Ambient","Aug19_plob_281"
-"993","C1","1x1","plob_283","Plob",0,0,"Aug19","Ambient","Aug19_plob_283"
-"994","C1","2x2","plob_287","Plob",0,0,"Aug19","Ambient","Aug19_plob_287"
-"995","C1","3x3","plob_306","Plob",0,0,"Aug19","Ambient","Aug19_plob_306"
-"996","C1","open","plob_280","Plob",0,5,"Aug19","Ambient","Aug19_plob_280"
-"997","C1","open","plob_281","Plob",0,0,"Aug19","Ambient","Aug19_plob_281"
-"998","C3","1x1","plob_272","Plob",0,5,"Aug19","Nutrient","Aug19_plob_272"
-"999","C3","1x1","plob_905","Plob",0,30,"Aug19","Nutrient","Aug19_plob_905"
-"1000","C3","2x2","plob_903","Plob",0,100,"Aug19","Nutrient","Aug19_plob_903"
-"1001","C3","3x3","plob_276","Plob",0,20,"Aug19","Nutrient","Aug19_plob_276"
-"1002","C3","3x3","plob_279","Plob",0,2,"Aug19","Nutrient","Aug19_plob_279"
-"1003","C3","3x3","plob_904","Plob",0,15,"Aug19","Nutrient","Aug19_plob_904"
-"1004","C3","open","plob_268","Plob",0,0,"Aug19","Nutrient","Aug19_plob_268"
-"1005","C3","open","plob_906","Plob",0,0,"Aug19","Nutrient","Aug19_plob_906"
-"1006","D2","1x1","plob_258","Plob",0,70,"Aug19","Ambient","Aug19_plob_258"
-"1007","D2","2x2","plob_901/91","Plob",0,2,"Aug19","Ambient","Aug19_plob_901/91"
-"1008","D2","3x3","plob_239","Plob",2,10,"Aug19","Ambient","Aug19_plob_239"
-"1009","D2","3x3","plob_902","Plob",0,100,"Aug19","Ambient","Aug19_plob_902"
-"1010","D2","open","plob_237","Plob",0,0,"Aug19","Ambient","Aug19_plob_237"
-"1011","D2","open","plob_700","Plob",0,1,"Aug19","Ambient","Aug19_plob_700"
-"1012","D4","1x1","plob_298","Plob",0,10,"Aug19","Nutrient","Aug19_plob_298"
-"1013","D4","2x2","plob_252","Plob",0,5,"Aug19","Nutrient","Aug19_plob_252"
-"1014","D4","3x3","plob_257","Plob",0,2,"Aug19","Nutrient","Aug19_plob_257"
-"1015","D4","3x3","plob_296","Plob",0,10,"Aug19","Nutrient","Aug19_plob_296"
-"1016","D4","open","plob_246","Plob",0,10,"Aug19","Nutrient","Aug19_plob_246"
-"1017","D4","open","plob_247","Plob",0,5,"Aug19","Nutrient","Aug19_plob_247"
-"1018","C1","open","plob_280","Plob",0,5,"Nov19","Ambient","Nov19_plob_280"
-"1019","C1","open","plob_281","Plob",0,0,"Nov19","Ambient","Nov19_plob_281"
-"1020","C3","1x1","plob_272","Plob",0,15,"Nov19","Nutrient","Nov19_plob_272"
-"1021","C3","1x1","plob_905","Plob",0,60,"Nov19","Nutrient","Nov19_plob_905"
-"1022","C3","2x2","plob_903","Plob",0,100,"Nov19","Nutrient","Nov19_plob_903"
-"1023","C3","3x3","plob_276","Plob",0,30,"Nov19","Nutrient","Nov19_plob_276"
-"1024","C3","3x3","plob_279","Plob",0,10,"Nov19","Nutrient","Nov19_plob_279"
-"1025","C3","3x3","plob_904","Plob",0,15,"Nov19","Nutrient","Nov19_plob_904"
-"1026","C3","open","plob_268","Plob",0,0,"Nov19","Nutrient","Nov19_plob_268"
-"1027","C3","open","plob_906","Plob",0,0,"Nov19","Nutrient","Nov19_plob_906"
-"1028","D2","1x1","plob_258","Plob",0,100,"Nov19","Ambient","Nov19_plob_258"
-"1029","D2","2x2","plob_901/91","Plob",0,5,"Nov19","Ambient","Nov19_plob_901/91"
-"1030","D2","3x3","plob_239","Plob",0,15,"Nov19","Ambient","Nov19_plob_239"
-"1031","D2","3x3","plob_902","Plob",0,100,"Nov19","Ambient","Nov19_plob_902"
-"1032","D2","open","plob_237","Plob",0,0,"Nov19","Ambient","Nov19_plob_237"
-"1033","D2","open","plob_700","Plob",0,2,"Nov19","Ambient","Nov19_plob_700"
-"1034","D4","1x1","plob_298","Plob",0,20,"Nov19","Nutrient","Nov19_plob_298"
-"1035","D4","2x2","plob_252","Plob",0,30,"Nov19","Nutrient","Nov19_plob_252"
-"1036","D4","3x3","plob_257","Plob",0,2,"Nov19","Nutrient","Nov19_plob_257"
-"1037","D4","3x3","plob_296","Plob",0,13,"Nov19","Nutrient","Nov19_plob_296"
-"1038","D4","open","plob_246","Plob",0,10,"Nov19","Nutrient","Nov19_plob_246"
-"1039","D4","open","plob_247","Plob",0,10,"Nov19","Nutrient","Nov19_plob_247"
-"1040","A1","1x1","plob_220","Plob",0,0,"Aug20","Ambient","Aug20_plob_220"
-"1041","A1","3x3","plob_222","Plob",0,50,"Aug20","Ambient","Aug20_plob_222"
-"1042","A1","open","plob_224","Plob",0,10,"Aug20","Ambient","Aug20_plob_224"
-"1043","A1","open","plob_225","Plob",0,98,"Aug20","Ambient","Aug20_plob_225"
-"1044","A2","1x1","plob_205","Plob",0,25,"Aug20","Nutrient","Aug20_plob_205"
-"1045","A2","1x1","plob_206/31/15","Plob",0,0,"Aug20","Nutrient","Aug20_plob_206/31/15"
-"1046","A2","1x1","plob_914","Plob",0,100,"Aug20","Nutrient","Aug20_plob_914"
-"1047","A2","2x2","plob_208","Plob",0,95,"Aug20","Nutrient","Aug20_plob_208"
-"1048","A2","2x2","plob_209","Plob",0,90,"Aug20","Nutrient","Aug20_plob_209"
-"1049","A2","3x3","plob_211","Plob",0,90,"Aug20","Nutrient","Aug20_plob_211"
-"1050","A2","3x3","plob_913","Plob",0,60,"Aug20","Nutrient","Aug20_plob_913"
-"1051","A2","open","plob_215","Plob",0,80,"Aug20","Nutrient","Aug20_plob_215"
-"1052","A2","open","plob_216","Plob",0,30,"Aug20","Nutrient","Aug20_plob_216"
-"1053","A2","open","plob_912","Plob",0,100,"Aug20","Nutrient","Aug20_plob_912"
-"1054","B3","1x1","plob_907","Plob",0,100,"Aug20","Nutrient","Aug20_plob_907"
-"1055","B3","2x2","plob_909","Plob",0,100,"Aug20","Nutrient","Aug20_plob_909"
-"1056","B3","3x3","plob_150","Plob",0,35,"Aug20","Nutrient","Aug20_plob_150"
-"1057","B3","3x3","plob_264","Plob",0,100,"Aug20","Nutrient","Aug20_plob_264"
-"1058","B3","3x3","plob_910","Plob",0,100,"Aug20","Nutrient","Aug20_plob_910"
-"1059","B3","open","plob_908","Plob",0,100,"Aug20","Nutrient","Aug20_plob_908"
-"1060","B4","2x2","plob_?","Plob",0,100,"Aug20","Ambient","Aug20_plob_?"
-"1061","B4","3x3","plob_131","Plob",0,100,"Aug20","Ambient","Aug20_plob_131"
-"1062","B4","3x3","plob_368","Plob",0,40,"Aug20","Ambient","Aug20_plob_368"
-"1063","B4","open","plob_235","Plob",0,70,"Aug20","Ambient","Aug20_plob_235"
-"1064","C1","1x1","plob_281","Plob",0,95,"Aug20","Ambient","Aug20_plob_281"
-"1065","C1","1x1","plob_283","Plob",0,25,"Aug20","Ambient","Aug20_plob_283"
-"1066","C1","2x2","plob_287","Plob",0,2,"Aug20","Ambient","Aug20_plob_287"
-"1067","C1","3x3","plob_306","Plob",0,15,"Aug20","Ambient","Aug20_plob_306"
-"1068","C1","open","plob_280","Plob",0,60,"Aug20","Ambient","Aug20_plob_280"
-"1069","C1","open","plob_281","Plob",0,15,"Aug20","Ambient","Aug20_plob_281"
-"1070","C3","1x1","plob_272","Plob",0,25,"Aug20","Nutrient","Aug20_plob_272"
-"1071","C3","1x1","plob_905","Plob",0,100,"Aug20","Nutrient","Aug20_plob_905"
-"1072","C3","2x2","plob_903","Plob",0,100,"Aug20","Nutrient","Aug20_plob_903"
-"1073","C3","3x3","plob_276","Plob",0,50,"Aug20","Nutrient","Aug20_plob_276"
-"1074","C3","3x3","plob_279","Plob",0,30,"Aug20","Nutrient","Aug20_plob_279"
-"1075","C3","3x3","plob_904","Plob",0,20,"Aug20","Nutrient","Aug20_plob_904"
-"1076","C3","open","plob_268","Plob",0,100,"Aug20","Nutrient","Aug20_plob_268"
-"1077","C3","open","plob_906","Plob",0,0,"Aug20","Nutrient","Aug20_plob_906"
-"1078","D2","1x1","plob_258","Plob",0,100,"Aug20","Ambient","Aug20_plob_258"
-"1079","D2","2x2","plob_901/91","Plob",0,15,"Aug20","Ambient","Aug20_plob_901/91"
-"1080","D2","3x3","plob_239","Plob",0,20,"Aug20","Ambient","Aug20_plob_239"
-"1081","D2","3x3","plob_902","Plob",0,100,"Aug20","Ambient","Aug20_plob_902"
-"1082","D2","open","plob_237","Plob",0,20,"Aug20","Ambient","Aug20_plob_237"
-"1083","D2","open","plob_700","Plob",0,10,"Aug20","Ambient","Aug20_plob_700"
-"1084","D4","1x1","plob_298","Plob",0,30,"Aug20","Nutrient","Aug20_plob_298"
-"1085","D4","2x2","plob_252","Plob",0,70,"Aug20","Nutrient","Aug20_plob_252"
-"1086","D4","3x3","plob_257","Plob",0,3,"Aug20","Nutrient","Aug20_plob_257"
-"1087","D4","3x3","plob_296","Plob",0,8,"Aug20","Nutrient","Aug20_plob_296"
-"1088","D4","open","plob_246","Plob",0,20,"Aug20","Nutrient","Aug20_plob_246"
-"1089","D4","open","plob_247","Plob",0,10,"Aug20","Nutrient","Aug20_plob_247"
+Plot,Herbivory,Coral_Id,Coral,percent_bleached,percent_dead,Date,Nutrients,catcat
+A1,1x1,P11,Pver,0,0, Jul18,Ambient,Jul18_P11
+A1,1x1,P16,Pver,0,0, Jul18,Ambient,Jul18_P16
+A1,1x1,P9,Pver,0,0, Jul18,Ambient,Jul18_P9
+A1,2x2,P13,Pver,0,0, Jul18,Ambient,Jul18_P13
+A1,2x2,P8,Pver,0,0, Jul18,Ambient,Jul18_P8
+A1,3x3,A3,Acr,0,0, Jul18,Ambient,Jul18_A3
+A1,3x3,A4,Acr,0,0, Jul18,Ambient,Jul18_A4
+A1,3x3,P12,Pver,0,0, Jul18,Ambient,Jul18_P12
+A1,3x3,P8,Pver,0,0, Jul18,Ambient,Jul18_P8
+A1,3x3,P9,Pver,0,0, Jul18,Ambient,Jul18_P9
+A1,open,A1,Acr,0,0, Jul18,Ambient,Jul18_A1
+A1,open,P12,Pver,0,0, Jul18,Ambient,Jul18_P12
+A1,open,P8,Pver,0,0, Jul18,Ambient,Jul18_P8
+A2,1x1,A2,Acr,0,0, Jul18,Nutrient,Jul18_A2
+A2,1x1,P11,Pver,0,0, Jul18,Nutrient,Jul18_P11
+A2,1x1,P17,Pver,0,0, Jul18,Nutrient,Jul18_P17
+A2,2x2,P24,Pver,0,0, Jul18,Nutrient,Jul18_P24
+A2,2x2,P9,Pver,0,0, Jul18,Nutrient,Jul18_P9
+A2,3x3,A2,Acr,0,0, Jul18,Nutrient,Jul18_A2
+A2,3x3,P20,Pver,0,0, Jul18,Nutrient,Jul18_P20
+A2,3x3,P25,Pver,0,5, Jul18,Nutrient,Jul18_P25
+A2,3x3,P6,Pver,0,0, Jul18,Nutrient,Jul18_P6
+A2,open,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+A2,open,A2,Acr,0,0, Jul18,Nutrient,Jul18_A2
+A2,open,P1,Pver,0,0, Jul18,Nutrient,Jul18_P1
+A2,open,P19,Pver,0,0, Jul18,Nutrient,Jul18_P19
+A2,open,P5,Pver,0,0, Jul18,Nutrient,Jul18_P5
+B3,1x1,A3,Acr,0,0, Jul18,Nutrient,Jul18_A3
+B3,1x1,P11,Pver,0,0, Jul18,Nutrient,Jul18_P11
+B3,1x1,P13,Pver,0,20, Jul18,Nutrient,Jul18_P13
+B3,1x1,P20,Pver,0,0, Jul18,Nutrient,Jul18_P20
+B3,1x1,P21,Pver,0,0, Jul18,Nutrient,Jul18_P21
+B3,1x1,P23,Pver,0,0, Jul18,Nutrient,Jul18_P23
+B3,2x2,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+B3,2x2,P1,Pver,0,0, Jul18,Nutrient,Jul18_P1
+B3,3x3,A2,Acr,0,0, Jul18,Nutrient,Jul18_A2
+B3,3x3,A3,Acr,0,0, Jul18,Nutrient,Jul18_A3
+B3,3x3,P2,Pver,0,0, Jul18,Nutrient,Jul18_P2
+B3,3x3,P9,Pver,0,0, Jul18,Nutrient,Jul18_P9
+B3,open,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+B3,open,P10,Pver,0,0, Jul18,Nutrient,Jul18_P10
+B3,open,P21,Pver,0,0, Jul18,Nutrient,Jul18_P21
+B3,open,P28,Pver,0,0, Jul18,Nutrient,Jul18_P28
+B3,open,P5,Pver,0,0, Jul18,Nutrient,Jul18_P5
+B4,1x1,P11,Pver,0,0, Jul18,Ambient,Jul18_P11
+B4,1x1,P25,Pver,0,0, Jul18,Ambient,Jul18_P25
+B4,2x2,A2,Acr,0,0, Jul18,Ambient,Jul18_A2
+B4,2x2,A4,Acr,0,0, Jul18,Ambient,Jul18_A4
+B4,2x2,P7,Pver,0,0, Jul18,Ambient,Jul18_P7
+B4,3x3,A3,Acr,0,0, Jul18,Ambient,Jul18_A3
+B4,3x3,A7,Acr,0,0, Jul18,Ambient,Jul18_A7
+B4,3x3,P14,Pver,0,0, Jul18,Ambient,Jul18_P14
+B4,3x3,P2,Pver,0,0, Jul18,Ambient,Jul18_P2
+B4,3x3,P6,Pver,0,0, Jul18,Ambient,Jul18_P6
+B4,open,P13,Pver,0,0, Jul18,Ambient,Jul18_P13
+B4,open,P5,Pver,0,0, Jul18,Ambient,Jul18_P5
+C1,1x1,P20,Pver,0,0, Jul18,Ambient,Jul18_P20
+C1,1x1,P4,Pver,0,0, Jul18,Ambient,Jul18_P4
+C1,1x1,P5,Pver,0,3, Jul18,Ambient,Jul18_P5
+C1,2x2,A1,Acr,0,0, Jul18,Ambient,Jul18_A1
+C1,2x2,A4,Acr,0,0, Jul18,Ambient,Jul18_A4
+C1,2x2,P15,Pver,0,0, Jul18,Ambient,Jul18_P15
+C1,2x2,P16,Pver,0,0, Jul18,Ambient,Jul18_P16
+C1,2x2,P18,Pver,0,0, Jul18,Ambient,Jul18_P18
+C1,2x2,P3,Pver,0,0, Jul18,Ambient,Jul18_P3
+C1,3x3,A1,Acr,0,0, Jul18,Ambient,Jul18_A1
+C1,3x3,P13,Pver,0,0, Jul18,Ambient,Jul18_P13
+C1,open,P12,Pver,0,0, Jul18,Ambient,Jul18_P12
+C1,open,P18,Pver,0,0, Jul18,Ambient,Jul18_P18
+C1,open,P3,Pver,0,0, Jul18,Ambient,Jul18_P3
+C3,1x1,A2,Acr,0,0, Jul18,Nutrient,Jul18_A2
+C3,1x1,P20,Pver,0,0, Jul18,Nutrient,Jul18_P20
+C3,1x1,P7,Pver,0,0, Jul18,Nutrient,Jul18_P7
+C3,2x2,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+C3,2x2,A3/Aret73,Acr,0,0, Jul18,Nutrient,Jul18_A3/Aret73
+C3,2x2,P17,Pver,0,0, Jul18,Nutrient,Jul18_P17
+C3,2x2,P22,Pver,0,0, Jul18,Nutrient,Jul18_P22
+C3,2x2,P23,Pver,0,10, Jul18,Nutrient,Jul18_P23
+C3,3x3,P15,Pver,0,0, Jul18,Nutrient,Jul18_P15
+C3,3x3,P19,Pver,0,0, Jul18,Nutrient,Jul18_P19
+C3,3x3,P24,Pver,0,0, Jul18,Nutrient,Jul18_P24
+C3,3x3,P3,Pver,0,0, Jul18,Nutrient,Jul18_P3
+C3,open,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+C3,open,A6,Acr,0,0, Jul18,Nutrient,Jul18_A6
+C3,open,P11,Pver,0,0, Jul18,Nutrient,Jul18_P11
+C3,open,P12,Pver,0,0, Jul18,Nutrient,Jul18_P12
+C3,open,P13,Pver,0,0, Jul18,Nutrient,Jul18_P13
+C3,open,P15,Pver,0,0, Jul18,Nutrient,Jul18_P15
+D2,1x1,A1,Acr,0,0, Jul18,Ambient,Jul18_A1
+D2,1x1,A5,Acr,0,0, Jul18,Ambient,Jul18_A5
+D2,1x1,P15,Pver,0,0, Jul18,Ambient,Jul18_P15
+D2,1x1,P17,Pver,0,0, Jul18,Ambient,Jul18_P17
+D2,1x1,P2,Pver,0,0, Jul18,Ambient,Jul18_P2
+D2,2x2,A6,Acr,0,0, Jul18,Ambient,Jul18_A6
+D2,2x2,A7,Acr,0,0, Jul18,Ambient,Jul18_A7
+D2,2x2,P2,Pver,0,0, Jul18,Ambient,Jul18_P2
+D2,2x2,P21,Pver,0,0, Jul18,Ambient,Jul18_P21
+D2,2x2,P7,Pver,0,0, Jul18,Ambient,Jul18_P7
+D2,3x3,A1,Acr,0,0, Jul18,Ambient,Jul18_A1
+D2,3x3,P22,Pver,0,0, Jul18,Ambient,Jul18_P22
+D2,3x3,P5,Pver,0,0, Jul18,Ambient,Jul18_P5
+D2,3x3,P9,Pver,0,5, Jul18,Ambient,Jul18_P9
+D2,open,P12,Pver,0,0, Jul18,Ambient,Jul18_P12
+D2,open,P13,Pver,0,0, Jul18,Ambient,Jul18_P13
+D2,open,P15,Pver,0,0, Jul18,Ambient,Jul18_P15
+D4,1x1,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+D4,1x1,A2,Acr,0,0, Jul18,Nutrient,Jul18_A2
+D4,1x1,A3,Acr,0,0, Jul18,Nutrient,Jul18_A3
+D4,1x1,A4,Acr,0,0, Jul18,Nutrient,Jul18_A4
+D4,1x1,P16,Pver,0,0, Jul18,Nutrient,Jul18_P16
+D4,1x1,P5,Pver,0,0, Jul18,Nutrient,Jul18_P5
+D4,1x1,P7,Pver,0,3, Jul18,Nutrient,Jul18_P7
+D4,2x2,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+D4,2x2,P11,Pver,0,0, Jul18,Nutrient,Jul18_P11
+D4,2x2,P5,Pver,0,0, Jul18,Nutrient,Jul18_P5
+D4,2x2,P6,Pver,0,0, Jul18,Nutrient,Jul18_P6
+D4,3x3,A3,Acr,0,0, Jul18,Nutrient,Jul18_A3
+D4,3x3,A4,Acr,0,0, Jul18,Nutrient,Jul18_A4
+D4,3x3,A5,Acr,0,0, Jul18,Nutrient,Jul18_A5
+D4,3x3,P20,Pver,0,0, Jul18,Nutrient,Jul18_P20
+D4,3x3,P30,Pver,0,0, Jul18,Nutrient,Jul18_P30
+D4,3x3,P8,Pver,0,0, Jul18,Nutrient,Jul18_P8
+D4,open,A1,Acr,0,0, Jul18,Nutrient,Jul18_A1
+D4,open,P23,Pver,0,0, Jul18,Nutrient,Jul18_P23
+D4,open,P5,Pver,0,0, Jul18,Nutrient,Jul18_P5
+D4,open,P6,Pver,0,0, Jul18,Nutrient,Jul18_P6
+A1,1x1,A5,Acr,0,0, Nov18,Ambient,Nov18_A5
+A1,1x1,P11,Pver,0,0, Nov18,Ambient,Nov18_P11
+A1,1x1,P16,Pver,0,0, Nov18,Ambient,Nov18_P16
+A1,1x1,P9,Pver,0,0, Nov18,Ambient,Nov18_P9
+A1,2x2,P13,Pver,0,0, Nov18,Ambient,Nov18_P13
+A1,2x2,P8,Pver,0,0, Nov18,Ambient,Nov18_P8
+A1,3x3,A3,Acr,0,0, Nov18,Ambient,Nov18_A3
+A1,3x3,A4,Acr,0,0, Nov18,Ambient,Nov18_A4
+A1,3x3,P12,Pver,0,0, Nov18,Ambient,Nov18_P12
+A1,3x3,P8,Pver,0,0, Nov18,Ambient,Nov18_P8
+A1,3x3,P9,Pver,0,0, Nov18,Ambient,Nov18_P9
+A1,open,A1,Acr,0,0, Nov18,Ambient,Nov18_A1
+A1,open,P12,Pver,0,0, Nov18,Ambient,Nov18_P12
+A1,open,P8,Pver,0,0, Nov18,Ambient,Nov18_P8
+A2,1x1,A2,Acr,0,0, Nov18,Nutrient,Nov18_A2
+A2,1x1,P11,Pver,0,0, Nov18,Nutrient,Nov18_P11
+A2,1x1,P17,Pver,0,0, Nov18,Nutrient,Nov18_P17
+A2,2x2,P24,Pver,0,0, Nov18,Nutrient,Nov18_P24
+A2,2x2,P9,Pver,0,0, Nov18,Nutrient,Nov18_P9
+A2,3x3,A2,Acr,0,0, Nov18,Nutrient,Nov18_A2
+A2,3x3,P20,Pver,0,0, Nov18,Nutrient,Nov18_P20
+A2,3x3,P25,Pver,0,5, Nov18,Nutrient,Nov18_P25
+A2,3x3,P6,Pver,0,0, Nov18,Nutrient,Nov18_P6
+A2,open,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+A2,open,A2,Acr,0,0, Nov18,Nutrient,Nov18_A2
+A2,open,P1,Pver,0,0, Nov18,Nutrient,Nov18_P1
+A2,open,P19,Pver,0,0, Nov18,Nutrient,Nov18_P19
+A2,open,P5,Pver,0,0, Nov18,Nutrient,Nov18_P5
+B3,1x1,A3,Acr,0,0, Nov18,Nutrient,Nov18_A3
+B3,1x1,P11,Pver,0,0, Nov18,Nutrient,Nov18_P11
+B3,1x1,P13,Pver,0,20, Nov18,Nutrient,Nov18_P13
+B3,1x1,P20,Pver,0,0, Nov18,Nutrient,Nov18_P20
+B3,1x1,P21,Pver,0,0, Nov18,Nutrient,Nov18_P21
+B3,1x1,P23,Pver,0,0, Nov18,Nutrient,Nov18_P23
+B3,2x2,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+B3,2x2,P1,Pver,0,0, Nov18,Nutrient,Nov18_P1
+B3,3x3,A2,Acr,0,0, Nov18,Nutrient,Nov18_A2
+B3,3x3,A3,Acr,0,0, Nov18,Nutrient,Nov18_A3
+B3,3x3,P2,Pver,0,0, Nov18,Nutrient,Nov18_P2
+B3,3x3,P9,Pver,0,0, Nov18,Nutrient,Nov18_P9
+B3,open,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+B3,open,P10,Pver,0,0, Nov18,Nutrient,Nov18_P10
+B3,open,P21,Pver,0,0, Nov18,Nutrient,Nov18_P21
+B3,open,P28,Pver,0,0, Nov18,Nutrient,Nov18_P28
+B3,open,P5,Pver,0,0, Nov18,Nutrient,Nov18_P5
+B4,1x1,P11,Pver,0,0, Nov18,Ambient,Nov18_P11
+B4,1x1,P25,Pver,0,0, Nov18,Ambient,Nov18_P25
+B4,2x2,A2,Acr,0,0, Nov18,Ambient,Nov18_A2
+B4,2x2,A4,Acr,0,0, Nov18,Ambient,Nov18_A4
+B4,2x2,P7,Pver,0,0, Nov18,Ambient,Nov18_P7
+B4,3x3,A3,Acr,0,0, Nov18,Ambient,Nov18_A3
+B4,3x3,A7,Acr,0,0, Nov18,Ambient,Nov18_A7
+B4,3x3,P14,Pver,0,0, Nov18,Ambient,Nov18_P14
+B4,3x3,P2,Pver,0,0, Nov18,Ambient,Nov18_P2
+B4,3x3,P6,Pver,0,0, Nov18,Ambient,Nov18_P6
+B4,open,P13,Pver,0,0, Nov18,Ambient,Nov18_P13
+B4,open,P5,Pver,0,0, Nov18,Ambient,Nov18_P5
+C1,1x1,P20,Pver,0,0, Nov18,Ambient,Nov18_P20
+C1,1x1,P4,Pver,0,0, Nov18,Ambient,Nov18_P4
+C1,1x1,P5,Pver,0,5, Nov18,Ambient,Nov18_P5
+C1,2x2,A1,Acr,0,0, Nov18,Ambient,Nov18_A1
+C1,2x2,A4,Acr,0,0, Nov18,Ambient,Nov18_A4
+C1,2x2,P15,Pver,0,0, Nov18,Ambient,Nov18_P15
+C1,2x2,P16,Pver,0,0, Nov18,Ambient,Nov18_P16
+C1,2x2,P18,Pver,0,0, Nov18,Ambient,Nov18_P18
+C1,2x2,P3,Pver,0,0, Nov18,Ambient,Nov18_P3
+C1,3x3,A1,Acr,0,0, Nov18,Ambient,Nov18_A1
+C1,3x3,P13,Pver,0,0, Nov18,Ambient,Nov18_P13
+C1,open,P12,Pver,0,0, Nov18,Ambient,Nov18_P12
+C1,open,P18,Pver,0,0, Nov18,Ambient,Nov18_P18
+C1,open,P3,Pver,0,0, Nov18,Ambient,Nov18_P3
+C3,1x1,A2,Acr,0,0, Nov18,Nutrient,Nov18_A2
+C3,1x1,P20,Pver,0,0, Nov18,Nutrient,Nov18_P20
+C3,1x1,P7,Pver,0,0, Nov18,Nutrient,Nov18_P7
+C3,2x2,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+C3,2x2,A3/Aret73,Acr,0,0, Nov18,Nutrient,Nov18_A3/Aret73
+C3,2x2,P17,Pver,0,0, Nov18,Nutrient,Nov18_P17
+C3,2x2,P22,Pver,0,0, Nov18,Nutrient,Nov18_P22
+C3,2x2,P23,Pver,0,10, Nov18,Nutrient,Nov18_P23
+C3,3x3,P15,Pver,0,0, Nov18,Nutrient,Nov18_P15
+C3,3x3,P19,Pver,0,0, Nov18,Nutrient,Nov18_P19
+C3,3x3,P24,Pver,0,0, Nov18,Nutrient,Nov18_P24
+C3,3x3,P3,Pver,0,0, Nov18,Nutrient,Nov18_P3
+C3,open,A1,Acr,5,15, Nov18,Nutrient,Nov18_A1
+C3,open,A6,Acr,0,0, Nov18,Nutrient,Nov18_A6
+C3,open,P11,Pver,0,0, Nov18,Nutrient,Nov18_P11
+C3,open,P12,Pver,0,0, Nov18,Nutrient,Nov18_P12
+C3,open,P13,Pver,0,0, Nov18,Nutrient,Nov18_P13
+C3,open,P15,Pver,0,0, Nov18,Nutrient,Nov18_P15
+D2,1x1,A1,Acr,0,0, Nov18,Ambient,Nov18_A1
+D2,1x1,A5,Acr,0,0, Nov18,Ambient,Nov18_A5
+D2,1x1,P15,Pver,0,0, Nov18,Ambient,Nov18_P15
+D2,1x1,P17,Pver,0,0, Nov18,Ambient,Nov18_P17
+D2,1x1,P2,Pver,0,0, Nov18,Ambient,Nov18_P2
+D2,2x2,A6,Acr,0,0, Nov18,Ambient,Nov18_A6
+D2,2x2,A7,Acr,0,0, Nov18,Ambient,Nov18_A7
+D2,2x2,P2,Pver,0,0, Nov18,Ambient,Nov18_P2
+D2,2x2,P21,Pver,0,0, Nov18,Ambient,Nov18_P21
+D2,2x2,P7,Pver,0,0, Nov18,Ambient,Nov18_P7
+D2,3x3,A1,Acr,0,0, Nov18,Ambient,Nov18_A1
+D2,3x3,P22,Pver,0,0, Nov18,Ambient,Nov18_P22
+D2,3x3,P5,Pver,0,0, Nov18,Ambient,Nov18_P5
+D2,3x3,P9,Pver,0,5, Nov18,Ambient,Nov18_P9
+D2,open,P12,Pver,0,0, Nov18,Ambient,Nov18_P12
+D2,open,P13,Pver,0,0, Nov18,Ambient,Nov18_P13
+D2,open,P15,Pver,0,0, Nov18,Ambient,Nov18_P15
+D4,1x1,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+D4,1x1,A2,Acr,0,0, Nov18,Nutrient,Nov18_A2
+D4,1x1,A3,Acr,0,0, Nov18,Nutrient,Nov18_A3
+D4,1x1,A4,Acr,0,0, Nov18,Nutrient,Nov18_A4
+D4,1x1,P16,Pver,0,0, Nov18,Nutrient,Nov18_P16
+D4,1x1,P5,Pver,0,0, Nov18,Nutrient,Nov18_P5
+D4,1x1,P7,Pver,0,5, Nov18,Nutrient,Nov18_P7
+D4,2x2,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+D4,2x2,P11,Pver,0,0, Nov18,Nutrient,Nov18_P11
+D4,2x2,P5,Pver,0,0, Nov18,Nutrient,Nov18_P5
+D4,2x2,P6,Pver,0,0, Nov18,Nutrient,Nov18_P6
+D4,3x3,A3,Acr,0,0, Nov18,Nutrient,Nov18_A3
+D4,3x3,A4,Acr,0,0, Nov18,Nutrient,Nov18_A4
+D4,3x3,A5,Acr,0,0, Nov18,Nutrient,Nov18_A5
+D4,3x3,P20,Pver,0,0, Nov18,Nutrient,Nov18_P20
+D4,3x3,P30,Pver,0,0, Nov18,Nutrient,Nov18_P30
+D4,3x3,P8,Pver,0,0, Nov18,Nutrient,Nov18_P8
+D4,open,A1,Acr,0,0, Nov18,Nutrient,Nov18_A1
+D4,open,P23,Pver,0,0, Nov18,Nutrient,Nov18_P23
+D4,open,P5,Pver,0,0, Nov18,Nutrient,Nov18_P5
+D4,open,P6,Pver,0,0, Nov18,Nutrient,Nov18_P6
+A1,1x1,A5,Acr,0,0, Mar19,Ambient,Mar19_A5
+A1,1x1,P11,Pver,0,0, Mar19,Ambient,Mar19_P11
+A1,1x1,P16,Pver,0,0, Mar19,Ambient,Mar19_P16
+A1,1x1,P9,Pver,0,0, Mar19,Ambient,Mar19_P9
+A1,2x2,P13,Pver,0,0, Mar19,Ambient,Mar19_P13
+A1,2x2,P8,Pver,0,0, Mar19,Ambient,Mar19_P8
+A1,3x3,A3,Acr,20,0, Mar19,Ambient,Mar19_A3
+A1,3x3,A4,Acr,5,0, Mar19,Ambient,Mar19_A4
+A1,3x3,P12,Pver,0,0, Mar19,Ambient,Mar19_P12
+A1,3x3,P8,Pver,0,0, Mar19,Ambient,Mar19_P8
+A1,3x3,P9,Pver,0,0, Mar19,Ambient,Mar19_P9
+A1,open,A1,Acr,95,2, Mar19,Ambient,Mar19_A1
+A1,open,A2,Acr,0,0, Mar19,Ambient,Mar19_A2
+A1,open,A3,Acr,10,0, Mar19,Ambient,Mar19_A3
+A1,open,P12,Pver,0,0, Mar19,Ambient,Mar19_P12
+A1,open,P8,Pver,0,0, Mar19,Ambient,Mar19_P8
+A2,1x1,A2,Acr,0,0, Mar19,Nutrient,Mar19_A2
+A2,1x1,P11,Pver,0,0, Mar19,Nutrient,Mar19_P11
+A2,1x1,P17,Pver,0,0, Mar19,Nutrient,Mar19_P17
+A2,1x1,P22,Pver,0,0, Mar19,Nutrient,Mar19_P22
+A2,2x2,A3,Acr,0,0, Mar19,Nutrient,Mar19_A3
+A2,2x2,P24,Pver,0,0, Mar19,Nutrient,Mar19_P24
+A2,2x2,P9,Pver,0,0, Mar19,Nutrient,Mar19_P9
+A2,3x3,A2,Acr,0,0, Mar19,Nutrient,Mar19_A2
+A2,3x3,P20,Pver,0,0, Mar19,Nutrient,Mar19_P20
+A2,3x3,P25,Pver,0,5, Mar19,Nutrient,Mar19_P25
+A2,3x3,P6,Pver,0,0, Mar19,Nutrient,Mar19_P6
+A2,open,A1,Acr,60,0, Mar19,Nutrient,Mar19_A1
+A2,open,A2,Acr,0,0, Mar19,Nutrient,Mar19_A2
+A2,open,P1,Pver,0,0, Mar19,Nutrient,Mar19_P1
+A2,open,P19,Pver,0,0, Mar19,Nutrient,Mar19_P19
+A2,open,P5,Pver,0,0, Mar19,Nutrient,Mar19_P5
+B3,1x1,A3,Acr,0,0, Mar19,Nutrient,Mar19_A3
+B3,1x1,P11,Pver,0,0, Mar19,Nutrient,Mar19_P11
+B3,1x1,P13,Pver,0,20, Mar19,Nutrient,Mar19_P13
+B3,1x1,P20,Pver,0,0, Mar19,Nutrient,Mar19_P20
+B3,1x1,P21,Pver,0,0, Mar19,Nutrient,Mar19_P21
+B3,1x1,P23,Pver,0,0, Mar19,Nutrient,Mar19_P23
+B3,2x2,A1,Acr,10,0, Mar19,Nutrient,Mar19_A1
+B3,2x2,P1,Pver,0,0, Mar19,Nutrient,Mar19_P1
+B3,3x3,A2,Acr,0,0, Mar19,Nutrient,Mar19_A2
+B3,3x3,A3,Acr,20,0, Mar19,Nutrient,Mar19_A3
+B3,3x3,P2,Pver,0,0, Mar19,Nutrient,Mar19_P2
+B3,3x3,P9,Pver,0,0, Mar19,Nutrient,Mar19_P9
+B3,open,A1,Acr,10,0, Mar19,Nutrient,Mar19_A1
+B3,open,P10,Pver,0,0, Mar19,Nutrient,Mar19_P10
+B3,open,P21,Pver,0,0, Mar19,Nutrient,Mar19_P21
+B3,open,P28,Pver,0,0, Mar19,Nutrient,Mar19_P28
+B3,open,P5,Pver,0,0, Mar19,Nutrient,Mar19_P5
+B4,1x1,A1,Acr,0,0, Mar19,Ambient,Mar19_A1
+B4,1x1,P11,Pver,0,0, Mar19,Ambient,Mar19_P11
+B4,1x1,P25,Pver,0,0, Mar19,Ambient,Mar19_P25
+B4,2x2,A2,Acr,80,0, Mar19,Ambient,Mar19_A2
+B4,2x2,A4,Acr,0,0, Mar19,Ambient,Mar19_A4
+B4,2x2,A8,Acr,0,0, Mar19,Ambient,Mar19_A8
+B4,2x2,P7,Pver,0,0, Mar19,Ambient,Mar19_P7
+B4,3x3,A3,Acr,10,0, Mar19,Ambient,Mar19_A3
+B4,3x3,A7,Acr,10,0, Mar19,Ambient,Mar19_A7
+B4,3x3,P14,Pver,0,0, Mar19,Ambient,Mar19_P14
+B4,3x3,P2,Pver,0,0, Mar19,Ambient,Mar19_P2
+B4,3x3,P6,Pver,0,0, Mar19,Ambient,Mar19_P6
+B4,open,P13,Pver,0,0, Mar19,Ambient,Mar19_P13
+B4,open,P5,Pver,0,0, Mar19,Ambient,Mar19_P5
+C1,1x1,P20,Pver,0,0, Mar19,Ambient,Mar19_P20
+C1,1x1,P4,Pver,0,0, Mar19,Ambient,Mar19_P4
+C1,1x1,P5,Pver,0,5, Mar19,Ambient,Mar19_P5
+C1,2x2,A1,Acr,20,0, Mar19,Ambient,Mar19_A1
+C1,2x2,A4,Acr,10,0, Mar19,Ambient,Mar19_A4
+C1,2x2,P15,Pver,0,0, Mar19,Ambient,Mar19_P15
+C1,2x2,P16,Pver,10,0, Mar19,Ambient,Mar19_P16
+C1,2x2,P18,Pver,0,0, Mar19,Ambient,Mar19_P18
+C1,2x2,P3,Pver,0,0, Mar19,Ambient,Mar19_P3
+C1,3x3,A1,Acr,20,0, Mar19,Ambient,Mar19_A1
+C1,3x3,A5,Acr,0,0, Mar19,Ambient,Mar19_A5
+C1,3x3,P13,Pver,0,0, Mar19,Ambient,Mar19_P13
+C1,open,P12,Pver,0,0, Mar19,Ambient,Mar19_P12
+C1,open,P18,Pver,0,0, Mar19,Ambient,Mar19_P18
+C1,open,P3,Pver,0,0, Mar19,Ambient,Mar19_P3
+C3,1x1,A2,Acr,0,0, Mar19,Nutrient,Mar19_A2
+C3,1x1,P20,Pver,2,0, Mar19,Nutrient,Mar19_P20
+C3,1x1,P7,Pver,2,0, Mar19,Nutrient,Mar19_P7
+C3,2x2,A1,Acr,2,0, Mar19,Nutrient,Mar19_A1
+C3,2x2,A3/Aret73,Acr,0,0, Mar19,Nutrient,Mar19_A3/Aret73
+C3,2x2,A4/Aret275,Acr,0,0, Mar19,Nutrient,Mar19_A4/Aret275
+C3,2x2,P17,Pver,0,0, Mar19,Nutrient,Mar19_P17
+C3,2x2,P22,Pver,0,0, Mar19,Nutrient,Mar19_P22
+C3,2x2,P23,Pver,0,10, Mar19,Nutrient,Mar19_P23
+C3,3x3,A1/Aret97,Acr,0,0, Mar19,Nutrient,Mar19_A1/Aret97
+C3,3x3,P15,Pver,0,0, Mar19,Nutrient,Mar19_P15
+C3,3x3,P19,Pver,0,5, Mar19,Nutrient,Mar19_P19
+C3,3x3,P24,Pver,0,0, Mar19,Nutrient,Mar19_P24
+C3,3x3,P3,Pver,0,0, Mar19,Nutrient,Mar19_P3
+C3,open,A1,Acr,0,90, Mar19,Nutrient,Mar19_A1
+C3,open,A6,Acr,0,0, Mar19,Nutrient,Mar19_A6
+C3,open,P11,Pver,2,0, Mar19,Nutrient,Mar19_P11
+C3,open,P12,Pver,0,0, Mar19,Nutrient,Mar19_P12
+C3,open,P13,Pver,10,0, Mar19,Nutrient,Mar19_P13
+C3,open,P15,Pver,5,0, Mar19,Nutrient,Mar19_P15
+D2,1x1,A1,Acr,60,0, Mar19,Ambient,Mar19_A1
+D2,1x1,A5,Acr,80,0, Mar19,Ambient,Mar19_A5
+D2,1x1,A7,Acr,0,0, Mar19,Ambient,Mar19_A7
+D2,1x1,P15,Pver,0,5, Mar19,Ambient,Mar19_P15
+D2,1x1,P17,Pver,0,0, Mar19,Ambient,Mar19_P17
+D2,1x1,P2,Pver,0,0, Mar19,Ambient,Mar19_P2
+D2,2x2,A6,Acr,0,0, Mar19,Ambient,Mar19_A6
+D2,2x2,A7,Acr,80,0, Mar19,Ambient,Mar19_A7
+D2,2x2,P2,Pver,0,0, Mar19,Ambient,Mar19_P2
+D2,2x2,P21,Pver,0,0, Mar19,Ambient,Mar19_P21
+D2,2x2,P7,Pver,0,2, Mar19,Ambient,Mar19_P7
+D2,3x3,A1,Acr,40,0, Mar19,Ambient,Mar19_A1
+D2,3x3,P22,Pver,0,0, Mar19,Ambient,Mar19_P22
+D2,3x3,P5,Pver,0,0, Mar19,Ambient,Mar19_P5
+D2,3x3,P9,Pver,0,10, Mar19,Ambient,Mar19_P9
+D2,open,P12,Pver,0,2, Mar19,Ambient,Mar19_P12
+D2,open,P13,Pver,0,0, Mar19,Ambient,Mar19_P13
+D2,open,P15,Pver,0,0, Mar19,Ambient,Mar19_P15
+D4,1x1,A1,Acr,0,0, Mar19,Nutrient,Mar19_A1
+D4,1x1,A2,Acr,10,0, Mar19,Nutrient,Mar19_A2
+D4,1x1,A3,Acr,70,0, Mar19,Nutrient,Mar19_A3
+D4,1x1,A4,Acr,5,0, Mar19,Nutrient,Mar19_A4
+D4,1x1,P16,Pver,0,0, Mar19,Nutrient,Mar19_P16
+D4,1x1,P5,Pver,0,0, Mar19,Nutrient,Mar19_P5
+D4,1x1,P7,Pver,0,5, Mar19,Nutrient,Mar19_P7
+D4,2x2,A1,Acr,30,0, Mar19,Nutrient,Mar19_A1
+D4,2x2,A2,Acr,0,0, Mar19,Nutrient,Mar19_A2
+D4,2x2,P11,Pver,0,0, Mar19,Nutrient,Mar19_P11
+D4,2x2,P5,Pver,0,0, Mar19,Nutrient,Mar19_P5
+D4,2x2,P6,Pver,0,0, Mar19,Nutrient,Mar19_P6
+D4,3x3,A3,Acr,0,0, Mar19,Nutrient,Mar19_A3
+D4,3x3,A4,Acr,60,0, Mar19,Nutrient,Mar19_A4
+D4,3x3,A5,Acr,40,0, Mar19,Nutrient,Mar19_A5
+D4,3x3,P20,Pver,0,0, Mar19,Nutrient,Mar19_P20
+D4,3x3,P30,Pver,0,0, Mar19,Nutrient,Mar19_P30
+D4,3x3,P8,Pver,0,0, Mar19,Nutrient,Mar19_P8
+D4,open,A1,Acr,30,0, Mar19,Nutrient,Mar19_A1
+D4,open,P23,Pver,0,0, Mar19,Nutrient,Mar19_P23
+D4,open,P5,Pver,0,0, Mar19,Nutrient,Mar19_P5
+D4,open,P6,Pver,0,0, Mar19,Nutrient,Mar19_P6
+A1,1x1,A5,Acr,0,0, Aug19,Ambient,Aug19_A5
+A1,1x1,P11,Pver,0,0, Aug19,Ambient,Aug19_P11
+A1,1x1,P16,Pver,0,0, Aug19,Ambient,Aug19_P16
+A1,1x1,P9,Pver,0,0, Aug19,Ambient,Aug19_P9
+A1,2x2,P13,Pver,0,2, Aug19,Ambient,Aug19_P13
+A1,2x2,P8,Pver,0,0, Aug19,Ambient,Aug19_P8
+A1,3x3,A3,Acr,0,0, Aug19,Ambient,Aug19_A3
+A1,3x3,A4,Acr,0,0, Aug19,Ambient,Aug19_A4
+A1,3x3,P12,Pver,0,0, Aug19,Ambient,Aug19_P12
+A1,3x3,P8,Pver,0,0, Aug19,Ambient,Aug19_P8
+A1,3x3,P9,Pver,1,4, Aug19,Ambient,Aug19_P9
+A1,open,A1,Acr,0,100, Aug19,Ambient,Aug19_A1
+A1,open,A2,Acr,0,0, Aug19,Ambient,Aug19_A2
+A1,open,A3,Acr,100,0, Aug19,Ambient,Aug19_A3
+A1,open,P12,Pver,0,0, Aug19,Ambient,Aug19_P12
+A1,open,P8,Pver,0,0, Aug19,Ambient,Aug19_P8
+A2,1x1,A2,Acr,0,100, Aug19,Nutrient,Aug19_A2
+A2,1x1,P11,Pver,0,0, Aug19,Nutrient,Aug19_P11
+A2,1x1,P17,Pver,0,0, Aug19,Nutrient,Aug19_P17
+A2,1x1,P22,Pver,0,0, Aug19,Nutrient,Aug19_P22
+A2,2x2,A3,Acr,0,0, Aug19,Nutrient,Aug19_A3
+A2,2x2,P24,Pver,1,0, Aug19,Nutrient,Aug19_P24
+A2,2x2,P9,Pver,0,0, Aug19,Nutrient,Aug19_P9
+A2,3x3,A2,Acr,0,0, Aug19,Nutrient,Aug19_A2
+A2,3x3,P20,Pver,0,0, Aug19,Nutrient,Aug19_P20
+A2,3x3,P25,Pver,0,5, Aug19,Nutrient,Aug19_P25
+A2,3x3,P6,Pver,0,0, Aug19,Nutrient,Aug19_P6
+A2,open,A1,Acr,0,100, Aug19,Nutrient,Aug19_A1
+A2,open,A2,Acr,0,0, Aug19,Nutrient,Aug19_A2
+A2,open,P1,Pver,0,0, Aug19,Nutrient,Aug19_P1
+A2,open,P19,Pver,0,5, Aug19,Nutrient,Aug19_P19
+A2,open,P5,Pver,0,0, Aug19,Nutrient,Aug19_P5
+B3,1x1,A3,Acr,0,15, Aug19,Nutrient,Aug19_A3
+B3,1x1,P11,Pver,25,10, Aug19,Nutrient,Aug19_P11
+B3,1x1,P13,Pver,5,15, Aug19,Nutrient,Aug19_P13
+B3,1x1,P20,Pver,2,0, Aug19,Nutrient,Aug19_P20
+B3,1x1,P21,Pver,0,0, Aug19,Nutrient,Aug19_P21
+B3,1x1,P23,Pver,5,0, Aug19,Nutrient,Aug19_P23
+B3,2x2,A1,Acr,25,75, Aug19,Nutrient,Aug19_A1
+B3,2x2,A6,Acr,0,0, Aug19,Nutrient,Aug19_A6
+B3,2x2,P1,Pver,0,0, Aug19,Nutrient,Aug19_P1
+B3,3x3,A2,Acr,0,0, Aug19,Nutrient,Aug19_A2
+B3,3x3,A3,Acr,0,0, Aug19,Nutrient,Aug19_A3
+B3,3x3,P2,Pver,0,0, Aug19,Nutrient,Aug19_P2
+B3,3x3,P9,Pver,0,0, Aug19,Nutrient,Aug19_P9
+B3,open,A1,Acr,0,0, Aug19,Nutrient,Aug19_A1
+B3,open,P10,Pver,0,0, Aug19,Nutrient,Aug19_P10
+B3,open,P21,Pver,0,5, Aug19,Nutrient,Aug19_P21
+B3,open,P28,Pver,0,0, Aug19,Nutrient,Aug19_P28
+B3,open,P5,Pver,0,0, Aug19,Nutrient,Aug19_P5
+B4,1x1,A1,Acr,0,0, Aug19,Ambient,Aug19_A1
+B4,1x1,P11,Pver,0,0, Aug19,Ambient,Aug19_P11
+B4,1x1,P25,Pver,0,0, Aug19,Ambient,Aug19_P25
+B4,2x2,A2,Acr,80,20, Aug19,Ambient,Aug19_A2
+B4,2x2,A4,Acr,0,0, Aug19,Ambient,Aug19_A4
+B4,2x2,A8,Acr,0,0, Aug19,Ambient,Aug19_A8
+B4,2x2,P7,Pver,0,0, Aug19,Ambient,Aug19_P7
+B4,3x3,A3,Acr,0,0, Aug19,Ambient,Aug19_A3
+B4,3x3,A7,Acr,10,0, Aug19,Ambient,Aug19_A7
+B4,3x3,P14,Pver,0,0, Aug19,Ambient,Aug19_P14
+B4,3x3,P2,Pver,0,0, Aug19,Ambient,Aug19_P2
+B4,3x3,P6,Pver,0,0, Aug19,Ambient,Aug19_P6
+B4,open,P13,Pver,0,0, Aug19,Ambient,Aug19_P13
+B4,open,P5,Pver,0,0, Aug19,Ambient,Aug19_P5
+C1,1x1,P20,Pver,0,0, Aug19,Ambient,Aug19_P20
+C1,1x1,P4,Pver,0,0, Aug19,Ambient,Aug19_P4
+C1,1x1,P5,Pver,5,5, Aug19,Ambient,Aug19_P5
+C1,2x2,A1,Acr,0,5, Aug19,Ambient,Aug19_A1
+C1,2x2,A4,Acr,0,98, Aug19,Ambient,Aug19_A4
+C1,2x2,P15,Pver,0,0, Aug19,Ambient,Aug19_P15
+C1,2x2,P16,Pver,35,65, Aug19,Ambient,Aug19_P16
+C1,2x2,P18,Pver,0,0, Aug19,Ambient,Aug19_P18
+C1,2x2,P3,Pver,0,0, Aug19,Ambient,Aug19_P3
+C1,3x3,A1,Acr,0,100, Aug19,Ambient,Aug19_A1
+C1,3x3,A5,Acr,0,0, Aug19,Ambient,Aug19_A5
+C1,3x3,P13,Pver,0,0, Aug19,Ambient,Aug19_P13
+C1,open,P12,Pver,0,0, Aug19,Ambient,Aug19_P12
+C1,open,P18,Pver,0,0, Aug19,Ambient,Aug19_P18
+C1,open,P3,Pver,0,0, Aug19,Ambient,Aug19_P3
+C3,1x1,A2,Acr,0,15, Aug19,Nutrient,Aug19_A2
+C3,1x1,P20,Pver,0,0, Aug19,Nutrient,Aug19_P20
+C3,1x1,P7,Pver,0,0, Aug19,Nutrient,Aug19_P7
+C3,2x2,A1,Acr,0,100, Aug19,Nutrient,Aug19_A1
+C3,2x2,A3/Aret73,Acr,0,100, Aug19,Nutrient,Aug19_A3/Aret73
+C3,2x2,A4/Aret275,Acr,0,0, Aug19,Nutrient,Aug19_A4/Aret275
+C3,2x2,P17,Pver,0,0, Aug19,Nutrient,Aug19_P17
+C3,2x2,P22,Pver,0,5, Aug19,Nutrient,Aug19_P22
+C3,2x2,P23,Pver,0,10, Aug19,Nutrient,Aug19_P23
+C3,3x3,A1/Aret97,Acr,0,0, Aug19,Nutrient,Aug19_A1/Aret97
+C3,3x3,P15,Pver,0,0, Aug19,Nutrient,Aug19_P15
+C3,3x3,P19,Pver,0,5, Aug19,Nutrient,Aug19_P19
+C3,3x3,P24,Pver,0,0, Aug19,Nutrient,Aug19_P24
+C3,3x3,P3,Pver,0,0, Aug19,Nutrient,Aug19_P3
+C3,open,A1,Acr,0,100, Aug19,Nutrient,Aug19_A1
+C3,open,A5,Acr,0,60, Aug19,Nutrient,Aug19_A5
+C3,open,A6,Acr,0,1, Aug19,Nutrient,Aug19_A6
+C3,open,P11,Pver,0,0, Aug19,Nutrient,Aug19_P11
+C3,open,P12,Pver,0,0, Aug19,Nutrient,Aug19_P12
+C3,open,P13,Pver,5,5, Aug19,Nutrient,Aug19_P13
+C3,open,P15,Pver,10,30, Aug19,Nutrient,Aug19_P15
+D2,1x1,A1,Acr,95,0, Aug19,Ambient,Aug19_A1
+D2,1x1,A5,Acr,0,100, Aug19,Ambient,Aug19_A5
+D2,1x1,A7,Acr,0,0, Aug19,Ambient,Aug19_A7
+D2,1x1,P15,Pver,0,10, Aug19,Ambient,Aug19_P15
+D2,1x1,P17,Pver,0,0, Aug19,Ambient,Aug19_P17
+D2,1x1,P2,Pver,0,0, Aug19,Ambient,Aug19_P2
+D2,2x2,A6,Acr,0,0, Aug19,Ambient,Aug19_A6
+D2,2x2,A7,Acr,0,100, Aug19,Ambient,Aug19_A7
+D2,2x2,P2,Pver,0,0, Aug19,Ambient,Aug19_P2
+D2,2x2,P21,Pver,0,0, Aug19,Ambient,Aug19_P21
+D2,2x2,P7,Pver,0,30, Aug19,Ambient,Aug19_P7
+D2,3x3,A1,Acr,0,100, Aug19,Ambient,Aug19_A1
+D2,3x3,P22,Pver,0,0, Aug19,Ambient,Aug19_P22
+D2,3x3,P5,Pver,0,0, Aug19,Ambient,Aug19_P5
+D2,3x3,P9,Pver,0,10, Aug19,Ambient,Aug19_P9
+D2,open,P12,Pver,0,5, Aug19,Ambient,Aug19_P12
+D2,open,P13,Pver,0,0, Aug19,Ambient,Aug19_P13
+D2,open,P15,Pver,0,0, Aug19,Ambient,Aug19_P15
+D4,1x1,A1,Acr,0,0, Aug19,Nutrient,Aug19_A1
+D4,1x1,A2,Acr,0,90, Aug19,Nutrient,Aug19_A2
+D4,1x1,A3,Acr,0,40, Aug19,Nutrient,Aug19_A3
+D4,1x1,A4,Acr,0,0, Aug19,Nutrient,Aug19_A4
+D4,1x1,P16,Pver,0,0, Aug19,Nutrient,Aug19_P16
+D4,1x1,P5,Pver,0,0, Aug19,Nutrient,Aug19_P5
+D4,1x1,P7,Pver,0,15, Aug19,Nutrient,Aug19_P7
+D4,2x2,A1,Acr,0,100, Aug19,Nutrient,Aug19_A1
+D4,2x2,A2,Acr,0,0, Aug19,Nutrient,Aug19_A2
+D4,2x2,P11,Pver,0,0, Aug19,Nutrient,Aug19_P11
+D4,2x2,P5,Pver,0,0, Aug19,Nutrient,Aug19_P5
+D4,2x2,P6,Pver,0,0, Aug19,Nutrient,Aug19_P6
+D4,3x3,A3,Acr,0,0, Aug19,Nutrient,Aug19_A3
+D4,3x3,A4,Acr,0,80, Aug19,Nutrient,Aug19_A4
+D4,3x3,A5,Acr,100,0, Aug19,Nutrient,Aug19_A5
+D4,3x3,P20,Pver,0,0, Aug19,Nutrient,Aug19_P20
+D4,3x3,P30,Pver,0,0, Aug19,Nutrient,Aug19_P30
+D4,3x3,P8,Pver,0,5, Aug19,Nutrient,Aug19_P8
+D4,open,A1,Acr,0,0, Aug19,Nutrient,Aug19_A1
+D4,open,P23,Pver,0,0, Aug19,Nutrient,Aug19_P23
+D4,open,P5,Pver,0,0, Aug19,Nutrient,Aug19_P5
+D4,open,P6,Pver,0,0, Aug19,Nutrient,Aug19_P6
+A1,1x1,A5,Acr,0,0, Nov19,Ambient,Nov19_A5
+A1,1x1,P11,Pver,0,0, Nov19,Ambient,Nov19_P11
+A1,1x1,P16,Pver,0,0, Nov19,Ambient,Nov19_P16
+A1,1x1,P9,Pver,0,0, Nov19,Ambient,Nov19_P9
+A1,2x2,P13,Pver,0,5, Nov19,Ambient,Nov19_P13
+A1,2x2,P8,Pver,0,0, Nov19,Ambient,Nov19_P8
+A1,3x3,A3,Acr,0,0, Nov19,Ambient,Nov19_A3
+A1,3x3,A4,Acr,0,0, Nov19,Ambient,Nov19_A4
+A1,3x3,P12,Pver,0,0, Nov19,Ambient,Nov19_P12
+A1,3x3,P8,Pver,0,0, Nov19,Ambient,Nov19_P8
+A1,3x3,P9,Pver,0,4, Nov19,Ambient,Nov19_P9
+A1,open,A1,Acr,0,100, Nov19,Ambient,Nov19_A1
+A1,open,A2,Acr,15,0, Nov19,Ambient,Nov19_A2
+A1,open,A3,Acr,100,0, Nov19,Ambient,Nov19_A3
+A1,open,P12,Pver,0,0, Nov19,Ambient,Nov19_P12
+A1,open,P8,Pver,0,0, Nov19,Ambient,Nov19_P8
+A2,1x1,A2,Acr,0,100, Nov19,Nutrient,Nov19_A2
+A2,1x1,P11,Pver,0,0, Nov19,Nutrient,Nov19_P11
+A2,1x1,P17,Pver,0,0, Nov19,Nutrient,Nov19_P17
+A2,1x1,P22,Pver,0,0, Nov19,Nutrient,Nov19_P22
+A2,2x2,A3,Acr,0,0, Nov19,Nutrient,Nov19_A3
+A2,2x2,P24,Pver,0,0, Nov19,Nutrient,Nov19_P24
+A2,2x2,P9,Pver,0,0, Nov19,Nutrient,Nov19_P9
+A2,3x3,A2,Acr,0,0, Nov19,Nutrient,Nov19_A2
+A2,3x3,P20,Pver,0,0, Nov19,Nutrient,Nov19_P20
+A2,3x3,P25,Pver,0,10, Nov19,Nutrient,Nov19_P25
+A2,3x3,P6,Pver,0,0, Nov19,Nutrient,Nov19_P6
+A2,open,A1,Acr,0,100, Nov19,Nutrient,Nov19_A1
+A2,open,A2,Acr,0,0, Nov19,Nutrient,Nov19_A2
+A2,open,P1,Pver,0,0, Nov19,Nutrient,Nov19_P1
+A2,open,P19,Pver,0,5, Nov19,Nutrient,Nov19_P19
+A2,open,P5,Pver,0,0, Nov19,Nutrient,Nov19_P5
+B3,1x1,A3,Acr,0,15, Nov19,Nutrient,Nov19_A3
+B3,1x1,P11,Pver,0,10, Nov19,Nutrient,Nov19_P11
+B3,1x1,P13,Pver,0,20, Nov19,Nutrient,Nov19_P13
+B3,1x1,P20,Pver,0,0, Nov19,Nutrient,Nov19_P20
+B3,1x1,P21,Pver,0,0, Nov19,Nutrient,Nov19_P21
+B3,1x1,P23,Pver,0,0, Nov19,Nutrient,Nov19_P23
+B3,2x2,A1,Acr,0,80, Nov19,Nutrient,Nov19_A1
+B3,2x2,A6,Acr,0,0, Nov19,Nutrient,Nov19_A6
+B3,2x2,P1,Pver,0,0, Nov19,Nutrient,Nov19_P1
+B3,3x3,A2,Acr,0,0, Nov19,Nutrient,Nov19_A2
+B3,3x3,A3,Acr,0,0, Nov19,Nutrient,Nov19_A3
+B3,3x3,P2,Pver,0,0, Nov19,Nutrient,Nov19_P2
+B3,3x3,P9,Pver,0,0, Nov19,Nutrient,Nov19_P9
+B3,open,A1,Acr,0,0, Nov19,Nutrient,Nov19_A1
+B3,open,P10,Pver,0,0, Nov19,Nutrient,Nov19_P10
+B3,open,P21,Pver,0,5, Nov19,Nutrient,Nov19_P21
+B3,open,P28,Pver,0,0, Nov19,Nutrient,Nov19_P28
+B3,open,P5,Pver,0,0, Nov19,Nutrient,Nov19_P5
+B4,1x1,A1,Acr,0,0, Nov19,Ambient,Nov19_A1
+B4,1x1,P11,Pver,0,0, Nov19,Ambient,Nov19_P11
+B4,1x1,P25,Pver,0,0, Nov19,Ambient,Nov19_P25
+B4,2x2,A2,Acr,0,99, Nov19,Ambient,Nov19_A2
+B4,2x2,A4,Acr,0,0, Nov19,Ambient,Nov19_A4
+B4,2x2,A8,Acr,0,0, Nov19,Ambient,Nov19_A8
+B4,2x2,P7,Pver,0,0, Nov19,Ambient,Nov19_P7
+B4,3x3,A3,Acr,0,0, Nov19,Ambient,Nov19_A3
+B4,3x3,A7,Acr,0,0, Nov19,Ambient,Nov19_A7
+B4,3x3,P14,Pver,0,0, Nov19,Ambient,Nov19_P14
+B4,3x3,P2,Pver,0,0, Nov19,Ambient,Nov19_P2
+B4,3x3,P6,Pver,0,0, Nov19,Ambient,Nov19_P6
+B4,open,P13,Pver,0,0, Nov19,Ambient,Nov19_P13
+B4,open,P5,Pver,0,0, Nov19,Ambient,Nov19_P5
+C1,1x1,P20,Pver,0,2, Nov19,Ambient,Nov19_P20
+C1,1x1,P4,Pver,0,0, Nov19,Ambient,Nov19_P4
+C1,1x1,P5,Pver,0,10, Nov19,Ambient,Nov19_P5
+C1,2x2,A1,Acr,0,5, Nov19,Ambient,Nov19_A1
+C1,2x2,A4,Acr,0,98, Nov19,Ambient,Nov19_A4
+C1,2x2,P15,Pver,0,5, Nov19,Ambient,Nov19_P15
+C1,2x2,P16,Pver,0,100, Nov19,Ambient,Nov19_P16
+C1,2x2,P18,Pver,0,5, Nov19,Ambient,Nov19_P18
+C1,2x2,P3,Pver,0,0, Nov19,Ambient,Nov19_P3
+C1,3x3,A1,Acr,0,100, Nov19,Ambient,Nov19_A1
+C1,3x3,A5,Acr,0,0, Nov19,Ambient,Nov19_A5
+C1,3x3,P13,Pver,0,0, Nov19,Ambient,Nov19_P13
+C1,open,P12,Pver,0,0, Nov19,Ambient,Nov19_P12
+C1,open,P18,Pver,0,0, Nov19,Ambient,Nov19_P18
+C1,open,P3,Pver,0,0, Nov19,Ambient,Nov19_P3
+C3,1x1,A2,Acr,0,15, Nov19,Nutrient,Nov19_A2
+C3,1x1,P20,Pver,0,0, Nov19,Nutrient,Nov19_P20
+C3,1x1,P7,Pver,0,0, Nov19,Nutrient,Nov19_P7
+C3,2x2,A1,Acr,0,100, Nov19,Nutrient,Nov19_A1
+C3,2x2,A3/Aret73,Acr,0,100, Nov19,Nutrient,Nov19_A3/Aret73
+C3,2x2,A4/Aret275,Acr,0,0, Nov19,Nutrient,Nov19_A4/Aret275
+C3,2x2,P17,Pver,0,5, Nov19,Nutrient,Nov19_P17
+C3,2x2,P22,Pver,0,10, Nov19,Nutrient,Nov19_P22
+C3,2x2,P23,Pver,0,15, Nov19,Nutrient,Nov19_P23
+C3,3x3,A1/Aret97,Acr,0,0, Nov19,Nutrient,Nov19_A1/Aret97
+C3,3x3,P15,Pver,0,0, Nov19,Nutrient,Nov19_P15
+C3,3x3,P19,Pver,0,5, Nov19,Nutrient,Nov19_P19
+C3,3x3,P24,Pver,0,0, Nov19,Nutrient,Nov19_P24
+C3,3x3,P3,Pver,0,0, Nov19,Nutrient,Nov19_P3
+C3,open,A1,Acr,0,100, Nov19,Nutrient,Nov19_A1
+C3,open,A5,Acr,0,60, Nov19,Nutrient,Nov19_A5
+C3,open,A6,Acr,0,1, Nov19,Nutrient,Nov19_A6
+C3,open,P11,Pver,0,0, Nov19,Nutrient,Nov19_P11
+C3,open,P12,Pver,0,0, Nov19,Nutrient,Nov19_P12
+C3,open,P13,Pver,0,5, Nov19,Nutrient,Nov19_P13
+C3,open,P15,Pver,0,30, Nov19,Nutrient,Nov19_P15
+D2,1x1,A1,Acr,0,0, Nov19,Ambient,Nov19_A1
+D2,1x1,A5,Acr,0,100, Nov19,Ambient,Nov19_A5
+D2,1x1,A7,Acr,0,0, Nov19,Ambient,Nov19_A7
+D2,1x1,P15,Pver,0,10, Nov19,Ambient,Nov19_P15
+D2,1x1,P17,Pver,0,0, Nov19,Ambient,Nov19_P17
+D2,1x1,P2,Pver,0,0, Nov19,Ambient,Nov19_P2
+D2,2x2,A6,Acr,0,0, Nov19,Ambient,Nov19_A6
+D2,2x2,A7,Acr,0,100, Nov19,Ambient,Nov19_A7
+D2,2x2,P2,Pver,0,0, Nov19,Ambient,Nov19_P2
+D2,2x2,P21,Pver,0,0, Nov19,Ambient,Nov19_P21
+D2,2x2,P7,Pver,0,40, Nov19,Ambient,Nov19_P7
+D2,3x3,A1,Acr,0,100, Nov19,Ambient,Nov19_A1
+D2,3x3,P22,Pver,0,0, Nov19,Ambient,Nov19_P22
+D2,3x3,P5,Pver,0,0, Nov19,Ambient,Nov19_P5
+D2,3x3,P9,Pver,0,10, Nov19,Ambient,Nov19_P9
+D2,open,P12,Pver,0,5, Nov19,Ambient,Nov19_P12
+D2,open,P13,Pver,0,0, Nov19,Ambient,Nov19_P13
+D2,open,P15,Pver,0,0, Nov19,Ambient,Nov19_P15
+D4,1x1,A1,Acr,0,0, Nov19,Nutrient,Nov19_A1
+D4,1x1,A2,Acr,0,98, Nov19,Nutrient,Nov19_A2
+D4,1x1,A3,Acr,0,40, Nov19,Nutrient,Nov19_A3
+D4,1x1,A4,Acr,0,0, Nov19,Nutrient,Nov19_A4
+D4,1x1,P16,Pver,0,0, Nov19,Nutrient,Nov19_P16
+D4,1x1,P5,Pver,0,0, Nov19,Nutrient,Nov19_P5
+D4,1x1,P7,Pver,0,15, Nov19,Nutrient,Nov19_P7
+D4,2x2,A1,Acr,0,100, Nov19,Nutrient,Nov19_A1
+D4,2x2,A2,Acr,0,0, Nov19,Nutrient,Nov19_A2
+D4,2x2,P11,Pver,0,0, Nov19,Nutrient,Nov19_P11
+D4,2x2,P5,Pver,0,0, Nov19,Nutrient,Nov19_P5
+D4,2x2,P6,Pver,0,0, Nov19,Nutrient,Nov19_P6
+D4,3x3,A3,Acr,0,0, Nov19,Nutrient,Nov19_A3
+D4,3x3,A4,Acr,0,80, Nov19,Nutrient,Nov19_A4
+D4,3x3,A5,Acr,0,0, Nov19,Nutrient,Nov19_A5
+D4,3x3,P20,Pver,0,0, Nov19,Nutrient,Nov19_P20
+D4,3x3,P30,Pver,0,0, Nov19,Nutrient,Nov19_P30
+D4,3x3,P8,Pver,0,5, Nov19,Nutrient,Nov19_P8
+D4,open,A1,Acr,0,0, Nov19,Nutrient,Nov19_A1
+D4,open,P23,Pver,0,0, Nov19,Nutrient,Nov19_P23
+D4,open,P5,Pver,0,0, Nov19,Nutrient,Nov19_P5
+D4,open,P6,Pver,0,0, Nov19,Nutrient,Nov19_P6
+A1,1x1,A5,Acr,0,0, Aug20,Ambient,Aug20_A5
+A1,1x1,P11,Pver,0,0, Aug20,Ambient,Aug20_P11
+A1,1x1,P16,Pver,0,0, Aug20,Ambient,Aug20_P16
+A1,1x1,P9,Pver,0,0, Aug20,Ambient,Aug20_P9
+A1,2x2,A4,Acr,0,0, Aug20,Ambient,Aug20_A4
+A1,2x2,P13,Pver,0,10, Aug20,Ambient,Aug20_P13
+A1,2x2,P8,Pver,0,0, Aug20,Ambient,Aug20_P8
+A1,3x3,A3,Acr,0,0, Aug20,Ambient,Aug20_A3
+A1,3x3,A4,Acr,5,20, Aug20,Ambient,Aug20_A4
+A1,3x3,P12,Pver,0,100, Aug20,Ambient,Aug20_P12
+A1,3x3,P8,Pver,0,0, Aug20,Ambient,Aug20_P8
+A1,3x3,P9,Pver,0,5, Aug20,Ambient,Aug20_P9
+A1,open,A1,Acr,NA,100, Aug20,Ambient,Aug20_A1
+A1,open,A2,Acr,0,0, Aug20,Ambient,Aug20_A2
+A1,open,A3,Acr,0,0, Aug20,Ambient,Aug20_A3
+A1,open,P12,Pver,0,2, Aug20,Ambient,Aug20_P12
+A1,open,P8,Pver,0,0, Aug20,Ambient,Aug20_P8
+A2,1x1,A2,Acr,NA,100, Aug20,Nutrient,Aug20_A2
+A2,1x1,P11,Pver,0,0, Aug20,Nutrient,Aug20_P11
+A2,1x1,P17,Pver,0,0, Aug20,Nutrient,Aug20_P17
+A2,1x1,P22,Pver,0,0, Aug20,Nutrient,Aug20_P22
+A2,2x2,A3,Acr,0,0, Aug20,Nutrient,Aug20_A3
+A2,2x2,P24,Pver,0,0, Aug20,Nutrient,Aug20_P24
+A2,2x2,P9,Pver,0,0, Aug20,Nutrient,Aug20_P9
+A2,3x3,A2,Acr,0,0, Aug20,Nutrient,Aug20_A2
+A2,3x3,P20,Pver,0,0, Aug20,Nutrient,Aug20_P20
+A2,3x3,P25,Pver,0,15, Aug20,Nutrient,Aug20_P25
+A2,3x3,P6,Pver,0,0, Aug20,Nutrient,Aug20_P6
+A2,open,A1,Acr,0,100, Aug20,Nutrient,Aug20_A1
+A2,open,A2,Acr,0,0, Aug20,Nutrient,Aug20_A2
+A2,open,P1,Pver,0,0, Aug20,Nutrient,Aug20_P1
+A2,open,P19,Pver,0,5, Aug20,Nutrient,Aug20_P19
+A2,open,P5,Pver,5,0, Aug20,Nutrient,Aug20_P5
+B3,1x1,A3,Acr,0,10, Aug20,Nutrient,Aug20_A3
+B3,1x1,P11,Pver,0,50, Aug20,Nutrient,Aug20_P11
+B3,1x1,P13,Pver,0,15, Aug20,Nutrient,Aug20_P13
+B3,1x1,P20,Pver,0,0, Aug20,Nutrient,Aug20_P20
+B3,1x1,P21,Pver,0,2, Aug20,Nutrient,Aug20_P21
+B3,1x1,P23,Pver,0,0, Aug20,Nutrient,Aug20_P23
+B3,2x2,A1,Acr,0,100, Aug20,Nutrient,Aug20_A1
+B3,2x2,A6,Acr,0,0, Aug20,Nutrient,Aug20_A6
+B3,2x2,P1,Pver,0,0, Aug20,Nutrient,Aug20_P1
+B3,3x3,A2,Acr,0,0, Aug20,Nutrient,Aug20_A2
+B3,3x3,A3,Acr,0,0, Aug20,Nutrient,Aug20_A3
+B3,3x3,P2,Pver,0,5, Aug20,Nutrient,Aug20_P2
+B3,3x3,P9,Pver,0,0, Aug20,Nutrient,Aug20_P9
+B3,open,A1,Acr,0,0, Aug20,Nutrient,Aug20_A1
+B3,open,P10,Pver,0,10, Aug20,Nutrient,Aug20_P10
+B3,open,P21,Pver,0,0, Aug20,Nutrient,Aug20_P21
+B3,open,P28,Pver,0,0, Aug20,Nutrient,Aug20_P28
+B3,open,P5,Pver,0,0, Aug20,Nutrient,Aug20_P5
+B4,1x1,A1,Acr,0,15, Aug20,Ambient,Aug20_A1
+B4,1x1,A2,Acr,0,0, Aug20,Ambient,Aug20_A2
+B4,1x1,P11,Pver,0,0, Aug20,Ambient,Aug20_P11
+B4,1x1,P25,Pver,0,0, Aug20,Ambient,Aug20_P25
+B4,2x2,A2,Acr,0,95, Aug20,Ambient,Aug20_A2
+B4,2x2,A4,Acr,0,0, Aug20,Ambient,Aug20_A4
+B4,2x2,A8,Acr,0,0, Aug20,Ambient,Aug20_A8
+B4,2x2,P7,Pver,0,20, Aug20,Ambient,Aug20_P7
+B4,3x3,A3,Acr,0,0, Aug20,Ambient,Aug20_A3
+B4,3x3,A7,Acr,0,0, Aug20,Ambient,Aug20_A7
+B4,3x3,P14,Pver,0,0, Aug20,Ambient,Aug20_P14
+B4,3x3,P2,Pver,0,10, Aug20,Ambient,Aug20_P2
+B4,3x3,P6,Pver,0,0, Aug20,Ambient,Aug20_P6
+B4,open,A2,Acr,0,0, Aug20,Ambient,Aug20_A2
+B4,open,P13,Pver,0,0, Aug20,Ambient,Aug20_P13
+B4,open,P5,Pver,0,0, Aug20,Ambient,Aug20_P5
+C1,1x1,P20,Pver,0,15, Aug20,Ambient,Aug20_P20
+C1,1x1,P4,Pver,0,0, Aug20,Ambient,Aug20_P4
+C1,1x1,P5,Pver,0,10, Aug20,Ambient,Aug20_P5
+C1,2x2,A1,Acr,0,15, Aug20,Ambient,Aug20_A1
+C1,2x2,A4,Acr,0,98, Aug20,Ambient,Aug20_A4
+C1,2x2,P15,Pver,0,15, Aug20,Ambient,Aug20_P15
+C1,2x2,P16,Pver,0,100, Aug20,Ambient,Aug20_P16
+C1,2x2,P18,Pver,0,10, Aug20,Ambient,Aug20_P18
+C1,2x2,P3,Pver,0,0, Aug20,Ambient,Aug20_P3
+C1,3x3,A1,Acr,0,100, Aug20,Ambient,Aug20_A1
+C1,3x3,A5,Acr,0,0, Aug20,Ambient,Aug20_A5
+C1,3x3,P13,Pver,0,0, Aug20,Ambient,Aug20_P13
+C1,open,P12,Pver,0,5, Aug20,Ambient,Aug20_P12
+C1,open,P18,Pver,0,0, Aug20,Ambient,Aug20_P18
+C1,open,P3,Pver,0,0, Aug20,Ambient,Aug20_P3
+C3,1x1,A2,Acr,0,10, Aug20,Nutrient,Aug20_A2
+C3,1x1,P20,Pver,0,0, Aug20,Nutrient,Aug20_P20
+C3,1x1,P7,Pver,0,0, Aug20,Nutrient,Aug20_P7
+C3,2x2,A1,Acr,0,100, Aug20,Nutrient,Aug20_A1
+C3,2x2,A3/Aret73,Acr,0,100, Aug20,Nutrient,Aug20_A3/Aret73
+C3,2x2,A4/Aret275,Acr,0,0, Aug20,Nutrient,Aug20_A4/Aret275
+C3,2x2,P17,Pver,0,15, Aug20,Nutrient,Aug20_P17
+C3,2x2,P22,Pver,0,20, Aug20,Nutrient,Aug20_P22
+C3,2x2,P23,Pver,0,10, Aug20,Nutrient,Aug20_P23
+C3,3x3,A1/Aret97,Acr,0,0, Aug20,Nutrient,Aug20_A1/Aret97
+C3,3x3,A2/Aret 42,Acr,0,0, Aug20,Nutrient,Aug20_A2/Aret 42
+C3,3x3,P15,Pver,0,5, Aug20,Nutrient,Aug20_P15
+C3,3x3,P19,Pver,0,3, Aug20,Nutrient,Aug20_P19
+C3,3x3,P24,Pver,0,15, Aug20,Nutrient,Aug20_P24
+C3,3x3,P3,Pver,0,0, Aug20,Nutrient,Aug20_P3
+C3,open,A1,Acr,0,100, Aug20,Nutrient,Aug20_A1
+C3,open,A5,Acr,0,50, Aug20,Nutrient,Aug20_A5
+C3,open,A6,Acr,0,0, Aug20,Nutrient,Aug20_A6
+C3,open,P11,Pver,0,0, Aug20,Nutrient,Aug20_P11
+C3,open,P12,Pver,0,0, Aug20,Nutrient,Aug20_P12
+C3,open,P13,Pver,0,5, Aug20,Nutrient,Aug20_P13
+C3,open,P15,Pver,0,95, Aug20,Nutrient,Aug20_P15
+D2,1x1,A1,Acr,0,0, Aug20,Ambient,Aug20_A1
+D2,1x1,A5,Acr,NA,100, Aug20,Ambient,Aug20_A5
+D2,1x1,A7,Acr,0,0, Aug20,Ambient,Aug20_A7
+D2,1x1,P15,Pver,0,10, Aug20,Ambient,Aug20_P15
+D2,1x1,P17,Pver,0,0, Aug20,Ambient,Aug20_P17
+D2,1x1,P2,Pver,0,2, Aug20,Ambient,Aug20_P2
+D2,2x2,A6,Acr,0,0, Aug20,Ambient,Aug20_A6
+D2,2x2,A7,Acr,NA,100, Aug20,Ambient,Aug20_A7
+D2,2x2,P2,Pver,0,40, Aug20,Ambient,Aug20_P2
+D2,2x2,P21,Pver,0,2, Aug20,Ambient,Aug20_P21
+D2,2x2,P7,Pver,0,60, Aug20,Ambient,Aug20_P7
+D2,3x3,A1,Acr,NA,100, Aug20,Ambient,Aug20_A1
+D2,3x3,P22,Pver,0,0, Aug20,Ambient,Aug20_P22
+D2,3x3,P5,Pver,0,0, Aug20,Ambient,Aug20_P5
+D2,3x3,P9,Pver,0,15, Aug20,Ambient,Aug20_P9
+D2,open,P12,Pver,0,10, Aug20,Ambient,Aug20_P12
+D2,open,P13,Pver,0,0, Aug20,Ambient,Aug20_P13
+D2,open,P15,Pver,0,0, Aug20,Ambient,Aug20_P15
+D4,1x1,A1,Acr,0,0, Aug20,Nutrient,Aug20_A1
+D4,1x1,A2,Acr,NA,98, Aug20,Nutrient,Aug20_A2
+D4,1x1,A3,Acr,0,40, Aug20,Nutrient,Aug20_A3
+D4,1x1,A4,Acr,0,0, Aug20,Nutrient,Aug20_A4
+D4,1x1,P16,Pver,0,0, Aug20,Nutrient,Aug20_P16
+D4,1x1,P5,Pver,0,0, Aug20,Nutrient,Aug20_P5
+D4,1x1,P7,Pver,0,20, Aug20,Nutrient,Aug20_P7
+D4,2x2,A1,Acr,NA,100, Aug20,Nutrient,Aug20_A1
+D4,2x2,A2,Acr,0,0, Aug20,Nutrient,Aug20_A2
+D4,2x2,A3,Acr,0,0, Aug20,Nutrient,Aug20_A3
+D4,2x2,P11,Pver,0,0, Aug20,Nutrient,Aug20_P11
+D4,2x2,P5,Pver,0,15, Aug20,Nutrient,Aug20_P5
+D4,2x2,P6,Pver,0,0, Aug20,Nutrient,Aug20_P6
+D4,3x3,A3,Acr,0,0, Aug20,Nutrient,Aug20_A3
+D4,3x3,A4,Acr,0,50, Aug20,Nutrient,Aug20_A4
+D4,3x3,A5,Acr,0,0, Aug20,Nutrient,Aug20_A5
+D4,3x3,P20,Pver,0,0, Aug20,Nutrient,Aug20_P20
+D4,3x3,P30,Pver,0,0, Aug20,Nutrient,Aug20_P30
+D4,3x3,P8,Pver,0,5, Aug20,Nutrient,Aug20_P8
+D4,open,A1,Acr,0,0, Aug20,Nutrient,Aug20_A1
+D4,open,A6,Acr,0,0, Aug20,Nutrient,Aug20_A6
+D4,open,P23,Pver,0,0, Aug20,Nutrient,Aug20_P23
+D4,open,P5,Pver,0,0, Aug20,Nutrient,Aug20_P5
+D4,open,P6,Pver,0,0, Aug20,Nutrient,Aug20_P6
+A1,1x1,plob_220,Plob,0,0, Jul18,Ambient,Jul18_plob_220
+A1,3x3,plob_222,Plob,0,0, Jul18,Ambient,Jul18_plob_222
+A1,open,plob_224,Plob,0,0, Jul18,Ambient,Jul18_plob_224
+A1,open,plob_225,Plob,0,0, Jul18,Ambient,Jul18_plob_225
+A2,1x1,plob_205,Plob,0,0, Jul18,Nutrient,Jul18_plob_205
+A2,1x1,plob_206/31/15,Plob,0,0, Jul18,Nutrient,Jul18_plob_206/31/15
+A2,1x1,plob_914,Plob,0,0, Jul18,Nutrient,Jul18_plob_914
+A2,2x2,plob_208,Plob,0,0, Jul18,Nutrient,Jul18_plob_208
+A2,2x2,plob_209,Plob,0,0, Jul18,Nutrient,Jul18_plob_209
+A2,3x3,plob_211,Plob,0,0, Jul18,Nutrient,Jul18_plob_211
+A2,3x3,plob_913,Plob,0,0, Jul18,Nutrient,Jul18_plob_913
+A2,open,plob_215,Plob,0,0, Jul18,Nutrient,Jul18_plob_215
+A2,open,plob_216,Plob,0,0, Jul18,Nutrient,Jul18_plob_216
+A2,open,plob_912,Plob,0,0, Jul18,Nutrient,Jul18_plob_912
+B3,1x1,plob_907,Plob,0,0, Jul18,Nutrient,Jul18_plob_907
+B3,2x2,plob_909,Plob,0,0, Jul18,Nutrient,Jul18_plob_909
+B3,3x3,plob_150,Plob,0,0, Jul18,Nutrient,Jul18_plob_150
+B3,3x3,plob_264,Plob,0,0, Jul18,Nutrient,Jul18_plob_264
+B3,3x3,plob_910,Plob,0,0, Jul18,Nutrient,Jul18_plob_910
+B3,open,plob_908,Plob,0,0, Jul18,Nutrient,Jul18_plob_908
+B4,2x2,plob_?,Plob,0,0, Jul18,Ambient,Jul18_plob_?
+B4,2x2,plob_439,Plob,0,0, Jul18,Ambient,Jul18_plob_439
+B4,3x3,plob_368,Plob,0,0, Jul18,Ambient,Jul18_plob_368
+B4,open,plob_235,Plob,0,0, Jul18,Ambient,Jul18_plob_235
+C1,1x1,plob_281,Plob,0,0, Jul18,Ambient,Jul18_plob_281
+C1,1x1,plob_283,Plob,0,0, Jul18,Ambient,Jul18_plob_283
+C1,2x2,plob_287,Plob,0,0, Jul18,Ambient,Jul18_plob_287
+C1,3x3,plob_306,Plob,0,0, Jul18,Ambient,Jul18_plob_306
+C1,open,plob_280,Plob,0,3, Jul18,Ambient,Jul18_plob_280
+C1,open,plob_281,Plob,0,0, Jul18,Ambient,Jul18_plob_281
+C3,1x1,plob_272,Plob,0,0, Jul18,Nutrient,Jul18_plob_272
+C3,1x1,plob_905,Plob,0,2, Jul18,Nutrient,Jul18_plob_905
+C3,2x2,plob_903,Plob,0,0, Jul18,Nutrient,Jul18_plob_903
+C3,3x3,plob_276,Plob,0,0, Jul18,Nutrient,Jul18_plob_276
+C3,3x3,plob_279,Plob,0,0, Jul18,Nutrient,Jul18_plob_279
+C3,3x3,plob_904,Plob,0,0, Jul18,Nutrient,Jul18_plob_904
+C3,open,plob_268,Plob,0,0, Jul18,Nutrient,Jul18_plob_268
+C3,open,plob_906,Plob,0,0, Jul18,Nutrient,Jul18_plob_906
+D2,1x1,plob_258,Plob,0,0, Jul18,Ambient,Jul18_plob_258
+D2,2x2,plob_901/91,Plob,0,0, Jul18,Ambient,Jul18_plob_901/91
+D2,3x3,plob_239,Plob,0,0, Jul18,Ambient,Jul18_plob_239
+D2,3x3,plob_902,Plob,0,0, Jul18,Ambient,Jul18_plob_902
+D2,open,plob_237,Plob,0,0, Jul18,Ambient,Jul18_plob_237
+D2,open,plob_700,Plob,0,0, Jul18,Ambient,Jul18_plob_700
+D4,1x1,plob_298,Plob,0,0, Jul18,Nutrient,Jul18_plob_298
+D4,2x2,plob_252,Plob,0,0, Jul18,Nutrient,Jul18_plob_252
+D4,3x3,plob_257,Plob,0,0, Jul18,Nutrient,Jul18_plob_257
+D4,3x3,plob_296,Plob,0,0, Jul18,Nutrient,Jul18_plob_296
+D4,open,plob_246,Plob,0,0, Jul18,Nutrient,Jul18_plob_246
+D4,open,plob_247,Plob,0,0, Jul18,Nutrient,Jul18_plob_247
+A1,1x1,plob_220,Plob,0,0, Nov18,Ambient,Nov18_plob_220
+A1,3x3,plob_222,Plob,0,0, Nov18,Ambient,Nov18_plob_222
+A1,open,plob_224,Plob,0,0, Nov18,Ambient,Nov18_plob_224
+A1,open,plob_225,Plob,0,80, Nov18,Ambient,Nov18_plob_225
+A2,1x1,plob_205,Plob,0,0, Nov18,Nutrient,Nov18_plob_205
+A2,1x1,plob_206/31/15,Plob,0,0, Nov18,Nutrient,Nov18_plob_206/31/15
+A2,1x1,plob_914,Plob,0,0, Nov18,Nutrient,Nov18_plob_914
+A2,2x2,plob_208,Plob,0,0, Nov18,Nutrient,Nov18_plob_208
+A2,2x2,plob_209,Plob,0,0, Nov18,Nutrient,Nov18_plob_209
+A2,3x3,plob_211,Plob,0,0, Nov18,Nutrient,Nov18_plob_211
+A2,3x3,plob_913,Plob,0,0, Nov18,Nutrient,Nov18_plob_913
+A2,open,plob_215,Plob,0,0, Nov18,Nutrient,Nov18_plob_215
+A2,open,plob_216,Plob,0,0, Nov18,Nutrient,Nov18_plob_216
+A2,open,plob_912,Plob,0,0, Nov18,Nutrient,Nov18_plob_912
+B3,1x1,plob_907,Plob,0,30, Nov18,Nutrient,Nov18_plob_907
+B3,2x2,plob_909,Plob,0,10, Nov18,Nutrient,Nov18_plob_909
+B3,3x3,plob_150,Plob,0,0, Nov18,Nutrient,Nov18_plob_150
+B3,3x3,plob_264,Plob,0,0, Nov18,Nutrient,Nov18_plob_264
+B3,3x3,plob_910,Plob,0,0, Nov18,Nutrient,Nov18_plob_910
+B3,open,plob_908,Plob,0,10, Nov18,Nutrient,Nov18_plob_908
+B4,2x2,plob_?,Plob,0,0, Nov18,Ambient,Nov18_plob_?
+B4,2x2,plob_439,Plob,0,0, Nov18,Ambient,Nov18_plob_439
+B4,3x3,plob_368,Plob,0,0, Nov18,Ambient,Nov18_plob_368
+B4,open,plob_235,Plob,0,0, Nov18,Ambient,Nov18_plob_235
+C1,1x1,plob_281,Plob,0,0, Nov18,Ambient,Nov18_plob_281
+C1,1x1,plob_283,Plob,0,0, Nov18,Ambient,Nov18_plob_283
+C1,2x2,plob_287,Plob,0,0, Nov18,Ambient,Nov18_plob_287
+C1,3x3,plob_306,Plob,0,0, Nov18,Ambient,Nov18_plob_306
+C1,open,plob_280,Plob,0,3, Nov18,Ambient,Nov18_plob_280
+C1,open,plob_281,Plob,0,0, Nov18,Ambient,Nov18_plob_281
+C3,1x1,plob_272,Plob,0,0, Nov18,Nutrient,Nov18_plob_272
+C3,1x1,plob_905,Plob,0,2, Nov18,Nutrient,Nov18_plob_905
+C3,2x2,plob_903,Plob,0,15, Nov18,Nutrient,Nov18_plob_903
+C3,3x3,plob_276,Plob,0,5, Nov18,Nutrient,Nov18_plob_276
+C3,3x3,plob_279,Plob,0,5, Nov18,Nutrient,Nov18_plob_279
+C3,3x3,plob_904,Plob,0,3, Nov18,Nutrient,Nov18_plob_904
+C3,open,plob_268,Plob,0,0, Nov18,Nutrient,Nov18_plob_268
+C3,open,plob_906,Plob,0,0, Nov18,Nutrient,Nov18_plob_906
+D2,1x1,plob_258,Plob,0,10, Nov18,Ambient,Nov18_plob_258
+D2,2x2,plob_901/91,Plob,0,1, Nov18,Ambient,Nov18_plob_901/91
+D2,3x3,plob_239,Plob,0,0, Nov18,Ambient,Nov18_plob_239
+D2,3x3,plob_902,Plob,0,1, Nov18,Ambient,Nov18_plob_902
+D2,open,plob_237,Plob,0,0, Nov18,Ambient,Nov18_plob_237
+D2,open,plob_700,Plob,0,2, Nov18,Ambient,Nov18_plob_700
+D4,1x1,plob_298,Plob,0,0, Nov18,Nutrient,Nov18_plob_298
+D4,2x2,plob_252,Plob,0,0, Nov18,Nutrient,Nov18_plob_252
+D4,3x3,plob_257,Plob,0,0, Nov18,Nutrient,Nov18_plob_257
+D4,3x3,plob_296,Plob,0,3, Nov18,Nutrient,Nov18_plob_296
+D4,open,plob_246,Plob,0,0, Nov18,Nutrient,Nov18_plob_246
+D4,open,plob_247,Plob,0,0, Nov18,Nutrient,Nov18_plob_247
+A1,3x3,plob_222,Plob,0,0, Mar19,Ambient,Mar19_plob_222
+A1,open,plob_224,Plob,5,10, Mar19,Ambient,Mar19_plob_224
+A1,open,plob_225,Plob,0,85, Mar19,Ambient,Mar19_plob_225
+A2,1x1,plob_205,Plob,0,0, Mar19,Nutrient,Mar19_plob_205
+A2,1x1,plob_206/31/15,Plob,0,0, Mar19,Nutrient,Mar19_plob_206/31/15
+A2,1x1,plob_914,Plob,0,90, Mar19,Nutrient,Mar19_plob_914
+A2,2x2,plob_208,Plob,0,5, Mar19,Nutrient,Mar19_plob_208
+A2,2x2,plob_209,Plob,0,0, Mar19,Nutrient,Mar19_plob_209
+A2,3x3,plob_211,Plob,0,5, Mar19,Nutrient,Mar19_plob_211
+A2,3x3,plob_913,Plob,0,0, Mar19,Nutrient,Mar19_plob_913
+A2,open,plob_215,Plob,0,0, Mar19,Nutrient,Mar19_plob_215
+A2,open,plob_216,Plob,0,0, Mar19,Nutrient,Mar19_plob_216
+A2,open,plob_912,Plob,0,100, Mar19,Nutrient,Mar19_plob_912
+B3,1x1,plob_907,Plob,0,80, Mar19,Nutrient,Mar19_plob_907
+B3,2x2,plob_909,Plob,0,12, Mar19,Nutrient,Mar19_plob_909
+B3,3x3,plob_150,Plob,0,20, Mar19,Nutrient,Mar19_plob_150
+B3,3x3,plob_264,Plob,0,20, Mar19,Nutrient,Mar19_plob_264
+B3,3x3,plob_910,Plob,0,90, Mar19,Nutrient,Mar19_plob_910
+B3,open,plob_908,Plob,0,50, Mar19,Nutrient,Mar19_plob_908
+B4,2x2,plob_?,Plob,0,10, Mar19,Ambient,Mar19_plob_?
+B4,2x2,plob_439,Plob,0,0, Mar19,Ambient,Mar19_plob_439
+B4,3x3,plob_131,Plob,0,0, Mar19,Ambient,Mar19_plob_131
+B4,3x3,plob_368,Plob,0,10, Mar19,Ambient,Mar19_plob_368
+B4,open,plob_235,Plob,0,0, Mar19,Ambient,Mar19_plob_235
+C1,1x1,plob_281,Plob,0,0, Mar19,Ambient,Mar19_plob_281
+C1,1x1,plob_283,Plob,0,0, Mar19,Ambient,Mar19_plob_283
+C1,2x2,plob_287,Plob,0,0, Mar19,Ambient,Mar19_plob_287
+C1,3x3,plob_306,Plob,0,0, Mar19,Ambient,Mar19_plob_306
+C1,open,plob_280,Plob,0,5, Mar19,Ambient,Mar19_plob_280
+C1,open,plob_281,Plob,0,0, Mar19,Ambient,Mar19_plob_281
+C3,1x1,plob_272,Plob,0,0, Mar19,Nutrient,Mar19_plob_272
+C3,1x1,plob_905,Plob,0,7, Mar19,Nutrient,Mar19_plob_905
+C3,2x2,plob_903,Plob,0,40, Mar19,Nutrient,Mar19_plob_903
+C3,3x3,plob_276,Plob,0,10, Mar19,Nutrient,Mar19_plob_276
+C3,3x3,plob_279,Plob,0,5, Mar19,Nutrient,Mar19_plob_279
+C3,3x3,plob_904,Plob,0,15, Mar19,Nutrient,Mar19_plob_904
+C3,open,plob_268,Plob,0,2, Mar19,Nutrient,Mar19_plob_268
+C3,open,plob_906,Plob,0,0, Mar19,Nutrient,Mar19_plob_906
+D2,1x1,plob_258,Plob,0,50, Mar19,Ambient,Mar19_plob_258
+D2,2x2,plob_901/91,Plob,0,1, Mar19,Ambient,Mar19_plob_901/91
+D2,3x3,plob_239,Plob,0,2, Mar19,Ambient,Mar19_plob_239
+D2,3x3,plob_902,Plob,0,100, Mar19,Ambient,Mar19_plob_902
+D2,open,plob_237,Plob,0,0, Mar19,Ambient,Mar19_plob_237
+D2,open,plob_700,Plob,0,5, Mar19,Ambient,Mar19_plob_700
+D4,1x1,plob_298,Plob,0,0, Mar19,Nutrient,Mar19_plob_298
+D4,2x2,plob_252,Plob,0,0, Mar19,Nutrient,Mar19_plob_252
+D4,3x3,plob_257,Plob,0,0, Mar19,Nutrient,Mar19_plob_257
+D4,3x3,plob_296,Plob,0,3, Mar19,Nutrient,Mar19_plob_296
+D4,open,plob_246,Plob,0,10, Mar19,Nutrient,Mar19_plob_246
+D4,open,plob_247,Plob,0,0, Mar19,Nutrient,Mar19_plob_247
+A1,3x3,plob_222,Plob,0,40, Aug19,Ambient,Aug19_plob_222
+A1,open,plob_224,Plob,0,25, Aug19,Ambient,Aug19_plob_224
+A1,open,plob_225,Plob,0,85, Aug19,Ambient,Aug19_plob_225
+A2,1x1,plob_205,Plob,0,0, Aug19,Nutrient,Aug19_plob_205
+A2,1x1,plob_206/31/15,Plob,0,0, Aug19,Nutrient,Aug19_plob_206/31/15
+A2,1x1,plob_914,Plob,0,90, Aug19,Nutrient,Aug19_plob_914
+A2,2x2,plob_208,Plob,0,10, Aug19,Nutrient,Aug19_plob_208
+A2,2x2,plob_209,Plob,0,10, Aug19,Nutrient,Aug19_plob_209
+A2,3x3,plob_211,Plob,0,15, Aug19,Nutrient,Aug19_plob_211
+A2,3x3,plob_913,Plob,0,1, Aug19,Nutrient,Aug19_plob_913
+A2,open,plob_215,Plob,0,0, Aug19,Nutrient,Aug19_plob_215
+A2,open,plob_216,Plob,0,0, Aug19,Nutrient,Aug19_plob_216
+A2,open,plob_912,Plob,0,100, Aug19,Nutrient,Aug19_plob_912
+B3,1x1,plob_907,Plob,0,100, Aug19,Nutrient,Aug19_plob_907
+B3,2x2,plob_909,Plob,0,80, Aug19,Nutrient,Aug19_plob_909
+B3,3x3,plob_150,Plob,NA,25, Aug19,Nutrient,Aug19_plob_150
+B3,3x3,plob_264,Plob,0,80, Aug19,Nutrient,Aug19_plob_264
+B3,3x3,plob_910,Plob,0,100, Aug19,Nutrient,Aug19_plob_910
+B3,open,plob_908,Plob,0,85, Aug19,Nutrient,Aug19_plob_908
+B4,2x2,plob_?,Plob,10,15, Aug19,Ambient,Aug19_plob_?
+B4,2x2,plob_439,Plob,0,0, Aug19,Ambient,Aug19_plob_439
+B4,3x3,plob_131,Plob,0,0, Aug19,Ambient,Aug19_plob_131
+B4,3x3,plob_368,Plob,0,10, Aug19,Ambient,Aug19_plob_368
+B4,open,plob_235,Plob,0,15, Aug19,Ambient,Aug19_plob_235
+C1,1x1,plob_281,Plob,0,5, Aug19,Ambient,Aug19_plob_281
+C1,1x1,plob_283,Plob,0,0, Aug19,Ambient,Aug19_plob_283
+C1,2x2,plob_287,Plob,0,0, Aug19,Ambient,Aug19_plob_287
+C1,3x3,plob_306,Plob,0,0, Aug19,Ambient,Aug19_plob_306
+C1,open,plob_280,Plob,0,5, Aug19,Ambient,Aug19_plob_280
+C1,open,plob_281,Plob,0,0, Aug19,Ambient,Aug19_plob_281
+C3,1x1,plob_272,Plob,0,5, Aug19,Nutrient,Aug19_plob_272
+C3,1x1,plob_905,Plob,0,30, Aug19,Nutrient,Aug19_plob_905
+C3,2x2,plob_903,Plob,0,100, Aug19,Nutrient,Aug19_plob_903
+C3,3x3,plob_276,Plob,0,20, Aug19,Nutrient,Aug19_plob_276
+C3,3x3,plob_279,Plob,0,2, Aug19,Nutrient,Aug19_plob_279
+C3,3x3,plob_904,Plob,0,15, Aug19,Nutrient,Aug19_plob_904
+C3,open,plob_268,Plob,0,0, Aug19,Nutrient,Aug19_plob_268
+C3,open,plob_906,Plob,0,0, Aug19,Nutrient,Aug19_plob_906
+D2,1x1,plob_258,Plob,0,70, Aug19,Ambient,Aug19_plob_258
+D2,2x2,plob_901/91,Plob,0,2, Aug19,Ambient,Aug19_plob_901/91
+D2,3x3,plob_239,Plob,2,10, Aug19,Ambient,Aug19_plob_239
+D2,3x3,plob_902,Plob,0,100, Aug19,Ambient,Aug19_plob_902
+D2,open,plob_237,Plob,0,0, Aug19,Ambient,Aug19_plob_237
+D2,open,plob_700,Plob,0,1, Aug19,Ambient,Aug19_plob_700
+D4,1x1,plob_298,Plob,0,10, Aug19,Nutrient,Aug19_plob_298
+D4,2x2,plob_252,Plob,0,5, Aug19,Nutrient,Aug19_plob_252
+D4,3x3,plob_257,Plob,0,2, Aug19,Nutrient,Aug19_plob_257
+D4,3x3,plob_296,Plob,0,10, Aug19,Nutrient,Aug19_plob_296
+D4,open,plob_246,Plob,0,10, Aug19,Nutrient,Aug19_plob_246
+D4,open,plob_247,Plob,0,5, Aug19,Nutrient,Aug19_plob_247
+C1,open,plob_280,Plob,0,5, Nov19,Ambient,Nov19_plob_280
+C1,open,plob_281,Plob,0,0, Nov19,Ambient,Nov19_plob_281
+C3,1x1,plob_272,Plob,0,15, Nov19,Nutrient,Nov19_plob_272
+C3,1x1,plob_905,Plob,0,60, Nov19,Nutrient,Nov19_plob_905
+C3,2x2,plob_903,Plob,0,100, Nov19,Nutrient,Nov19_plob_903
+C3,3x3,plob_276,Plob,0,30, Nov19,Nutrient,Nov19_plob_276
+C3,3x3,plob_279,Plob,0,10, Nov19,Nutrient,Nov19_plob_279
+C3,3x3,plob_904,Plob,0,15, Nov19,Nutrient,Nov19_plob_904
+C3,open,plob_268,Plob,0,0, Nov19,Nutrient,Nov19_plob_268
+C3,open,plob_906,Plob,0,0, Nov19,Nutrient,Nov19_plob_906
+D2,1x1,plob_258,Plob,0,100, Nov19,Ambient,Nov19_plob_258
+D2,2x2,plob_901/91,Plob,0,5, Nov19,Ambient,Nov19_plob_901/91
+D2,3x3,plob_239,Plob,0,15, Nov19,Ambient,Nov19_plob_239
+D2,3x3,plob_902,Plob,0,100, Nov19,Ambient,Nov19_plob_902
+D2,open,plob_237,Plob,0,0, Nov19,Ambient,Nov19_plob_237
+D2,open,plob_700,Plob,0,2, Nov19,Ambient,Nov19_plob_700
+D4,1x1,plob_298,Plob,0,20, Nov19,Nutrient,Nov19_plob_298
+D4,2x2,plob_252,Plob,0,30, Nov19,Nutrient,Nov19_plob_252
+D4,3x3,plob_257,Plob,0,2, Nov19,Nutrient,Nov19_plob_257
+D4,3x3,plob_296,Plob,0,13, Nov19,Nutrient,Nov19_plob_296
+D4,open,plob_246,Plob,0,10, Nov19,Nutrient,Nov19_plob_246
+D4,open,plob_247,Plob,0,10, Nov19,Nutrient,Nov19_plob_247
+A1,1x1,plob_220,Plob,0,0, Aug20,Ambient,Aug20_plob_220
+A1,3x3,plob_222,Plob,0,50, Aug20,Ambient,Aug20_plob_222
+A1,open,plob_224,Plob,0,10, Aug20,Ambient,Aug20_plob_224
+A1,open,plob_225,Plob,0,98, Aug20,Ambient,Aug20_plob_225
+A2,1x1,plob_205,Plob,0,25, Aug20,Nutrient,Aug20_plob_205
+A2,1x1,plob_206/31/15,Plob,0,0, Aug20,Nutrient,Aug20_plob_206/31/15
+A2,1x1,plob_914,Plob,0,100, Aug20,Nutrient,Aug20_plob_914
+A2,2x2,plob_208,Plob,0,95, Aug20,Nutrient,Aug20_plob_208
+A2,2x2,plob_209,Plob,0,90, Aug20,Nutrient,Aug20_plob_209
+A2,3x3,plob_211,Plob,0,90, Aug20,Nutrient,Aug20_plob_211
+A2,3x3,plob_913,Plob,0,60, Aug20,Nutrient,Aug20_plob_913
+A2,open,plob_215,Plob,0,80, Aug20,Nutrient,Aug20_plob_215
+A2,open,plob_216,Plob,0,30, Aug20,Nutrient,Aug20_plob_216
+A2,open,plob_912,Plob,0,100, Aug20,Nutrient,Aug20_plob_912
+B3,1x1,plob_907,Plob,0,100, Aug20,Nutrient,Aug20_plob_907
+B3,2x2,plob_909,Plob,0,100, Aug20,Nutrient,Aug20_plob_909
+B3,3x3,plob_150,Plob,0,35, Aug20,Nutrient,Aug20_plob_150
+B3,3x3,plob_264,Plob,0,100, Aug20,Nutrient,Aug20_plob_264
+B3,3x3,plob_910,Plob,0,100, Aug20,Nutrient,Aug20_plob_910
+B3,open,plob_908,Plob,0,100, Aug20,Nutrient,Aug20_plob_908
+B4,2x2,plob_?,Plob,0,100, Aug20,Ambient,Aug20_plob_?
+B4,3x3,plob_131,Plob,0,100, Aug20,Ambient,Aug20_plob_131
+B4,3x3,plob_368,Plob,0,40, Aug20,Ambient,Aug20_plob_368
+B4,open,plob_235,Plob,0,70, Aug20,Ambient,Aug20_plob_235
+C1,1x1,plob_281,Plob,0,95, Aug20,Ambient,Aug20_plob_281
+C1,1x1,plob_283,Plob,0,25, Aug20,Ambient,Aug20_plob_283
+C1,2x2,plob_287,Plob,0,2, Aug20,Ambient,Aug20_plob_287
+C1,3x3,plob_306,Plob,0,15, Aug20,Ambient,Aug20_plob_306
+C1,open,plob_280,Plob,0,60, Aug20,Ambient,Aug20_plob_280
+C1,open,plob_281,Plob,0,15, Aug20,Ambient,Aug20_plob_281
+C3,1x1,plob_272,Plob,0,25, Aug20,Nutrient,Aug20_plob_272
+C3,1x1,plob_905,Plob,0,100, Aug20,Nutrient,Aug20_plob_905
+C3,2x2,plob_903,Plob,0,100, Aug20,Nutrient,Aug20_plob_903
+C3,3x3,plob_276,Plob,0,50, Aug20,Nutrient,Aug20_plob_276
+C3,3x3,plob_279,Plob,0,30, Aug20,Nutrient,Aug20_plob_279
+C3,3x3,plob_904,Plob,0,20, Aug20,Nutrient,Aug20_plob_904
+C3,open,plob_268,Plob,0,100, Aug20,Nutrient,Aug20_plob_268
+C3,open,plob_906,Plob,0,0, Aug20,Nutrient,Aug20_plob_906
+D2,1x1,plob_258,Plob,0,100, Aug20,Ambient,Aug20_plob_258
+D2,2x2,plob_901/91,Plob,0,15, Aug20,Ambient,Aug20_plob_901/91
+D2,3x3,plob_239,Plob,0,20, Aug20,Ambient,Aug20_plob_239
+D2,3x3,plob_902,Plob,0,100, Aug20,Ambient,Aug20_plob_902
+D2,open,plob_237,Plob,0,20, Aug20,Ambient,Aug20_plob_237
+D2,open,plob_700,Plob,0,10, Aug20,Ambient,Aug20_plob_700
+D4,1x1,plob_298,Plob,0,30, Aug20,Nutrient,Aug20_plob_298
+D4,2x2,plob_252,Plob,0,70, Aug20,Nutrient,Aug20_plob_252
+D4,3x3,plob_257,Plob,0,3, Aug20,Nutrient,Aug20_plob_257
+D4,3x3,plob_296,Plob,0,8, Aug20,Nutrient,Aug20_plob_296
+D4,open,plob_246,Plob,0,20, Aug20,Nutrient,Aug20_plob_246
+D4,open,plob_247,Plob,0,10, Aug20,Nutrient,Aug20_plob_247
+A1,1X1,A5,Acr,0,0, May19,,
+A1,1X1,P11,Pver,0,0, May19,,
+A1,1X1,P16,Pver,0,0, May19,,
+A1,1X1,P9,Pver,0,0, May19,,
+A1,1X1,Plob 220,Plob,,, May19,,
+A1,2X2,A4,Acr,NA,NA, May19,,
+A1,2X2,P13,Pver,100,0, May19,,
+A1,2X2,P8,Pver,0,0, May19,,
+A1,3X3,A3,Acr,15,0, May19,,
+A1,3X3,A4,Acr,5,0, May19,,
+A1,3X3,P12,Pver,0,0, May19,,
+A1,3X3,P8,Pver,0,0, May19,,
+A1,3X3,P9,Pver,0,0, May19,,
+A1,3X3,Plob 222,Plob,,, May19,,
+A1,Open,A1,Acr,0,100, May19,,
+A1,Open,A2,Acr,80,0, May19,,
+A1,Open,A3,Acr,100,0, May19,,
+A1,Open,P12,Pver,0,0, May19,,
+A1,Open,P8,Pver,0,0, May19,,
+A1,Open,Plob 224,Plob,,, May19,,
+A1,Open,Plob 225,Plob,,, May19,,
+A2,1X1,A2,Acr,30,70, May19,,
+A2,1X1,P11,Pver,0,0, May19,,
+A2,1X1,P17,Pver,0,0, May19,,
+A2,1X1,P22,Pver,0,0, May19,,
+A2,1X1,Plob 205,Plob,,, May19,,
+A2,1X1,Plob 206/31/15,Plob,,, May19,,
+A2,1X1,Plob 914,Plob,,, May19,,
+A2,2X2,A3,Acr,0,0, May19,,
+A2,2X2,P24,Pver,0,0, May19,,
+A2,2X2,P9,Pver,0,0, May19,,
+A2,2X2,Plob 208,Plob,,, May19,,
+A2,2X2,Plob 209,Plob,,, May19,,
+A2,3X3,A2,Acr,0,0, May19,,
+A2,3X3,P20,Pver,0,0, May19,,
+A2,3X3,P25,Pver,0,5, May19,,
+A2,3X3,P6,Pver,0,0, May19,,
+A2,3X3,Plob 211,Plob,,, May19,,
+A2,3X3,Plob 83,Plob,,, May19,,
+A2,3X3,Plob 913,Plob,,, May19,,
+A2,Open,A1,Acr,100,0, May19,,
+A2,Open,A2,Acr,100,0, May19,,
+A2,Open,P1,Pver,0,0, May19,,
+A2,Open,P19,Pver,80,0, May19,,
+A2,Open,P5,Pver,0,0, May19,,
+A2,Open,Plob 215,Plob,,, May19,,
+A2,Open,Plob 216,Plob,,, May19,,
+A2,Open,Plob 912,Plob,,, May19,,
+B3,1X1,A3,Acr,100,0, May19,,
+B3,1X1,P11,Pver,0,0, May19,,
+B3,1X1,P13,Pver,0,15, May19,,
+B3,1X1,P20,Pver,0,0, May19,,
+B3,1X1,P21,Pver,0,0, May19,,
+B3,1X1,P23,Pver,0,0, May19,,
+B3,1X1,Plob 907,Plob,,, May19,,
+B3,2X2,A1,Acr,100,0, May19,,
+B3,2X2,A6,Acr,0,0, May19,,
+B3,2X2,P1,Pver,0,0, May19,,
+B3,2X2,Plob 909,Plob,,, May19,,
+B3,3X3,A2,Acr,0,0, May19,,
+B3,3X3,A3,Acr,0,0, May19,,
+B3,3X3,P2,Pver,0,0, May19,,
+B3,3X3,P9,Pver,0,0, May19,,
+B3,3X3,Plob 150,Plob,,, May19,,
+B3,3X3,Plob 264,Plob,,, May19,,
+B3,3X3,Plob 910,Plob,,, May19,,
+B3,Open,A1,Acr,90,0, May19,,
+B3,Open,P10,Pver,0,0, May19,,
+B3,Open,P21,Pver,0,0, May19,,
+B3,Open,P28,Pver,0,0, May19,,
+B3,Open,P5,Pver,0,0, May19,,
+B3,Open,Plob 908,Plob,,, May19,,
+B4,1X1,A1,Acr,0,0, May19,,
+B4,1X1,A2,Acr,NA,NA, May19,,
+B4,1X1,P11,Pver,0,0, May19,,
+B4,1X1,P25,Pver,20,0, May19,,
+B4,2X2,A2,Acr,20,10, May19,,
+B4,2X2,A4,Acr,0,0, May19,,
+B4,2X2,A8,Acr,0,0, May19,,
+B4,2X2,P7,Pver,100,0, May19,,
+B4,2X2,Plob ?,Plob,,, May19,,
+B4,2X2,Plob 439,Plob,,, May19,,
+B4,3X3,A3,Acr,0,0, May19,,
+B4,3X3,A7,Acr,0,0, May19,,
+B4,3X3,P14,Pver,10,0, May19,,
+B4,3X3,P2,Pver,0,0, May19,,
+B4,3X3,P6,Pver,0,0, May19,,
+B4,3X3,Plob 131,Plob,,, May19,,
+B4,3X3,Plob 368,Plob,,, May19,,
+B4,Open,A2,Acr,NA,NA, May19,,
+B4,Open,P13,Pver,15,0, May19,,
+B4,Open,P5,Pver,0,0, May19,,
+B4,Open,Plob 235,Plob,,, May19,,
+C1,1X1,P20,Pver,15,0, May19,,
+C1,1X1,P4,Pver,0,0, May19,,
+C1,1X1,P5,Pver,0,5, May19,,
+C1,1X1,Plob 281,Plob,,, May19,,
+C1,1X1,Plob 283,Plob,,, May19,,
+C1,2X2,A1,Acr,0,0, May19,,
+C1,2X2,A4,Acr,100,0, May19,,
+C1,2X2,P15,Pver,0,0, May19,,
+C1,2X2,P16,Pver,100,0, May19,,
+C1,2X2,P18,Pver,50,0, May19,,
+C1,2X2,P3,Pver,0,0, May19,,
+C1,2X2,Plob 287,Plob,,, May19,,
+C1,3X3,A1,Acr,0,100, May19,,
+C1,3X3,A5,Acr,0,0, May19,,
+C1,3X3,P13,Pver,80,0, May19,,
+C1,3X3,Plob 306,Plob,,, May19,,
+C1,Open,P12,Pver,0,0, May19,,
+C1,Open,P18,Pver,25,0, May19,,
+C1,Open,P3,Pver,0,0, May19,,
+C1,Open,Plob 280,Plob,,, May19,,
+C1,Open,Plob 281,Plob,,, May19,,
+C3,1X1,A2,Acr,100,0, May19,,
+C3,1X1,P20,Pver,0,0, May19,,
+C3,1X1,P7,Pver,0,0, May19,,
+C3,1X1,Plob 272,Plob,,, May19,,
+C3,1X1,Plob 905,Plob,,, May19,,
+C3,2X2,A1,Acr,100,0, May19,,
+C3,2X2,A3/Aret73,Acr,100,0, May19,,
+C3,2X2,A4/Aret275,Acr,0,0, May19,,
+C3,2X2,P17,Pver,0,0, May19,,
+C3,2X2,P22,Pver,0,0, May19,,
+C3,2X2,P23,Pver,0,10, May19,,
+C3,2X2,Plob 903,Plob,,, May19,,
+C3,3X3,A1/Aret97,Acr,0,0, May19,,
+C3,3x3,A2/Aret 42,Acr,NA,NA, May19,,
+C3,3X3,P15,Pver,0,0, May19,,
+C3,3X3,P19,Pver,0,5, May19,,
+C3,3X3,P24,Pver,0,0, May19,,
+C3,3X3,P3,Pver,0,0, May19,,
+C3,3X3,Plob 276,Plob,,, May19,,
+C3,3X3,Plob 279,Plob,,, May19,,
+C3,3X3,Plob 904,Plob,,, May19,,
+C3,Open,A1,Acr,10,90, May19,,
+C3,Open,A5,Acr,70,30, May19,,
+C3,Open,A6,Acr,0,0, May19,,
+C3,Open,P11,Pver,30,0, May19,,
+C3,Open,P12,Pver,0,0, May19,,
+C3,Open,P13,Pver,20,0, May19,,
+C3,Open,P15,Pver,100,0, May19,,
+C3,Open,Plob 268,Plob,,, May19,,
+C3,Open,Plob 906,Plob,,, May19,,
+D2,1X1,A1,Acr,100,0, May19,,
+D2,1X1,A5,Acr,0,100, May19,,
+D2,1X1,A7,Acr,0,0, May19,,
+D2,1X1,P15,Pver,0,5, May19,,
+D2,1X1,P17,Pver,0,0, May19,,
+D2,1X1,P2,Pver,0,0, May19,,
+D2,1X1,Plob 258,Plob,,, May19,,
+D2,2X2,A6,Acr,0,0, May19,,
+D2,2X2,A7,Acr,100,0, May19,,
+D2,2X2,P2,Pver,0,0, May19,,
+D2,2X2,P21,Pver,0,0, May19,,
+D2,2X2,P7,Pver,60,30, May19,,
+D2,2X2,Plob 901/91,Plob,,, May19,,
+D2,3X3,A1,Acr,100,0, May19,,
+D2,3X3,P22,Pver,0,0, May19,,
+D2,3X3,P5,Pver,10,0, May19,,
+D2,3X3,P9,Pver,0,10, May19,,
+D2,3X3,Plob 239,Plob,,, May19,,
+D2,3X3,Plob 902,Plob,,, May19,,
+D2,Open,P12,Pver,10,2, May19,,
+D2,Open,P13,Pver,5,0, May19,,
+D2,Open,P15,Pver,0,0, May19,,
+D2,Open,Plob 237,Plob,,, May19,,
+D2,Open,Plob 700,Plob,,, May19,,
+D4,1X1,A1,Acr,40,0, May19,,
+D4,1X1,A2,Acr,100,0, May19,,
+D4,1X1,A3,Acr,10,0, May19,,
+D4,1X1,A4,Acr,90,0, May19,,
+D4,1X1,P16,Pver,0,0, May19,,
+D4,1X1,P5,Pver,0,0, May19,,
+D4,1X1,P7,Pver,0,5, May19,,
+D4,1X1,Plob 298,Plob,,, May19,,
+D4,2X2,A1,Acr,80,0, May19,,
+D4,2X2,A2,Acr,80,0, May19,,
+D4,2X2,A3,Acr,NA,NA, May19,,
+D4,2X2,P11,Pver,0,0, May19,,
+D4,2X2,P5,Pver,50,0, May19,,
+D4,2X2,P6,Pver,0,0, May19,,
+D4,2X2,Plob 252,Plob,,, May19,,
+D4,3X3,A3,Acr,0,0, May19,,
+D4,3X3,A4,Acr,100,0, May19,,
+D4,3X3,A5,Acr,100,0, May19,,
+D4,3X3,P20,Pver,0,0, May19,,
+D4,3X3,P30,Pver,0,0, May19,,
+D4,3X3,P8,Pver,0,0, May19,,
+D4,3X3,Plob 257,Plob,,, May19,,
+D4,3X3,Plob 296,Plob,,, May19,,
+D4,Open,A1,Acr,0,0, May19,,
+D4,Open,A6,Acr,NA,NA, May19,,
+D4,Open,P23,Pver,0,0, May19,,
+D4,Open,P5,Pver,0,0, May19,,
+D4,Open,P6,Pver,0,0, May19,,
+D4,Open,Plob 246,Plob,,, May19,,
+D4,Open,Plob 247,Plob,,, May19,,
