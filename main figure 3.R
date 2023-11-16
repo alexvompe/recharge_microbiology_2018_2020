@@ -4,7 +4,7 @@ library(ggpubr)
 
 #Read in mortality and bleaching data. These data are for all corals ever
 #sampled for this project, tracked since the start of the time series.
-mortality = read.csv("porites integration_v3.csv", header = TRUE)
+mortality = read.csv("bleaching and mortality data.csv", header = TRUE)
 mortality$Date = trimws(mortality$Date, "left")
 mortality$Date = factor(mortality$Date, levels = c("Jul18", "Nov18",
                                                    "Mar19", "May19","Aug19",
@@ -151,5 +151,5 @@ p2 = ggplot()+
 
 #Overall plot
 p = ggarrange(p2,p1,ncol=1, align = "hv")
-ggsave(plot=p, filename="Figure 3 workshop.tiff", scale=0.6,
+ggsave(plot=p, filename="Figure 3.tiff", scale=0.6,
        width=150,height=200,units="mm", dpi = 1000)

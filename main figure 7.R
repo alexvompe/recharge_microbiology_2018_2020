@@ -150,7 +150,7 @@ p6 = ggplot(pver, aes(x=Date, y=log(Ratio), group=1))+
 
 p = ggarrange(p4, p1, p5, p2, p6, p3, ncol=1, nrow=6, align = "v",
               heights = c(1,0.85,1,0.85,1,0.85))
-ggsave(plot = p, "workshop figure 7 legend_experiment.tiff", units="mm",
+ggsave(plot = p, "figure 7.tiff", units="mm",
        scale = 0.9, height = 200, width = 180, dpi = 1000)
 
 ##Stats
