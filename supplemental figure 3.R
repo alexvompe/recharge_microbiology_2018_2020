@@ -118,5 +118,5 @@ p4=ggplot(
   ylab("ASV Richness")+
   ggtitle("Average ASV Richness by \n Random Read Depth Subsampling")
 
-p=ggarrange(p1,p2,p3,p4, ncol=2, nrow=2, labels = c("A","B","C","D"))
+p=ggarrange(p1,p2,p3,p4, ncol=2, nrow=2, labels = c("(a)","(b)","(c)","(d)"))
 ggsave(plot=p, "rarefactions.tiff",units="mm", width=180, height=200, scale=1)
